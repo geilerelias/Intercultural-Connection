@@ -1,7 +1,6 @@
 <template>
     <v-app>
-        <drawer-component></drawer-component>
-        <v-img :src="require('../../images/san-francisco.jpg')">
+        <v-img :src="require('../../images/san-francisco.jpg')" style="min-height: 100vh">
             <v-app-bar
                 app
                 clipped-left
@@ -41,7 +40,7 @@
             >
                 <v-icon>mdi-chevron-up</v-icon>
             </v-btn>
-            <div class="container fill-height">
+            <div class="container fill-height" >
                 <v-row class="white--text mx-auto align-center justify-center"
                        style="background-color: #19677382; border-radius: 5px;">
                     <v-col class="white--text text-center col col-12 pa-5 mx-auto"
@@ -53,21 +52,21 @@
                     <v-col md="4" cols="12">
                         <div class="text-center">
                             <v-icon size="32" dark>mdi-crosshairs-gps</v-icon>
-                            <div class="mb-2 headline">Valledupar Cesar - Colombia</div>
+                            <div class="mb-2 headline text-truncate">Valledupar Cesar - Colombia</div>
                         </div>
                     </v-col>
 
                     <v-col md="4" cols="12">
                         <div class="text-center">
                             <v-icon size="32" class="text--white" dark>mdi-email</v-icon>
-                            <div class="mb-2 headline">contacto@interculturalconnections.org</div>
+                            <div class="mb-2 headline text-truncate">contacto@interculturalconnections.org</div>
                         </div>
                     </v-col>
 
                     <v-col md="4" cols="12">
                         <div class="text-center">
                             <v-icon size="32" dark>mdi-phone</v-icon>
-                            <div class="mb-2 headline">+57 310 7897485</div>
+                            <div class="mb-2 headline text-truncate">+57 310 7897485</div>
                         </div>
                     </v-col>
 

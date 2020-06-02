@@ -95,7 +95,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -206,11 +205,12 @@ var render = function() {
   return _c(
     "v-app",
     [
-      _c("drawer-component"),
-      _vm._v(" "),
       _c(
         "v-img",
-        { attrs: { src: __webpack_require__(/*! ../../images/san-francisco.jpg */ "./resources/images/san-francisco.jpg") } },
+        {
+          staticStyle: { "min-height": "100vh" },
+          attrs: { src: __webpack_require__(/*! ../../images/san-francisco.jpg */ "./resources/images/san-francisco.jpg") }
+        },
         [
           _c(
             "v-app-bar",
@@ -345,9 +345,11 @@ var render = function() {
                           _vm._v("mdi-crosshairs-gps")
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "mb-2 headline" }, [
-                          _vm._v("Valledupar Cesar - Colombia")
-                        ])
+                        _c(
+                          "div",
+                          { staticClass: "mb-2 headline text-truncate" },
+                          [_vm._v("Valledupar Cesar - Colombia")]
+                        )
                       ],
                       1
                     )
@@ -367,9 +369,11 @@ var render = function() {
                           [_vm._v("mdi-email")]
                         ),
                         _vm._v(" "),
-                        _c("div", { staticClass: "mb-2 headline" }, [
-                          _vm._v("contacto@interculturalconnections.org")
-                        ])
+                        _c(
+                          "div",
+                          { staticClass: "mb-2 headline text-truncate" },
+                          [_vm._v("contacto@interculturalconnections.org")]
+                        )
                       ],
                       1
                     )
@@ -384,9 +388,11 @@ var render = function() {
                           _vm._v("mdi-phone")
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "mb-2 headline" }, [
-                          _vm._v("+57 310 7897485")
-                        ])
+                        _c(
+                          "div",
+                          { staticClass: "mb-2 headline text-truncate" },
+                          [_vm._v("+57 310 7897485")]
+                        )
                       ],
                       1
                     )
