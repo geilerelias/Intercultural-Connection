@@ -5,7 +5,7 @@
                 <v-row class="ma-0 pa-0">
                     <v-col class="mx-4 pa-0 d-flex justify-start align-center ">
                         <strong class="subheading  white--text ">
-                            Get connected with us on social networks!
+                            {{ $t("connect-social-media")}}
                         </strong>
                     </v-col>
                     <v-spacer></v-spacer>
@@ -65,27 +65,27 @@
 </template>
 
 <script>
-export default {
-    data() {
-        return {
-            icons: [
-                "mdi-facebook",
-                "mdi-twitter",
-                "mdi-google-plus",
-                "mdi-linkedin",
-                "mdi-instagram"
-            ],
-            links: [
-                { text: "home" },
-                { text: "about-us" },
-                { text: "our-services" },
-                { text: "projects" },
-                { text: "donations" },
-                { text: "contact-us" }
-            ]
-        };
-    }
-};
+    export default {
+        data() {
+            return {
+                icons: [
+                    "mdi-facebook",
+                    "mdi-twitter",
+                    "mdi-google-plus",
+                    "mdi-linkedin",
+                    "mdi-instagram"
+                ],
+                links: [
+                    {text: "home"},
+                    {text: "about-us"},
+                    {text: "our-services"},
+                    {text: "projects"},
+                    {text: "donations"},
+                    {text: "contact-us"}
+                ]
+            };
+        }
+    };
 </script>
 
 <style lang="scss" scoped></style>

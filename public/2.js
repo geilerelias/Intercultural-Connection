@@ -143,7 +143,9 @@ var render = function() {
                         { staticClass: "subheading  white--text " },
                         [
                           _vm._v(
-                            "\n                        Get connected with us on social networks!\n                    "
+                            "\n                        " +
+                              _vm._s(_vm.$t("connect-social-media")) +
+                              "\n                    "
                           )
                         ]
                       )

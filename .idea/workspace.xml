@@ -19,33 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/InterculturalConnection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/geile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/24.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/25.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/san-francisco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/san-francisco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Construccion.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="maquetación de la pagina princcipal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/22.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Construccion.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Construccion.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,8 +179,24 @@
       <workItem from="1587669896793" duration="1081000" />
       <workItem from="1587744549510" duration="3607000" />
       <workItem from="1590968954940" duration="8200000" />
-      <workItem from="1591028916535" duration="3957000" />
+      <workItem from="1591028916535" duration="4902000" />
+      <workItem from="1591056309434" duration="2867000" />
     </task>
+    <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
+      <created>1591055449311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591055449311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maquetación de la pagina princcipal">
+      <created>1591055852688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591055852688</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,8 +216,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="maquetación de la pagina princcipal" />
+    <option name="LAST_COMMIT_MESSAGE" value="maquetación de la pagina princcipal" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Plugins" timestamp="1591057371434">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="24" key="#Plugins/0.0.1366.768@0.0.1366.768" timestamp="1591057371434" />
     <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1591033809791">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -232,5 +236,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591033813696" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1591055855614">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591055855614" />
   </component>
 </project>

@@ -96,13 +96,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -330,52 +323,37 @@ var render = function() {
                         "span",
                         {
                           staticClass:
-                            "font-weight-light display-2 text-uppercase"
+                            "font-weight-light headline text-uppercase"
                         },
                         [
                           _vm._v(
-                            "\n                         Pagina en\n                    "
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("br"),
-                      _vm._v(" "),
-                      _c(
-                        "span",
-                        {
-                          staticClass:
-                            "font-weight-black display-4 text-uppercase"
-                        },
-                        [
-                          _vm._v(
-                            "\n                     Construcción\n                    "
+                            "\n                         " +
+                              _vm._s(_vm.$t("page-construction")) +
+                              "\n                    "
                           )
                         ]
                       )
                     ]
                   ),
                   _vm._v(" "),
-                  _c("v-col", { attrs: { md: "3", cols: "12" } }, [
+                  _c("v-col", { attrs: { md: "4", cols: "12" } }, [
                     _c(
                       "div",
                       { staticClass: "text-center" },
                       [
-                        _c("v-icon", { attrs: { size: "64", dark: "" } }, [
+                        _c("v-icon", { attrs: { size: "32", dark: "" } }, [
                           _vm._v("mdi-crosshairs-gps")
                         ]),
                         _vm._v(" "),
                         _c("div", { staticClass: "mb-2 headline" }, [
-                          _vm._v("2620 Smith Drive")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", [_vm._v("Titusville, FL 32796")])
+                          _vm._v("Valledupar Cesar - Colombia")
+                        ])
                       ],
                       1
                     )
                   ]),
                   _vm._v(" "),
-                  _c("v-col", { attrs: { md: "3", cols: "12" } }, [
+                  _c("v-col", { attrs: { md: "4", cols: "12" } }, [
                     _c(
                       "div",
                       { staticClass: "text-center" },
@@ -384,35 +362,31 @@ var render = function() {
                           "v-icon",
                           {
                             staticClass: "text--white",
-                            attrs: { size: "64", dark: "" }
+                            attrs: { size: "32", dark: "" }
                           },
                           [_vm._v("mdi-email")]
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "mb-2 headline" }, [
-                          _vm._v("info@example.com")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", [_vm._v("contact@example.com")])
+                          _vm._v("contacto@interculturalconnections.org")
+                        ])
                       ],
                       1
                     )
                   ]),
                   _vm._v(" "),
-                  _c("v-col", { attrs: { md: "3", cols: "12" } }, [
+                  _c("v-col", { attrs: { md: "4", cols: "12" } }, [
                     _c(
                       "div",
                       { staticClass: "text-center" },
                       [
-                        _c("v-icon", { attrs: { size: "64", dark: "" } }, [
+                        _c("v-icon", { attrs: { size: "32", dark: "" } }, [
                           _vm._v("mdi-phone")
                         ]),
                         _vm._v(" "),
                         _c("div", { staticClass: "mb-2 headline" }, [
-                          _vm._v("+1 (321) 383-4531")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", [_vm._v("+1 (321) 383-4531")])
+                          _vm._v("+57 310 7897485")
+                        ])
                       ],
                       1
                     )

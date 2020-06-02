@@ -46,35 +46,28 @@
                        style="background-color: #19677382; border-radius: 5px;">
                     <v-col class="white--text text-center col col-12 pa-5 mx-auto"
                     >
-                        <span class="font-weight-light display-2 text-uppercase">
-                             Pagina en
-                        </span>
-                        <br>
-                        <span class="font-weight-black display-4 text-uppercase">
-                         Construcción
+                        <span class="font-weight-light headline text-uppercase">
+                             {{ $t("page-construction") }}
                         </span>
                     </v-col>
-                    <v-col md="3" cols="12">
+                    <v-col md="4" cols="12">
                         <div class="text-center">
-                            <v-icon size="64" dark>mdi-crosshairs-gps</v-icon>
-                            <div class="mb-2 headline">2620 Smith Drive</div>
-                            <div>Titusville, FL 32796</div>
+                            <v-icon size="32" dark>mdi-crosshairs-gps</v-icon>
+                            <div class="mb-2 headline">Valledupar Cesar - Colombia</div>
                         </div>
                     </v-col>
 
-                    <v-col md="3" cols="12">
+                    <v-col md="4" cols="12">
                         <div class="text-center">
-                            <v-icon size="64" class="text--white" dark>mdi-email</v-icon>
-                            <div class="mb-2 headline">info@example.com</div>
-                            <div>contact@example.com</div>
+                            <v-icon size="32" class="text--white" dark>mdi-email</v-icon>
+                            <div class="mb-2 headline">contacto@interculturalconnections.org</div>
                         </div>
                     </v-col>
 
-                    <v-col md="3" cols="12">
+                    <v-col md="4" cols="12">
                         <div class="text-center">
-                            <v-icon size="64" dark>mdi-phone</v-icon>
-                            <div class="mb-2 headline">+1 (321) 383-4531</div>
-                            <div>+1 (321) 383-4531</div>
+                            <v-icon size="32" dark>mdi-phone</v-icon>
+                            <div class="mb-2 headline">+57 310 7897485</div>
                         </div>
                     </v-col>
 
@@ -115,6 +108,7 @@
                 this.$vuetify.goTo(0);
             },
             onScroll(e) {
+
                 if (typeof window === "undefined") return;
                 const top = window.pageYOffset || e.target.scrollTop || 0;
                 if (top > 50) {
