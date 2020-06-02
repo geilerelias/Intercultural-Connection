@@ -95,6 +95,19 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -113,6 +126,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   },
   data: function data() {
     return {
+      aCopiar: 'contacto@interculturalconnections.org',
       fab: false
     };
   },
@@ -371,8 +385,49 @@ var render = function() {
                         _vm._v(" "),
                         _c(
                           "div",
-                          { staticClass: "mb-2 headline text-truncate" },
-                          [_vm._v("contacto@interculturalconnections.org")]
+                          {
+                            directives: [
+                              {
+                                name: "clipboard",
+                                rawName: "v-clipboard:copy",
+                                value: _vm.aCopiar,
+                                expression: "aCopiar",
+                                arg: "copy"
+                              }
+                            ],
+                            staticClass: "mb-2 headline text-truncate",
+                            attrs: { text: "" }
+                          },
+                          [
+                            _c(
+                              "v-tooltip",
+                              {
+                                attrs: { top: "" },
+                                scopedSlots: _vm._u([
+                                  {
+                                    key: "activator",
+                                    fn: function(ref) {
+                                      var on = ref.on
+                                      return [
+                                        _c("span", _vm._g({}, on), [
+                                          _vm._v(
+                                            "\n                                        contacto@interculturalconnections.org\n                                    "
+                                          )
+                                        ])
+                                      ]
+                                    }
+                                  }
+                                ])
+                              },
+                              [
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(" " + _vm._s(_vm.$t("copy")) + " ")
+                                ])
+                              ]
+                            )
+                          ],
+                          1
                         )
                       ],
                       1

@@ -13,6 +13,7 @@ import {i18n} from './plugins/i18n'
 import store from "./store";
 
 import VueAxios from "vue-axios";
+import VueClipboard from 'vue-clipboard2';
 
 import router from "./routes.js";
 import Auth from "./auth.js";
@@ -24,6 +25,7 @@ window.api = new Api();
 
 Vue.use(Vuetify);
 Vue.use(VueAxios, axios);
+Vue.use(VueClipboard);
 Vue.component("vue-app", require("./App.vue").default);
 
 const app = new Vue({

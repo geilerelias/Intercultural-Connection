@@ -19,11 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="creación de la pagina en construcción">
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="solucion de superposición de texto">
       <change afterPath="$PROJECT_DIR$/vendor.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/22.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Construccion.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Construccion.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +182,8 @@
       <workItem from="1587744549510" duration="3607000" />
       <workItem from="1590968954940" duration="8200000" />
       <workItem from="1591028916535" duration="4902000" />
-      <workItem from="1591056309434" duration="5054000" />
+      <workItem from="1591056309434" duration="5539000" />
+      <workItem from="1591109237285" duration="3048000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -199,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591059401738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solucion de superposición de texto">
+      <created>1591066247937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591066247937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +235,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maquetación de la pagina princcipal" />
     <MESSAGE value="creación de la pagina en construcción" />
-    <option name="LAST_COMMIT_MESSAGE" value="creación de la pagina en construcción" />
+    <MESSAGE value="solucion de superposición de texto" />
+    <option name="LAST_COMMIT_MESSAGE" value="solucion de superposición de texto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Plugins" timestamp="1591057371434">
@@ -240,9 +255,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591033813696" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1591059416515">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1591066251081">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591059416515" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591066251081" />
   </component>
 </project>
