@@ -287,6 +287,27 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -430,52 +451,64 @@ var render = function() {
             },
             [
               _c(
-                "v-container",
-                { staticClass: "fill-height white--text" },
+                "div",
                 [
                   _c(
-                    "v-row",
-                    [
-                      _c(
-                        "v-col",
-                        { attrs: { align: "center", justify: "start" } },
+                    "v-card",
+                    {
+                      staticClass: "d-flex justify-space-between mb-6",
+                      attrs: { color: "grey lighten-2", flat: "", tile: "" }
+                    },
+                    _vm._l(3, function(n) {
+                      return _c(
+                        "v-card",
+                        {
+                          key: n,
+                          staticClass: "pa-2",
+                          attrs: { outlined: "", tile: "" }
+                        },
                         [
-                          _c("v-img", {
-                            attrs: {
-                              height: "30vh",
-                              contain: "",
-                              src: "./images/logo.png",
-                              "aspect-ratio": "1.7"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "v-col",
-                        { attrs: { align: "center", justify: "center" } },
-                        [
-                          _c("h1", { staticClass: "mb-2 display-3" }, [
-                            _vm._v(
-                              "\n                            Building a Culture of Excellence\n                        "
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            { staticClass: "title font-weight-light" },
-                            [
-                              _vm._v(
-                                "\n                            Vestibulum volutpat pretium libero. Suspendisse\n                            eu ligula.\n                        "
-                              )
-                            ]
+                          _vm._v(
+                            "\n                        Flex item\n                    "
                           )
                         ]
                       )
-                    ],
+                    }),
                     1
                   )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-container",
+                {
+                  staticClass:
+                    "fill-height white--text d-flex justify-space-between"
+                },
+                [
+                  _c("v-img", {
+                    attrs: {
+                      height: "30vh",
+                      contain: "",
+                      src: __webpack_require__(/*! ../../images/logo-transparente.png */ "./resources/images/logo-transparente.png"),
+                      "aspect-ratio": "1.7"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("v-car", [
+                    _c("h1", { staticClass: "mb-2 display-2" }, [
+                      _vm._v(
+                        "\n                        Fundación Intercultural Connections\n                    "
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "title font-weight-light" }, [
+                      _vm._v(
+                        "\n                        Construyendo puentes para que nadie se quede atrás.\n                    "
+                      )
+                    ])
+                  ])
                 ],
                 1
               )
@@ -1031,6 +1064,17 @@ var staticRenderFns = []
 render._withStripped = true
 
 
+
+/***/ }),
+
+/***/ "./resources/images/logo-transparente.png":
+/*!************************************************!*\
+  !*** ./resources/images/logo-transparente.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo-transparente.png?a034b9f05c19892d984efe16c2d8ec37";
 
 /***/ }),
 

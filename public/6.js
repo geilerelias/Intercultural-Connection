@@ -360,7 +360,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.ps {\n    height: 200px;\n}\n.v-card--reveal {\n    align-items: center;\n    bottom: 0;\n    justify-content: center;\n    opacity: 0.5;\n    position: absolute;\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, "\n.ps {\r\n    height: 200px;\n}\n.v-card--reveal {\r\n    align-items: center;\r\n    bottom: 0;\r\n    justify-content: center;\r\n    opacity: 0.5;\r\n    position: absolute;\r\n    width: 100%;\n}\r\n", ""]);
 
 // exports
 

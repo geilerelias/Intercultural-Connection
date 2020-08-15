@@ -20,16 +20,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="solucion de superposición de texto">
-      <change afterPath="$PROJECT_DIR$/vendor.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-letras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-transparente.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/100_0402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alex Puerto Madero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alex y Amigas círculo blanco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alex y Amigas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alexandra jugando twistes....jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0169.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0179.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0180.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0186.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0187.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0188.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0189.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0190.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0192.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0193.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0196.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0197.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0201.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0202.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0203.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0204.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0205.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/En el Hall de la Independencia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/alex en usa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/fotos/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/logo con letras.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/logo-letras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/logo-transparente.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/11.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/12.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/13.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/14.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/15.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/16.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/17.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/18.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/21.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/21.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/22.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/23.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/23.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/24.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/25.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/25.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Construccion.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Construccion.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +213,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/spanish-spell/spanish.dic" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -166,7 +222,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="1" Folder0="D:\Program Files\JetBrains\PhpStorm 2020.1\plugins\spanish-spell" CustomDictionaries="1" CustomDictionary0="D:\Program Files\JetBrains\PhpStorm 2020.1\plugins\spanish-spell\spanish.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="D:\Program Files\JetBrains\PhpStorm 2020.1\plugins\spanish-spell" CustomDictionaries="1" CustomDictionary0="D:\Program Files\JetBrains\PhpStorm 2020.1\plugins\spanish-spell\spanish.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,6 +240,7 @@
       <workItem from="1591028916535" duration="4902000" />
       <workItem from="1591056309434" duration="5539000" />
       <workItem from="1591109237285" duration="3048000" />
+      <workItem from="1597494871419" duration="4701000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -216,8 +273,11 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\Program Files\Git\bin\bash.exe" />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -243,17 +303,35 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="24" key="#Plugins/0.0.1366.768@0.0.1366.768" timestamp="1591057371434" />
-    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1591033809791">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="461" y="138" key="FileChooserDialogImpl" timestamp="1597496001214">
+      <screen x="0" y="0" width="1360" height="768" />
     </state>
+    <state x="461" y="138" key="FileChooserDialogImpl/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496001214" />
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591033809791" />
+    <state width="1317" height="192" key="GridCell.Tab.0.bottom" timestamp="1597495968965">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.bottom/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968965" />
+    <state width="1317" height="192" key="GridCell.Tab.0.center" timestamp="1597495968964">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.center/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968964" />
+    <state width="1317" height="192" key="GridCell.Tab.0.left" timestamp="1597495968963">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.left/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968963" />
+    <state width="1317" height="192" key="GridCell.Tab.0.right" timestamp="1597495968964">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.right/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968964" />
     <state x="517" y="307" key="NewPhpFileDialog" timestamp="1590970793471">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="517" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1590970793471" />
-    <state x="184" y="28" key="SettingsEditor" timestamp="1591033813696">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="183" y="28" key="SettingsEditor" timestamp="1597496005088">
+      <screen x="0" y="0" width="1360" height="768" />
     </state>
+    <state x="183" y="28" key="SettingsEditor/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496005088" />
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591033813696" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1591066251081">
       <screen x="0" y="0" width="1366" height="768" />

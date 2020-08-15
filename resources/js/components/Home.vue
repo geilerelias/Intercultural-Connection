@@ -7,29 +7,50 @@
                 src="./images/San-Francisco-Golden.png"
                 gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
             >
-                <v-container class="fill-height white--text">
-                    <v-row>
-                        <v-col align="center" justify="start">
-                            <v-img
-                                height="30vh"
-                                contain
-                                src="./images/logo.png"
-                                aspect-ratio="1.7"
-                            ></v-img>
-                        </v-col>
-                        <v-col align="center" justify="center">
-                            <h1 class="mb-2 display-3">
-                                Building a Culture of Excellence
-                            </h1>
-                            <div class="title font-weight-light">
-                                Vestibulum volutpat pretium libero. Suspendisse
-                                eu ligula.
-                            </div>
-                        </v-col>
-                    </v-row>
+                <div>
+                    <v-card
+                        class="d-flex justify-space-between mb-6"
+                        color="grey lighten-2"
+                        flat
+                        tile
+                    >
+                        <v-card
+                            v-for="n in 3"
+                            :key="n"
+                            class="pa-2"
+                            outlined
+                            tile
+                        >
+                            Flex item
+                        </v-card>
+                    </v-card>
+                </div>
+                <v-container class="fill-height white--text d-flex justify-space-between">
+
+                    <v-img
+                        height="30vh"
+                        contain
+                        :src="require('../../images/logo-transparente.png')"
+                        aspect-ratio="1.7"
+                    ></v-img>
+
+                    <v-car>
+                        <h1 class="mb-2 display-2">
+                            Fundación Intercultural Connections
+                        </h1>
+                        <div class="title font-weight-light">
+                            Construyendo puentes para que nadie se quede atrás.
+                        </div>
+                    </v-car>
+
+
                 </v-container>
+
             </v-img>
         </v-sheet>
+
+
+
         <v-sheet color="indigo" dark style="border-radius: 0px;">
             <div class="v-alert__wrapper">
                 <div class="v-alert__content">
@@ -45,7 +66,7 @@
                 </div>
             </div>
         </v-sheet>
-        <br />
+        <br/>
         <h2 class="display-1 font-weight-light text-center mb-4">
             {{ $t("outstanding-news") }}
         </h2>
@@ -136,7 +157,7 @@
                             </p>
                             <p>adjective</p>
                             <div class="text--primary">
-                                well meaning and kindly.<br />
+                                well meaning and kindly.<br/>
                                 "a benevolent smile"
                             </div>
                         </v-card-text>
@@ -270,21 +291,22 @@
     </v-app>
 </template>
 <script>
-import { mapState, mapMutations } from "vuex";
+import {mapState, mapMutations} from "vuex";
+
 export default {
     components: {
         language: () => import("./base/language.vue"),
     },
     data: () => ({
         items: [
-            { header: "Today" },
+            {header: "Today"},
             {
                 avatar: "https://cdn.vuetifyjs.com/images/lists/1.jpg",
                 title: "Brunch this weekend?",
                 subtitle:
                     "<span class='text--primary'>Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?",
             },
-            { divider: true, inset: true },
+            {divider: true, inset: true},
             {
                 avatar: "https://cdn.vuetifyjs.com/images/lists/2.jpg",
                 title:
@@ -292,21 +314,21 @@ export default {
                 subtitle:
                     "<span class='text--primary'>to Alex, Scott, Jennifer</span> &mdash; Wish I could come, but I'm out of town this weekend.",
             },
-            { divider: true, inset: true },
+            {divider: true, inset: true},
             {
                 avatar: "https://cdn.vuetifyjs.com/images/lists/3.jpg",
                 title: "Oui oui",
                 subtitle:
                     "<span class='text--primary'>Sandra Adams</span> &mdash; Do you have Paris recommendations? Have you ever been?",
             },
-            { divider: true, inset: true },
+            {divider: true, inset: true},
             {
                 avatar: "https://cdn.vuetifyjs.com/images/lists/4.jpg",
                 title: "Birthday gift",
                 subtitle:
                     "<span class='text--primary'>Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?",
             },
-            { divider: true, inset: true },
+            {divider: true, inset: true},
             {
                 avatar: "https://cdn.vuetifyjs.com/images/lists/5.jpg",
                 title: "Recipe to try",
@@ -315,6 +337,7 @@ export default {
             },
         ],
         align: ["start", "end", "center", "baseline", "stretch"],
+
     }),
     mounted() {
         console.log("mounted principal");
@@ -343,6 +366,7 @@ export default {
 .ps {
     height: 200px;
 }
+
 .v-card--reveal {
     align-items: center;
     bottom: 0;
