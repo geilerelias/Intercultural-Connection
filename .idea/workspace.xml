@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="cambiando imagen de fondo principal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Construccion.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Construccion.vue" afterDir="false" />
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="Añadiendo la imagen desde el public_html">
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/spanish-spell/spanish.dic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jenis Sagbini/JenisSagbini/app/Providers/AppServiceProvider.php" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
@@ -177,7 +176,7 @@
       <workItem from="1591028916535" duration="4902000" />
       <workItem from="1591056309434" duration="5539000" />
       <workItem from="1591109237285" duration="3048000" />
-      <workItem from="1597494871419" duration="12436000" />
+      <workItem from="1597494871419" duration="12869000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597509755818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Añadiendo la imagen desde el public_html">
+      <created>1597512554182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597512554182</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -249,17 +255,18 @@
     <MESSAGE value="solucion de superposición de texto" />
     <MESSAGE value="cambio de logo" />
     <MESSAGE value="cambiando imagen de fondo principal" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambiando imagen de fondo principal" />
+    <MESSAGE value="Añadiendo la imagen desde el public_html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadiendo la imagen desde el public_html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Plugins" timestamp="1591057371434">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="24" key="#Plugins/0.0.1366.768@0.0.1366.768" timestamp="1591057371434" />
-    <state x="461" y="138" key="FileChooserDialogImpl" timestamp="1597496001214">
+    <state x="461" y="138" key="FileChooserDialogImpl" timestamp="1597512931471">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="461" y="138" key="FileChooserDialogImpl/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496001214" />
+    <state x="461" y="138" key="FileChooserDialogImpl/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597512931471" />
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591033809791" />
     <state width="1317" height="192" key="GridCell.Tab.0.bottom" timestamp="1597495968965">
       <screen x="0" y="0" width="1360" height="768" />
@@ -286,10 +293,10 @@
     </state>
     <state x="183" y="28" key="SettingsEditor/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496005088" />
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591033813696" />
-    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1597510912865">
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1597512667253">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597510912865" />
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597512667253" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591066251081" />
   </component>
 </project>
