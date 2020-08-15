@@ -1,21 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[23],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/AboutUs.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 //
 //
 //
@@ -281,98 +274,29 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    language: function language() {
-      return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./base/language.vue */ "./resources/js/components/base/language.vue"));
-    }
-  },
   data: function data() {
     return {
-      items: [{
-        header: "Today"
+      show: false,
+      links: [{
+        text: "Home",
+        disabled: false,
+        href: "/"
       }, {
-        avatar: "https://cdn.vuetifyjs.com/images/lists/1.jpg",
-        title: "Brunch this weekend?",
-        subtitle: "<span class='text--primary'>Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?"
-      }, {
-        divider: true,
-        inset: true
-      }, {
-        avatar: "https://cdn.vuetifyjs.com/images/lists/2.jpg",
-        title: 'Summer BBQ <span class="grey--text text--lighten-1">4</span>',
-        subtitle: "<span class='text--primary'>to Alex, Scott, Jennifer</span> &mdash; Wish I could come, but I'm out of town this weekend."
-      }, {
-        divider: true,
-        inset: true
-      }, {
-        avatar: "https://cdn.vuetifyjs.com/images/lists/3.jpg",
-        title: "Oui oui",
-        subtitle: "<span class='text--primary'>Sandra Adams</span> &mdash; Do you have Paris recommendations? Have you ever been?"
-      }, {
-        divider: true,
-        inset: true
-      }, {
-        avatar: "https://cdn.vuetifyjs.com/images/lists/4.jpg",
-        title: "Birthday gift",
-        subtitle: "<span class='text--primary'>Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?"
-      }, {
-        divider: true,
-        inset: true
-      }, {
-        avatar: "https://cdn.vuetifyjs.com/images/lists/5.jpg",
-        title: "Recipe to try",
-        subtitle: "<span class='text--primary'>Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos."
-      }],
-      align: ["start", "end", "center", "baseline", "stretch"]
+        text: "About Us",
+        disabled: true,
+        href: "/about-us"
+      }]
     };
-  },
-  mounted: function mounted() {
-    console.log("mounted principal");
-    this.setPagePrincipal(true);
-  },
-  destroyed: function destroyed() {
-    console.log("destroyed principal");
-    this.setPagePrincipal(false);
-  },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(["drawer", "page", "color", "flat", "pagePrincipal"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(["setDrawer", "setPage", "setColor", "setFlat", "setPagePrincipal"]))
+  }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=style&index=0&lang=css&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=style&index=0&lang=css& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -381,22 +305,22 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.ps {\n    height: 200px;\n}\n.v-card--reveal {\n    align-items: center;\n    bottom: 0;\n    justify-content: center;\n    opacity: 0.5;\n    position: absolute;\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, ".v-application a[data-v-19b32af0] {\n  color: white !important;\n  border-bottom: 1px solid black;\n}\n.title[data-v-19b32af0] {\n  border-bottom: 1.5px solid black;\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=style&index=0&lang=css&":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=style&index=0&lang=css& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=style&index=0&lang=css&");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -418,10 +342,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=template&id=f2b6376c&":
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=template&id=f2b6376c& ***!
-  \*******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=template&id=19b32af0&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/AboutUs.vue?vue&type=template&id=19b32af0&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -437,621 +361,329 @@ var render = function() {
     "v-app",
     [
       _c(
-        "v-sheet",
-        [
-          _c(
-            "v-img",
-            {
-              attrs: {
-                height: "50vh",
-                src: "./images/San-Francisco-Golden.png",
-                gradient:
-                  "to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
-              }
-            },
-            [
-              _c(
-                "div",
-                [
-                  _c(
-                    "v-card",
-                    {
-                      staticClass: "d-flex justify-space-between mb-6",
-                      attrs: { color: "grey lighten-2", flat: "", tile: "" }
-                    },
-                    _vm._l(3, function(n) {
-                      return _c(
-                        "v-card",
-                        {
-                          key: n,
-                          staticClass: "pa-2",
-                          attrs: { outlined: "", tile: "" }
-                        },
-                        [
-                          _vm._v(
-                            "\n                        Flex item\n                    "
-                          )
-                        ]
-                      )
-                    }),
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-container",
-                {
-                  staticClass:
-                    "fill-height white--text d-flex justify-space-between"
-                },
-                [
-                  _c("v-img", {
-                    attrs: {
-                      height: "30vh",
-                      contain: "",
-                      src: __webpack_require__(/*! ../../images/logo-transparente.png */ "./resources/images/logo-transparente.png"),
-                      "aspect-ratio": "1.7"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("v-car", [
-                    _c("h1", { staticClass: "mb-2 display-2" }, [
-                      _vm._v(
-                        "\n                        Fundación Intercultural Connections\n                    "
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "title font-weight-light" }, [
-                      _vm._v(
-                        "\n                        Construyendo puentes para que nadie se quede atrás.\n                    "
-                      )
-                    ])
-                  ])
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-sheet",
+        "v-card",
         {
-          staticStyle: { "border-radius": "0px" },
-          attrs: { color: "indigo", dark: "" }
+          staticClass: "d-flex align-end",
+          staticStyle: { height: "40vh" },
+          attrs: { flat: "", tile: "", color: "primary darken-2" }
         },
         [
-          _c("div", { staticClass: "v-alert__wrapper" }, [
-            _c("div", { staticClass: "v-alert__content" }, [
-              _c("div", { staticClass: "container py-0" }, [
-                _c("div", { staticClass: "row align-center justify-center" }, [
-                  _c("div", { staticClass: "grow hidden-sm-and-down col" }, [
-                    _c("h2", { staticClass: "title font-weight-light" }, [
-                      _vm._v(
-                        "\n                                " +
-                          _vm._s(_vm.$t("share-your-culture-with-others")) +
-                          "\n                            "
-                      )
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c(
-        "h2",
-        { staticClass: "display-1 font-weight-light text-center mb-4" },
-        [_vm._v("\n        " + _vm._s(_vm.$t("outstanding-news")) + "\n    ")]
-      ),
-      _vm._v(" "),
-      _c(
-        "v-container",
-        [
           _c(
             "v-row",
-            {
-              staticClass: "mb-6 d-flex child-flex",
-              attrs: { "no-gutters": "" }
-            },
+            { staticClass: "white--text" },
             [
               _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "8" } },
-                [
-                  _c("v-subheader", { staticClass: "title" }, [
-                    _vm._v(
-                      "\n                    Titulo de la noticia\n                "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "v-card",
-                    { staticClass: "ma-2", attrs: { outlined: "", tile: "" } },
-                    [
-                      _c("v-img", {
-                        attrs: {
-                          src: "https://picsum.photos/1920/1080?random",
-                          "aspect-ratio": "1.7"
-                        },
-                        scopedSlots: _vm._u([
-                          {
-                            key: "placeholder",
-                            fn: function() {
-                              return [
-                                _c(
-                                  "v-row",
-                                  {
-                                    staticClass: "fill-height ma-0",
-                                    attrs: {
-                                      align: "center",
-                                      justify: "center"
-                                    }
-                                  },
-                                  [
-                                    _c("v-progress-circular", {
-                                      attrs: {
-                                        indeterminate: "",
-                                        color: "grey lighten-5"
-                                      }
-                                    })
-                                  ],
-                                  1
-                                )
-                              ]
-                            },
-                            proxy: true
-                          }
-                        ])
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "4" } },
-                [
-                  _c(
-                    "v-list",
-                    { attrs: { "three-line": "" } },
-                    [
-                      _vm._l(_vm.items, function(item, index) {
-                        return [
-                          item.header
-                            ? _c("v-subheader", {
-                                key: item.header,
-                                domProps: { textContent: _vm._s(item.header) }
-                              })
-                            : item.divider
-                            ? _c("v-divider", {
-                                key: index,
-                                attrs: { inset: item.inset }
-                              })
-                            : _c(
-                                "v-list-item",
-                                {
-                                  key: item.title,
-                                  on: { click: function($event) {} }
-                                },
-                                [
-                                  _c(
-                                    "v-list-item-content",
-                                    [
-                                      _c("v-list-item-title", {
-                                        domProps: {
-                                          innerHTML: _vm._s(item.title)
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c("v-list-item-subtitle", {
-                                        domProps: {
-                                          innerHTML: _vm._s(item.subtitle)
-                                        }
-                                      })
-                                    ],
-                                    1
-                                  )
-                                ],
-                                1
-                              )
-                        ]
-                      })
-                    ],
-                    2
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("v-divider"),
-          _vm._v(" "),
-          _c(
-            "v-row",
-            { staticClass: "my-6" },
-            [
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "6" } },
-                [
-                  _c("v-img", {
-                    attrs: {
-                      height: "300",
-                      src: "https://picsum.photos/510/300?random",
-                      "aspect-ratio": "1.7"
-                    },
-                    scopedSlots: _vm._u([
-                      {
-                        key: "placeholder",
-                        fn: function() {
-                          return [
-                            _c(
-                              "v-row",
-                              {
-                                staticClass: "fill-height ma-0",
-                                attrs: { align: "center", justify: "center" }
-                              },
-                              [
-                                _c("v-progress-circular", {
-                                  attrs: {
-                                    indeterminate: "",
-                                    color: "grey lighten-5"
-                                  }
-                                })
-                              ],
-                              1
-                            )
-                          ]
-                        },
-                        proxy: true
-                      }
-                    ])
-                  })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "6" } },
-                [
-                  _c(
-                    "v-card",
-                    {
-                      staticClass: "mx-auto",
-                      attrs: { tile: "", flat: "", height: "300" }
-                    },
-                    [
-                      _c("v-card-text", [
-                        _c("div", [_vm._v("Word of the Day")]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "display-1 text--primary" }, [
-                          _vm._v(
-                            "\n                            be•nev•o•lent\n                        "
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("p", [_vm._v("adjective")]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "text--primary" }, [
-                          _vm._v(
-                            "\n                            well meaning and kindly."
-                          ),
-                          _c("br"),
-                          _vm._v(
-                            '\n                            "a benevolent smile"\n                        '
-                          )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "v-card-actions",
-                        [
-                          _c(
-                            "v-btn",
-                            {
-                              attrs: { text: "", color: "deep-purple accent-4" }
-                            },
-                            [
-                              _vm._v(
-                                "\n                            Learn More\n                        "
-                              )
-                            ]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-row",
-            { staticClass: "my-6" },
-            _vm._l(5, function(n) {
-              return _c(
                 "v-col",
                 {
-                  key: n,
-                  staticClass: "d-flex child-flex",
-                  attrs: { sm: "6" }
+                  staticClass: "d-flex justify-center align-center",
+                  attrs: { cols: "12" }
                 },
                 [
-                  _c(
-                    "v-row",
-                    [
-                      _c(
-                        "v-col",
-                        [
-                          _c(
-                            "v-list",
-                            { attrs: { "three-line": "" } },
-                            [
-                              [
-                                _vm.items[1].header
-                                  ? _c("v-subheader", {
-                                      key: _vm.items[1].header,
-                                      domProps: {
-                                        textContent: _vm._s(_vm.items[1].header)
-                                      }
-                                    })
-                                  : _vm.items[1].divider
-                                  ? _c("v-divider", {
-                                      key: _vm.index,
-                                      attrs: { inset: _vm.items[1].inset }
-                                    })
-                                  : _c(
-                                      "v-list-item",
-                                      {
-                                        key: _vm.items[1].title,
-                                        staticClass: "ma-0",
-                                        on: { click: function($event) {} }
-                                      },
-                                      [
-                                        _c(
-                                          "v-list-item-content",
-                                          [
-                                            _c("v-img", {
-                                              staticClass: "grey lighten-2",
-                                              attrs: {
-                                                height: "150",
-                                                src:
-                                                  "https://picsum.photos/500/300?image=" +
-                                                  (n * 5 + 10),
-                                                "aspect-ratio": "1.7"
-                                              },
-                                              scopedSlots: _vm._u(
-                                                [
-                                                  {
-                                                    key: "placeholder",
-                                                    fn: function() {
-                                                      return [
-                                                        _c(
-                                                          "v-row",
-                                                          {
-                                                            staticClass:
-                                                              "fill-height ma-0",
-                                                            attrs: {
-                                                              align: "center",
-                                                              justify: "center"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "v-progress-circular",
-                                                              {
-                                                                attrs: {
-                                                                  indeterminate:
-                                                                    "",
-                                                                  color:
-                                                                    "grey lighten-5"
-                                                                }
-                                                              }
-                                                            )
-                                                          ],
-                                                          1
-                                                        )
-                                                      ]
-                                                    },
-                                                    proxy: true
-                                                  }
-                                                ],
-                                                null,
-                                                true
-                                              )
-                                            })
-                                          ],
-                                          1
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "v-list-item-content",
-                                          { staticClass: "ml-3" },
-                                          [
-                                            _c("v-list-item-title", {
-                                              domProps: {
-                                                innerHTML: _vm._s(
-                                                  _vm.items[1].title
-                                                )
-                                              }
-                                            }),
-                                            _vm._v(" "),
-                                            _c("v-list-item-subtitle", {
-                                              domProps: {
-                                                innerHTML: _vm._s(
-                                                  _vm.items[1].subtitle
-                                                )
-                                              }
-                                            })
-                                          ],
-                                          1
-                                        )
-                                      ],
-                                      1
-                                    )
-                              ]
-                            ],
-                            2
-                          ),
-                          _vm._v(" "),
-                          _c("v-divider")
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            }),
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("v-divider"),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mb-12" },
-        [
-          _c(
-            "v-container",
-            { attrs: { "grid-list-xl": "" } },
-            [
-              _c(
-                "v-row",
-                { staticClass: "align-center layout justify-center" },
-                [
-                  _c("div", { staticClass: "grow hidden-sm-and-down col" }, [
-                    _c("h1", [_vm._v(_vm._s(_vm.$t("meet-team")))])
+                  _c("h1", { staticClass: "display-2 text-center" }, [
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(_vm.$t("about-us")) +
+                        "\n                "
+                    )
                   ])
                 ]
               ),
               _vm._v(" "),
               _c(
-                "div",
-                { staticClass: "layout justify-center wrap" },
-                _vm._l(5, function(item, index) {
-                  return _c(
-                    "div",
-                    { key: index, staticClass: "flex xs12 sm6 md4" },
-                    [
-                      _c(
-                        "div",
-                        { staticClass: "mb-4 text-center member" },
-                        [
-                          _c("v-hover", {
-                            scopedSlots: _vm._u(
-                              [
-                                {
-                                  key: "default",
-                                  fn: function(ref) {
-                                    var hover = ref.hover
-                                    return [
-                                      _c(
-                                        "v-avatar",
-                                        {
-                                          staticClass: "elevation-4",
-                                          staticStyle: {
-                                            height: "164px",
-                                            "min-width": "164px",
-                                            width: "164px",
-                                            "background-color":
-                                              "rgb(221, 240, 254)",
-                                            "border-color": "rgb(221, 240, 254)"
-                                          },
-                                          attrs: { color: "indigo" }
-                                        },
-                                        [
-                                          _c(
-                                            "v-img",
-                                            {
-                                              attrs: {
-                                                src:
-                                                  "https://cdn.vuetifyjs.com/images/john.jpg",
-                                                alt: "John"
-                                              }
-                                            },
-                                            [
-                                              _c("v-expand-transition", [
-                                                hover
-                                                  ? _c(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "d-flex transition-fast-in-fast-out indigo v-card--reveal headline white--text",
-                                                        staticStyle: {
-                                                          height: "100%"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c("p", [
-                                                          _vm._v(
-                                                            "\n                                                Programador responsable\n                                            "
-                                                          )
-                                                        ])
-                                                      ]
-                                                    )
-                                                  : _vm._e()
-                                              ])
-                                            ],
-                                            1
-                                          )
-                                        ],
-                                        1
-                                      )
-                                    ]
-                                  }
-                                }
-                              ],
-                              null,
-                              true
-                            )
-                          }),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            { staticClass: "font-weight-light headline" },
-                            [
-                              _vm._v(
-                                "\n                            Heather Hill\n                        "
-                              )
-                            ]
-                          )
-                        ],
-                        1
-                      )
-                    ]
-                  )
-                }),
-                0
+                "v-col",
+                { staticClass: "d-flex justify-center align-center" },
+                [
+                  _c("v-breadcrumbs", {
+                    staticClass: "white--text",
+                    attrs: { dark: "", items: _vm.links }
+                  })
+                ],
+                1
               )
             ],
             1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-card",
+        { attrs: { flat: "", color: "indigo lighten-5" } },
+        [
+          _c(
+            "v-card",
+            { attrs: { color: "primary", dark: "", flat: "" } },
+            [
+              _c("v-img", {
+                attrs: {
+                  height: "60vh",
+                  src: __webpack_require__(/*! ../../images/quinesSomos.jpg */ "./resources/images/quinesSomos.jpg"),
+                  "aspect-ratio": "1.7"
+                },
+                scopedSlots: _vm._u([
+                  {
+                    key: "placeholder",
+                    fn: function() {
+                      return [
+                        _c(
+                          "v-row",
+                          {
+                            staticClass: "fill-height ma-0",
+                            attrs: { align: "center", justify: "center" }
+                          },
+                          [
+                            _c("v-progress-circular", {
+                              attrs: {
+                                indeterminate: "",
+                                color: "grey lighten-5"
+                              }
+                            })
+                          ],
+                          1
+                        )
+                      ]
+                    },
+                    proxy: true
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-card",
+            {
+              staticClass: "mx-auto mb-6 px-6",
+              staticStyle: { "margin-top": "-64px" },
+              attrs: { "max-width": "70vw" }
+            },
+            [
+              _c("v-card-title", { attrs: { "primary-title": "" } }, [
+                _c("h2", { staticClass: "mt-4 headline" }, [
+                  _vm._v(
+                    "\n                    SOMOS LA\n                    "
+                  ),
+                  _c("strong", [
+                    _vm._v(
+                      "\n                        FUNDACIÓN INTERCULTURAL CONNECTIONS.\n                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("br")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("v-divider"),
+              _vm._v(" "),
+              _c("v-card-text", [
+                _c("p", { staticClass: "text-justify subtitle-1" }, [
+                  _vm._v(
+                    "\n                    Nuestro objetivo es prestar el servicio público esencial\n                    de educación, impartiendo educación formal bilingüe\n                    (Inglés- español u otros idiomas), para niños, jóvenes y\n                    adultos de ambos sexos, en colegios públicos y privados\n                    con las modalidades de preescolar, básica primaria,\n                    básica secundaria y media vocacional, o las que en el\n                    futuro las sustituyan legalmente.\n                "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            facilitamos la educación no formal, prestamos\n                            servicios en áreas socio humanísticos,\n                            turísticas, culturales, medioambientales,\n                            deportivas y programas de extensión académica.\n                        "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", { staticClass: "text-justify" }, [
+                      _vm._v(
+                        "\n                            Buscamos el desarrollo y la formación integral\n                            de los estudiantes, profesionales o personas de\n                            la sociedad civil dentro de un profundo sentido\n                            humanista y de los valores, así como de\n                            conocimientos académicos y de prácticas\n                            turísticas, culturales y deportivas, mediante la\n                            educación formal y no formal.\n                        "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            Fomentamos el estudio del turismo y la cultura\n                            colombiana en el marco de la cultura universal.\n                        "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            Establecemos mecanismos que proporcionen el\n                            intercambio de experiencias con personas de\n                            habla inglesa y otros idiomas.\n                        "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            Ofrecemos a los estudiantes, profesionales y a\n                            toda la comunidad educativa medios o programas\n                            que contribuyan a su capacitación y\n                            actualización.\n                        "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            Establecemos actividades periódicas que\n                            favorezcan el turismo, la cultura, el medio\n                            ambiente, deporte y recreación del grupo\n                            familiar de los asociados.\n                        "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "p",
+                      [
+                        _vm._v(
+                          "\n                            Estimulamos el acercamiento cultural con los\n                            países de habla inglesa y/o países con cualquier\n                            otro tipo de idiomas.\n                            "
+                        ),
+                        _c(
+                          "v-btn",
+                          {
+                            attrs: { text: "" },
+                            on: {
+                              click: function($event) {
+                                _vm.show = !_vm.show
+                              }
+                            }
+                          },
+                          [
+                            _vm._v(
+                              "\n                                Seguir leyendo...\n                                "
+                            ),
+                            _c("v-icon", [
+                              _vm._v(
+                                "\n                                    " +
+                                  _vm._s(
+                                    _vm.show
+                                      ? "mdi-chevron-up"
+                                      : "mdi-chevron-down"
+                                  ) +
+                                  "\n                                "
+                              )
+                            ])
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("v-expand-transition", [
+                _c(
+                  "div",
+                  {
+                    directives: [
+                      {
+                        name: "show",
+                        rawName: "v-show",
+                        value: _vm.show,
+                        expression: "show"
+                      }
+                    ]
+                  },
+                  [
+                    _c("v-divider"),
+                    _vm._v(" "),
+                    _c("v-card-text", [
+                      _c("p", { staticClass: "text-justify mb-5" }, [
+                        _vm._v(
+                          "\n                            Fomentar por los medios más eficaces el\n                            intercambio cultural entre Colombia, los Estados\n                            Unidos de América, Australia, Canadá entre otros\n                            países de la región y el resto del mundo, y\n                            contribuir al desarrollo educativo, social,\n                            turístico, cultural y deportivo de su área de\n                            influencia, para lo cual enfocará su actividad\n                            meritoria en los siguientes programas: a) La\n                            enseñanza del Inglés y de otras lenguas,\n                            incluido el español; b) La adopción de programas\n                            que permitan la actualización y mejoramiento\n                            continuo de los métodos de enseñanza del Inglés\n                            como segunda lengua y de otros idiomas; c) La\n                            difusión del turismo y la cultura de Colombia y\n                            de los Estados Unidos entre otros países por\n                            medio de la creación de bibliotecas,\n                            organización de conferencias, realización de\n                            actos culturales, deportivos como exposiciones\n                            de arte, conciertos, representaciones, difusión\n                            de libros y en general, todo acto que tienda al\n                            más amplio conocimiento de las producciones\n                            intelectuales de Colombia y los Estados Unidos;\n                            d) Fomento del turismo y la cultura en sus\n                            distintas manifestaciones; e) Fomentar la\n                            formación para el trabajo y desarrollo humano,\n                            mediante programas de capacitación para el\n                            desempeño ocupacional con enfoque en el idioma\n                            Inglés y otros idiomas, el turismo, medio\n                            ambiente y desarrollo humano, pertinentes para\n                            las necesidades del contexto social, turístico y\n                            cultural de su área de influencia; f) Diseñar,\n                            elaborar y promover material de apoyo didáctico,\n                            lúdico, pedagógico en soporte físico,\n                            electrónico o digital, para el cumplimiento de\n                            los objetivos misionales.\n                        "
+                        )
+                      ])
+                    ])
+                  ],
+                  1
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-card",
+        [
+          _c(
+            "v-container",
+            { staticClass: "mb-12", attrs: { "grid-list-xs": "" } },
+            [
+              _c("p", { staticClass: "headline" }, [
+                _c("span", { staticClass: "title" }, [_vm._v(" MISIÓN ")])
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-justify" }, [
+                _vm._v(
+                  "\n                Promover el desarrollo intercultural, académico, recreativo,\n                turístico y deportivo en los diferentes territorios en donde\n                opera la organización para finalmente construir vínculos de\n                confianza con los clientes logrando el crecimiento y\n                reconocimiento en sus distintas áreas misionales.\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("p", { staticClass: "headline" }, [
+                _c("span", { staticClass: "title" }, [_vm._v("VISIÓN")])
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-justify" }, [
+                _vm._v(
+                  "\n                Para el año 2025 ser una organización altamente reconocida\n                que acompaña el liderazgo de las organizaciones cuyos\n                principios misionales son la promoción de la\n                interculturalidad, el desarrollo de la excelencia personal y\n                profesional y el intercambio de buenas prácticas que logren\n                mejores personas y naciones.\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c("span", { staticClass: "title" }, [_vm._v("VALORES")]),
+                _vm._v(" "),
+                _c("br")
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c("p", [
+                    _vm._v(
+                      "\n                        COMPROMISO: Excelencia profesional con miras a ser\n                        considerados como socios operacionales, decididos a\n                        contribuir en sus fortalezas individuales y grupales\n                        que garanticen efectividad y cumplimiento de\n                        entregables en cada proyecto o servicio ofrecido a\n                        ustedes como clientes.\n                    "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("p", [
+                    _vm._v(
+                      "\n                        CONFIDENCIALIDAD: Gestionamos toda la información y\n                        documentación tanto de las compañías que asesoramos\n                        como de terceros, con absoluta confidencialidad.\n                        ÉTICA: Individualmente identificados por un proceder\n                        digno, establecido por firmes convicciones éticas y\n                        morales y demostrado por la rectitud de nuestros\n                        actos.\n                    "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("p", [
+                    _vm._v(
+                      "\n                        PROACTIVIDAD: Distinguidos en el ámbito empresarial\n                        como un equipo de profesionales de desempeño\n                        dinámico, creativo y de respuestas efectivas y\n                        ajustables a las cambiantes expectativas de nuestros\n                        aliados y clientes.\n                    "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("p", [
+                    _vm._v(
+                      "\n                        TRABAJO EN EQUIPO: Trabajamos con comunicación,\n                        confianza y compromiso para garantizar la ejecución\n                        exitosa de cada proyecto o servicio.\n                    "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n                    ORIENTACIÓN AL CLIENTE: Mantenemos actualización\n                    permanente y adecuamos los servicios de acuerdo a las\n                    necesidades de los clientes, para de esta manera lograr\n                    su satisfacción.\n                "
+                  )
+                ])
+              ])
+            ]
           )
         ],
         1
@@ -1067,29 +699,29 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/images/logo-transparente.png":
-/*!************************************************!*\
-  !*** ./resources/images/logo-transparente.png ***!
-  \************************************************/
+/***/ "./resources/images/quinesSomos.jpg":
+/*!******************************************!*\
+  !*** ./resources/images/quinesSomos.jpg ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/logo-transparente.png?a034b9f05c19892d984efe16c2d8ec37";
+module.exports = "/images/quinesSomos.jpg?8cf730de2ccf45b441076db9f2f1bb2b";
 
 /***/ }),
 
-/***/ "./resources/js/components/Home.vue":
-/*!******************************************!*\
-  !*** ./resources/js/components/Home.vue ***!
-  \******************************************/
+/***/ "./resources/js/components/AboutUs.vue":
+/*!*********************************************!*\
+  !*** ./resources/js/components/AboutUs.vue ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Home_vue_vue_type_template_id_f2b6376c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=f2b6376c& */ "./resources/js/components/Home.vue?vue&type=template&id=f2b6376c&");
-/* harmony import */ var _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js& */ "./resources/js/components/Home.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/Home.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _AboutUs_vue_vue_type_template_id_19b32af0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AboutUs.vue?vue&type=template&id=19b32af0&scoped=true& */ "./resources/js/components/AboutUs.vue?vue&type=template&id=19b32af0&scoped=true&");
+/* harmony import */ var _AboutUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AboutUs.vue?vue&type=script&lang=js& */ "./resources/js/components/AboutUs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true& */ "./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1100,66 +732,66 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Home_vue_vue_type_template_id_f2b6376c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Home_vue_vue_type_template_id_f2b6376c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _AboutUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AboutUs_vue_vue_type_template_id_19b32af0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AboutUs_vue_vue_type_template_id_19b32af0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "19b32af0",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/Home.vue"
+component.options.__file = "resources/js/components/AboutUs.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/Home.vue?vue&type=script&lang=js&":
-/*!*******************************************************************!*\
-  !*** ./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************/
+/***/ "./resources/js/components/AboutUs.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/AboutUs.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./AboutUs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/Home.vue?vue&type=style&index=0&lang=css&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/components/Home.vue?vue&type=style&index=0&lang=css& ***!
-  \***************************************************************************/
+/***/ "./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true& ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=style&index=0&id=19b32af0&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_style_index_0_id_19b32af0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ "./resources/js/components/Home.vue?vue&type=template&id=f2b6376c&":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/Home.vue?vue&type=template&id=f2b6376c& ***!
-  \*************************************************************************/
+/***/ "./resources/js/components/AboutUs.vue?vue&type=template&id=19b32af0&scoped=true&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/AboutUs.vue?vue&type=template&id=19b32af0&scoped=true& ***!
+  \****************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_f2b6376c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=template&id=f2b6376c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=template&id=f2b6376c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_f2b6376c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_template_id_19b32af0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AboutUs.vue?vue&type=template&id=19b32af0&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AboutUs.vue?vue&type=template&id=19b32af0&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_template_id_19b32af0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_f2b6376c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutUs_vue_vue_type_template_id_19b32af0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

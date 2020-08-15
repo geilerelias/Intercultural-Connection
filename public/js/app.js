@@ -97091,7 +97091,7 @@ var app = new Vue({
     theme: {
       themes: {
         light: {
-          primary: '#279cb0',
+          primary: '#00bbe9',
           secondary: '#1877f2',
           accent: '#448AFF',
           error: '#f44336',
@@ -97371,24 +97371,24 @@ var routes = [{
   path: "/",
   name: "construccion",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! ./components/Construccion.vue */ "./resources/js/components/Construccion.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! ./components/Construccion.vue */ "./resources/js/components/Construccion.vue"));
   }
 }, {
   path: "/page",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! ./components/layout.vue */ "./resources/js/components/layout.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! ./components/layout.vue */ "./resources/js/components/layout.vue"));
   },
   children: [{
     path: "",
     name: "home",
     component: function component() {
-      return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! ./components/Home.vue */ "./resources/js/components/Home.vue"));
+      return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! ./components/Home.vue */ "./resources/js/components/Home.vue"));
     }
   }, {
     path: "/about-us",
     name: "about-us",
     component: function component() {
-      return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! ./components/AboutUs.vue */ "./resources/js/components/AboutUs.vue"));
+      return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! ./components/AboutUs.vue */ "./resources/js/components/AboutUs.vue"));
     }
   }, {
     path: "/our-services",
@@ -97425,7 +97425,7 @@ var routes = [{
   path: "/custom",
   name: "custom",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(13), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! ./components/CustonScrollBar.vue */ "./resources/js/components/CustonScrollBar.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(13), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! ./components/CustonScrollBar.vue */ "./resources/js/components/CustonScrollBar.vue"));
   }
 }, {
   path: "/login",

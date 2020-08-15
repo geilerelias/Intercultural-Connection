@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-img :src="require('../../images/san-francisco.jpg')" style="min-height: 100vh">
+        <v-img :src="require('../../images/fotos/DSC_0192.jpg')" style="min-height: 100vh">
             <v-app-bar
                 app
                 clipped-left
@@ -18,10 +18,11 @@
 
                 <v-toolbar-title v-if="!pagePrincipal">
                     <v-avatar tile>
-                        <img src="images/logo.png" alt="John"/>
+                        <img :src="require('../../images/logo-transparente.png')" :aspect-ratio="8/5" alt="John"/>
                     </v-avatar>
                     Intercultural Connections
                 </v-toolbar-title>
+
 
                 <v-spacer></v-spacer>
 

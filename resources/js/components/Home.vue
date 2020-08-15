@@ -4,52 +4,32 @@
             <!-- https://s2.best-wallpaper.net/wallpaper/1920x1200/1504/USA-San-Francisco-Golden-Gate-bridge-rocks-waves-beach_1920x1200.jpg -->
             <v-img
                 height="50vh"
-                src="./images/San-Francisco-Golden.png"
+                :src="require('../../images/fotos/DSC_0192.jpg')"
+                alt="principal"
                 gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
             >
-                <div>
-                    <v-card
-                        class="d-flex justify-space-between mb-6"
-                        color="grey lighten-2"
-                        flat
-                        tile
-                    >
-                        <v-card
-                            v-for="n in 3"
-                            :key="n"
-                            class="pa-2"
-                            outlined
-                            tile
-                        >
-                            Flex item
-                        </v-card>
-                    </v-card>
-                </div>
-                <v-container class="fill-height white--text d-flex justify-space-between">
+
+                <v-container fluid class="fill-height white--text ">
 
                     <v-img
-                        height="30vh"
+                        style="left: 10px !important; margin-left: calc(100% - 110%) !important; padding-left: 0px !important;"
+                        height="40vh"
                         contain
-                        :src="require('../../images/logo-transparente.png')"
-                        aspect-ratio="1.7"
+                        :src="require('../../images/logo-letras.png')"
+                        aspect-ratio="1"
                     ></v-img>
-
-                    <v-car>
-                        <h1 class="mb-2 display-2">
+                    <div align="center" justify="center" class="col" style="transform-origin: center top 0px;">
+                        <h1 class="mb-2 display-3">
                             Fundación Intercultural Connections
                         </h1>
                         <div class="title font-weight-light">
                             Construyendo puentes para que nadie se quede atrás.
                         </div>
-                    </v-car>
-
-
+                    </div>
                 </v-container>
 
             </v-img>
         </v-sheet>
-
-
 
         <v-sheet color="indigo" dark style="border-radius: 0px;">
             <div class="v-alert__wrapper">

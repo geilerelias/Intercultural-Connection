@@ -19,71 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="solucion de superposición de texto">
-      <change afterPath="$PROJECT_DIR$/public/images/logo-letras.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo-transparente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/100_0402.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alex Puerto Madero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alex y Amigas círculo blanco.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alex y Amigas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/Alexandra jugando twistes....jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0169.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0179.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0180.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0186.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0187.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0188.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0189.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0190.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0192.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0193.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0196.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0197.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0201.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0202.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0203.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0204.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0205.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/En el Hall de la Independencia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/alex en usa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/fotos/logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/logo con letras.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/logo-letras.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/logo-transparente.png" afterDir="false" />
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="cambio de logo">
+      <change afterPath="$PROJECT_DIR$/public/images/DSC_0186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/DSC_0192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/DSC_0202.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/11.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/12.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/13.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/14.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/15.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/16.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/16.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/17.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/17.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/18.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/18.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/19.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/19.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/20.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/21.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/21.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/22.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/22.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/23.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/23.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/24.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/24.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/25.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/25.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo-transparente.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo-transparente.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/logo-transparente.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/logo-transparente.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Construccion.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Construccion.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +191,7 @@
       <workItem from="1591028916535" duration="4902000" />
       <workItem from="1591056309434" duration="5539000" />
       <workItem from="1591109237285" duration="3048000" />
-      <workItem from="1597494871419" duration="4701000" />
+      <workItem from="1597494871419" duration="10604000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -270,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591066247937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cambio de logo">
+      <created>1597500904273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597500904273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -296,7 +254,8 @@
     <MESSAGE value="maquetación de la pagina princcipal" />
     <MESSAGE value="creación de la pagina en construcción" />
     <MESSAGE value="solucion de superposición de texto" />
-    <option name="LAST_COMMIT_MESSAGE" value="solucion de superposición de texto" />
+    <MESSAGE value="cambio de logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio de logo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Plugins" timestamp="1591057371434">
@@ -333,9 +292,10 @@
     </state>
     <state x="183" y="28" key="SettingsEditor/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496005088" />
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591033813696" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1591066251081">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1597500962184">
+      <screen x="0" y="0" width="1360" height="768" />
     </state>
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597500962184" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591066251081" />
   </component>
 </project>
