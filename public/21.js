@@ -224,7 +224,7 @@ var render = function() {
         "v-img",
         {
           staticStyle: { "min-height": "100vh" },
-          attrs: { src: __webpack_require__(/*! ../../images/fotos/DSC_0192.jpg */ "./resources/images/fotos/DSC_0192.jpg") }
+          attrs: { src: "images/DSC_0192.jpg" }
         },
         [
           _c(
@@ -476,17 +476,6 @@ var staticRenderFns = []
 render._withStripped = true
 
 
-
-/***/ }),
-
-/***/ "./resources/images/fotos/DSC_0192.jpg":
-/*!*********************************************!*\
-  !*** ./resources/images/fotos/DSC_0192.jpg ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/DSC_0192.jpg?17eb3e80586fc6ccdcde7a5b948d119c";
 
 /***/ }),
 

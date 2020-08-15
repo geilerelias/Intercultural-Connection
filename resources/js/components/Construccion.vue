@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-img :src="require('../../images/fotos/DSC_0192.jpg')" style="min-height: 100vh">
+        <v-img src="images/DSC_0192.jpg" style="min-height: 100vh">
             <v-app-bar
                 app
                 clipped-left
