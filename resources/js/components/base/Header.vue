@@ -5,6 +5,8 @@
             clipped-left
             :flat="flat"
             :color="flat ? 'transparent' : 'primary'"
+            tile
+            dense
             dark
         >
             <template v-slot:img="{ props }">
@@ -14,40 +16,44 @@
                 ></v-img>
             </template>
             <!-- class="hidden-md-and-up" -->
+
+
+            <v-toolbar-title v-if="$vuetify.breakpoint.smAndDown || !pagePrincipal">
+                <v-avatar tile>
+                    <v-img :src="require('../../../images/logo-letras.png')"
+                           alt="Foundation Intercultural Connections "/>
+                </v-avatar>
+                <span v-if="showName">
+                Fundación Intercultural Connections
+                </span>
+            </v-toolbar-title>
+
+            <v-spacer></v-spacer>
+            <template v-if="$vuetify.breakpoint.mdAndUp">
+                <v-btn to="/" style="font-stretch:ultra-condensed !important;" text>
+                    {{ $t("home") }}
+                </v-btn>
+                <v-btn to="about-us" style="font-stretch:ultra-condensed !important;" text>
+                    {{ $t("about-us") }}
+                </v-btn>
+                <v-btn to="our-services" style="font-stretch:ultra-condensed !important;" text>
+                    {{ $t("our-services") }}
+                </v-btn>
+                <v-btn to="projects" style="font-stretch:ultra-condensed !important;" text>
+                    {{ $t("projects") }}
+                </v-btn>
+                <v-btn to="donations" style="font-stretch:ultra-condensed !important;" text>
+                    {{ $t("donations") }}
+                </v-btn>
+                <v-btn to="contact-us" style="font-stretch:ultra-condensed !important;" text>
+                    {{ $t("contact-us") }}
+                </v-btn>
+            </template>
+            <language></language>
             <v-app-bar-nav-icon
                 class="hidden-md-and-up"
                 @click="drawer ? setDrawer(false) : setDrawer(true)"
             ></v-app-bar-nav-icon>
-
-            <v-toolbar-title v-if="!pagePrincipal">
-                <v-avatar tile>
-                    <img src="images/logo.png" alt="John" />
-                </v-avatar>
-                Intercultural Connections
-            </v-toolbar-title>
-
-            <v-spacer></v-spacer>
-
-            <v-btn to="/" text>
-                {{ $t("home") }}
-            </v-btn>
-            <v-btn to="about-us" text>
-                {{ $t("about-us") }}
-            </v-btn>
-            <v-btn to="our-services" text>
-                {{ $t("our-services") }}
-            </v-btn>
-            <v-btn to="projects" text>
-                {{ $t("projects") }}
-            </v-btn>
-            <v-btn to="donations" text>
-                {{ $t("donations") }}
-            </v-btn>
-            <v-btn to="contact-us" text>
-                {{ $t("contact-us") }}
-            </v-btn>
-
-            <language></language>
         </v-app-bar>
 
         <v-btn
@@ -65,7 +71,8 @@
     </div>
 </template>
 <script>
-import { mapState, mapMutations } from "vuex";
+import {mapState, mapMutations} from "vuex";
+
 export default {
     components: {
         language: () => import("./language.vue")
@@ -77,6 +84,17 @@ export default {
     },
     computed: {
         ...mapState(["drawer", "page", "color", "flat", "pagePrincipal"])
+        , showName: function () {
+            if (!this.pagePrincipal) {
+                return true;
+            } else {
+                if (this.pagePrincipal && this.$vuetify.breakpoint.smAndDown && this.fab) {
+                    return true;
+                }
+                return false;
+            }
+            //! || $vuetify.breakpoint.smAndDown
+        }
     },
     methods: {
         ...mapMutations([
@@ -97,8 +115,6 @@ export default {
             this.$vuetify.goTo(0);
         },
         onScroll(e) {
-            console.log("ejecuto onScroll");
-
             if (typeof window === "undefined") return;
             const top = window.pageYOffset || e.target.scrollTop || 0;
             if (top > 50) {

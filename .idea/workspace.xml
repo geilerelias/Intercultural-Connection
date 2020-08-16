@@ -19,8 +19,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="Añadiendo la imagen desde el public_html">
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="agregando configuración de AppServiceProvider.php">
+      <change afterPath="$PROJECT_DIR$/Manual corporativo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Acumin-BdItPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Acumin-BdPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Acumin-ItPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Acumin-RPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/Acumin-BdItPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/Acumin-BdPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/Acumin-ItPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/Acumin-RPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/acumin/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/personas-que-llevan-donacion-caridad.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/14.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/21.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/21.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/22.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/23.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/23.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/24.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/AboutUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AboutUs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Donations.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Donations.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Drawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,9 +187,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jenis Sagbini/JenisSagbini/app/Providers/AppServiceProvider.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Maria Victoria Aponte/resources/js/components/pages/Contact.vue" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Intercultural-Connection\resources\fonts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -176,7 +220,8 @@
       <workItem from="1591028916535" duration="4902000" />
       <workItem from="1591056309434" duration="5539000" />
       <workItem from="1591109237285" duration="3048000" />
-      <workItem from="1597494871419" duration="12869000" />
+      <workItem from="1597494871419" duration="30468000" />
+      <workItem from="1597542023140" duration="5356000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -227,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597512554182</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="agregando configuración de AppServiceProvider.php">
+      <created>1597513002669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597513002669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -256,34 +308,35 @@
     <MESSAGE value="cambio de logo" />
     <MESSAGE value="cambiando imagen de fondo principal" />
     <MESSAGE value="Añadiendo la imagen desde el public_html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadiendo la imagen desde el public_html" />
+    <MESSAGE value="agregando configuración de AppServiceProvider.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando configuración de AppServiceProvider.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Plugins" timestamp="1591057371434">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="24" key="#Plugins/0.0.1366.768@0.0.1366.768" timestamp="1591057371434" />
-    <state x="461" y="138" key="FileChooserDialogImpl" timestamp="1597512931471">
+    <state x="461" y="138" key="FileChooserDialogImpl" timestamp="1597526267151">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="461" y="138" key="FileChooserDialogImpl/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597512931471" />
+    <state x="461" y="138" key="FileChooserDialogImpl/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597526267151" />
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591033809791" />
-    <state width="1317" height="192" key="GridCell.Tab.0.bottom" timestamp="1597495968965">
+    <state width="1317" height="192" key="GridCell.Tab.0.bottom" timestamp="1597541282053">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.bottom/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968965" />
-    <state width="1317" height="192" key="GridCell.Tab.0.center" timestamp="1597495968964">
+    <state width="1317" height="192" key="GridCell.Tab.0.bottom/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597541282053" />
+    <state width="1317" height="192" key="GridCell.Tab.0.center" timestamp="1597541282052">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.center/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968964" />
-    <state width="1317" height="192" key="GridCell.Tab.0.left" timestamp="1597495968963">
+    <state width="1317" height="192" key="GridCell.Tab.0.center/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597541282052" />
+    <state width="1317" height="192" key="GridCell.Tab.0.left" timestamp="1597541282052">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.left/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968963" />
-    <state width="1317" height="192" key="GridCell.Tab.0.right" timestamp="1597495968964">
+    <state width="1317" height="192" key="GridCell.Tab.0.left/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597541282052" />
+    <state width="1317" height="192" key="GridCell.Tab.0.right" timestamp="1597541282053">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.right/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597495968964" />
+    <state width="1317" height="192" key="GridCell.Tab.0.right/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597541282053" />
     <state x="517" y="307" key="NewPhpFileDialog" timestamp="1590970793471">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -293,10 +346,10 @@
     </state>
     <state x="183" y="28" key="SettingsEditor/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496005088" />
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591033813696" />
-    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1597512667253">
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1597513376007">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597512667253" />
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597513376007" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591066251081" />
   </component>
 </project>

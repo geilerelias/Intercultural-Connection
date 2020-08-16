@@ -9,6 +9,13 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 //
 //
 //
@@ -39,10 +46,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       width: 300,
+      menu: [{
+        to: "/",
+        title: "home",
+        icon: 'mdi-home'
+      }, {
+        to: "about-us",
+        title: "about-us",
+        icon: 'mdi-account-question'
+      }, {
+        to: "our-services",
+        title: "our-services",
+        icon: 'mdi-face-agent'
+      }, {
+        to: "projects",
+        title: "projects",
+        icon: 'mdi-folder-multiple'
+      }, {
+        to: "donations",
+        title: "donations",
+        icon: 'mdi-hand-heart'
+      }, {
+        to: "contact-us",
+        title: "contact-us",
+        icon: 'mdi-card-account-mail'
+      }],
       items: [{
         icon: "mdi-inbox",
         title: "Inbox"
@@ -69,7 +102,7 @@ __webpack_require__.r(__webpack_exports__);
       }]
     };
   },
-  computed: {
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(["drawer", "page", "color", "flat", "pagePrincipal"]), {
     drawer: {
       get: function get() {
         return this.$store.state.drawer;
@@ -78,7 +111,7 @@ __webpack_require__.r(__webpack_exports__);
         this.$store.commit("setDrawer", val);
       }
     }
-  }
+  })
 });
 
 /***/ }),
@@ -95,7 +128,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.v-navigation-drawer[data-v-351a4594] {\r\n    transition: none !important;\n}\n.lightbox[data-v-351a4594] {\r\n    box-shadow: 0 0 20px inset rgba(0, 0, 0, 0.2);\r\n    background-image: linear-gradient(\r\n        to top,\r\n        rgba(0, 0, 0, 0.4) 0%,\r\n        transparent 72px\r\n    );\n}\r\n", ""]);
+exports.push([module.i, "\n.v-navigation-drawer[data-v-351a4594] {\n    transition: none !important;\n}\n.lightbox[data-v-351a4594] {\n    box-shadow: 0 0 20px inset rgba(0, 0, 0, 0.2);\n    background-image: linear-gradient(\n        to top,\n        rgba(0, 0, 0, 0.4) 0%,\n        transparent 72px\n    );\n}\n", ""]);
 
 // exports
 
@@ -147,82 +180,89 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "v-navigation-drawer",
-    {
-      attrs: { app: "", clipped: "" },
-      model: {
-        value: _vm.drawer,
-        callback: function($$v) {
-          _vm.drawer = $$v
-        },
-        expression: "drawer"
-      }
-    },
-    [
-      _c(
-        "v-img",
+  return _vm.$vuetify.breakpoint.smAndDown
+    ? _c(
+        "v-navigation-drawer",
         {
-          attrs: {
-            "aspect-ratio": 16 / 9,
-            src: "https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          attrs: { app: "", clipped: "" },
+          model: {
+            value: _vm.drawer,
+            callback: function($$v) {
+              _vm.drawer = $$v
+            },
+            expression: "drawer"
           }
         },
         [
           _c(
-            "v-row",
+            "v-img",
             {
-              staticClass: "lightbox white--text pa-2 fill-height",
-              attrs: { align: "end" }
+              attrs: {
+                "aspect-ratio": 16 / 9,
+                src: "https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+              }
             },
             [
-              _c("v-col", [
-                _c("div", { staticClass: "subheading" }, [
-                  _vm._v("Jonathan Lee")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "body-1" }, [
-                  _vm._v(
-                    "\n                    heyfromjonathan@gmail.com\n                "
-                  )
-                ])
-              ])
+              _c(
+                "v-row",
+                {
+                  staticClass: "lightbox white--text pa-2 fill-height",
+                  attrs: { align: "end" }
+                },
+                [
+                  _c("v-col", [
+                    _c("div", { staticClass: "subheading" }, [
+                      _vm._v("Jonathan Lee")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "body-1" }, [
+                      _vm._v(
+                        "\n                    heyfromjonathan@gmail.com\n                "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              )
             ],
             1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-list",
+            [
+              _vm._l(_vm.menu, function(item, i) {
+                return [
+                  item.divider
+                    ? _c("v-divider", { key: i })
+                    : _c(
+                        "v-list-item",
+                        {
+                          key: item.title,
+                          attrs: { color: "primary", to: item.to }
+                        },
+                        [
+                          _c(
+                            "v-list-item-action",
+                            [_c("v-icon", [_vm._v(_vm._s(item.icon))])],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-list-item-title", [
+                            _vm._v(_vm._s(_vm.$t(item.title)))
+                          ])
+                        ],
+                        1
+                      )
+                ]
+              })
+            ],
+            2
           )
         ],
         1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-list",
-        [
-          _vm._l(_vm.items, function(item, i) {
-            return [
-              item.divider
-                ? _c("v-divider", { key: i })
-                : _c(
-                    "v-list-item",
-                    { key: item.title, on: { click: function($event) {} } },
-                    [
-                      _c(
-                        "v-list-item-action",
-                        [_c("v-icon", [_vm._v(_vm._s(item.icon))])],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("v-list-item-title", [_vm._v(_vm._s(item.title))])
-                    ],
-                    1
-                  )
-            ]
-          })
-        ],
-        2
       )
-    ],
-    1
-  )
+    : _vm._e()
 }
 var staticRenderFns = []
 render._withStripped = true

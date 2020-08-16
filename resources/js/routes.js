@@ -11,13 +11,13 @@ const withPrefix = (prefix, routes) =>
 
 let routes = [
     {
-        path: "/",
+        path: "/construccion",
         name: "construccion",
         component: () => import("./components/Construccion.vue")
     },
     {
 
-        path: "/page",
+        path: "/",
         component: () => import("./components/layout.vue"),
         children: [
             {

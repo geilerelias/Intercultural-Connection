@@ -46,7 +46,13 @@ const app = new Vue({
                     success: '#4caf50'
                 },
                 dark: {
-
+                    primary: '#00bbe9',
+                    secondary: '#1877f2',
+                    accent: '#448AFF',
+                    error: '#f44336',
+                    warning: '#ffc107',
+                    info: '#03a9f4',
+                    success: '#4caf50'
                 },
             },
         },

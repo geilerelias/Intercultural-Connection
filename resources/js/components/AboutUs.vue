@@ -74,7 +74,7 @@
                     <ul>
                         <li>
                             <p>
-                                facilitamos la educación no formal, prestamos
+                                Facilitamos la educación no formal, prestamos
                                 servicios en áreas socio humanísticos,
                                 turísticas, culturales, medioambientales,
                                 deportivas y programas de extensión académica.

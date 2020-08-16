@@ -6,45 +6,55 @@
                 height="50vh"
                 :src="require('../../images/fotos/DSC_0192.jpg')"
                 alt="principal"
-                gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
+                gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
             >
 
                 <v-container fluid class="fill-height white--text ">
 
-                    <v-img
-                        style="left: 10px !important; margin-left: calc(100% - 110%) !important; padding-left: 0px !important;"
-                        height="40vh"
-                        contain
-                        :src="require('../../images/logo-letras.png')"
-                        aspect-ratio="1"
+                    <v-img v-if="$vuetify.breakpoint.mdAndUp"
+                           style="left: 10px !important; ; padding-left: 0px !important;"
+                           height="45vh"
+                           contain
+                           :src="require('../../images/logo-transparente.png')"
+                           aspect-ratio="1"
                     ></v-img>
-                    <div align="center" justify="center" class="col" style="transform-origin: center top 0px;">
-                        <h1 class="mb-2 display-3">
-                            Fundación Intercultural Connections
-                        </h1>
-                        <div class="title font-weight-light">
-                            Construyendo puentes para que nadie se quede atrás.
-                        </div>
-                    </div>
-                </v-container>
 
+
+                    <v-card
+                        flat
+                        tile
+                        style="height: 50vh;"
+                        class="d-flex align-end  "
+                        :class="$vuetify.breakpoint.smAndDown?'':'mr-12'"
+                        color="transparent"
+                    >
+                        <v-row class="white--text text-left " :class="$vuetify.breakpoint.smAndDown?'':'mr-2'">
+                            <v-col cols="12" class="d-flex justify-end align-end mb-4">
+                                <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'" class="font-weight-bold"
+                                    style="font-weight: bold; font-stretch:ultra-condensed !important;">
+                                    Fundación Intercultural Connections
+                                </h1>
+                            </v-col>
+                        </v-row>
+                    </v-card>
+                </v-container>
             </v-img>
         </v-sheet>
 
-        <v-sheet color="indigo" dark style="border-radius: 0px;">
-            <div class="v-alert__wrapper">
-                <div class="v-alert__content">
-                    <div class="container py-0">
-                        <div class="row align-center justify-center">
-                            <div class="grow hidden-sm-and-down col">
-                                <h2 class="title font-weight-light">
-                                    {{ $t("share-your-culture-with-others") }}
-                                </h2>
+        <v-sheet color="primary darken-3" dark style="border-radius: 0px;">
+            <v-container class="container--fluid py-0">
+                <v-row class="align-center justify-center " :class="$vuetify.breakpoint.smAndDown?'':'mr-12'">
+                    <v-col class="grow">
+                        <h2 class=" font-weight-light float-right">
+                            <div class="font-weight-light " :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'" style="font-stretch: ultra-condensed">
+                                Construyendo puentes para que nadie se quede atrás
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </h2>
+                    </v-col>
+
+                </v-row>
+            </v-container>
+
         </v-sheet>
         <br/>
         <h2 class="display-1 font-weight-light text-center mb-4">
