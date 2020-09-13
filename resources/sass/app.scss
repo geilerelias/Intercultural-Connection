@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+//material icons
+@import "~@mdi/font/css/materialdesignicons.css";
+// Ensure you are using css-loader
+
+//vuetify
+@import "~vuetify/dist/vuetify.min.css";
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: all .3s ease;
+}
+
+.fade-enter,
+.fade-leave-to
+    /* .fade-leave-active in <2.1.8 */
+
+{
+    opacity: 0
+}
