@@ -36,6 +36,7 @@
                                 <v-img width="400"
                                        :src="item.src"></v-img>
                             </v-card>
+                            
                         </v-col>
                         <div class="px-0 col-md-8 col-12">
                             <v-card flat color="transparent">

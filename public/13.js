@@ -158,8 +158,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -191,7 +189,8 @@ __webpack_require__.r(__webpack_exports__);
         email: '',
         subject: '',
         content: ''
-      }
+      },
+      valor: null
     };
   },
   methods: {
@@ -321,19 +320,31 @@ var render = function() {
                 [
                   _c(
                     "v-col",
-                    { attrs: { cols: "12", md: "6" } },
+                    { attrs: { cols: "12" } },
                     [
                       _c(
-                        "h3",
-                        {
-                          staticClass:
-                            "text-uppercase primary--text title font-weight-bold mb-1 text-left mb-4"
-                        },
+                        "div",
+                        { staticClass: "base-section-heading text-center " },
                         [
-                          _vm._v(
-                            "\n                        AYUDAR AHORA, ES SIMPLE\n                    "
-                          )
-                        ]
+                          _c(
+                            "h3",
+                            {
+                              staticClass:
+                                "text-uppercase text-h6 font-weight-bold  text-left"
+                            },
+                            [
+                              _vm._v(
+                                "\n                            AYUDAR AHORA, ES SIMPLE\n                        "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("v-divider", {
+                            staticClass: "primary  mr-auto mb-3",
+                            staticStyle: { "max-width": "28px" }
+                          })
+                        ],
+                        1
                       ),
                       _vm._v(" "),
                       _c(
@@ -344,7 +355,7 @@ var render = function() {
                         },
                         [
                           _vm._v(
-                            "\n                        atrévete a caminar aunque sea dezcalzo,\n                        a sonreír aunque no tengas motivos, a ayudar a otros sin recibir aplausos.\n                        "
+                            "\n                        atrévete a caminar aunque sea descalzo,\n                        a sonreír aunque no tengas motivos, a ayudar a otros sin recibir aplausos.\n                        "
                           ),
                           _c("v-subheader", [
                             _vm._v(
@@ -354,7 +365,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("br"),
                           _vm._v(
-                            "\n                        Aveces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar sria menos si le faltara esa gota.\n\n                        "
+                            "\n                        Aveces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar seria menos\n                        si\n                        le faltara esa gota.\n\n                        "
                           ),
                           _c("v-subheader", [
                             _vm._v(
@@ -365,84 +376,99 @@ var render = function() {
                         1
                       ),
                       _vm._v(" "),
-                      _vm._l(_vm.contact, function(item) {
-                        return _c(
-                          "div",
-                          {
-                            key: item.name,
-                            staticClass:
-                              "pt-2 mb-0 d-flex justify-start align-content-start align-start"
-                          },
-                          [
-                            _c(
-                              "div",
-                              {
-                                staticClass: "base-avatar d-inline-flex mb-3 ",
-                                staticStyle: { "margin-left": "-10" }
-                              },
-                              [
-                                _c("v-icon", {
-                                  staticClass: "mt-6",
-                                  attrs: { color: "primary", size: "32" },
-                                  domProps: { textContent: _vm._s(item.icon) }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "ml-3" }, [
-                              _c(
-                                "h3",
-                                {
-                                  staticClass:
-                                    "text-uppercase font-weight-black subtitle-2 mb-1 text-left primary--text"
-                                },
-                                [
-                                  _vm._v(
-                                    "\n                                " +
-                                      _vm._s(item.name) +
-                                      "\n                            "
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "base-body body-1 mx-auto  text--lighten-1 text-left mb-0"
-                                },
-                                [
-                                  _c("div", {
-                                    domProps: {
-                                      innerHTML: _vm._s(item.content)
-                                    }
-                                  })
-                                ]
-                              )
-                            ])
-                          ]
-                        )
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "v-col",
-                    { attrs: { cols: "12", md: "6" } },
-                    [
                       _c(
-                        "h3",
+                        "div",
+                        { staticClass: "base-section-heading text-center " },
+                        [
+                          _c(
+                            "h3",
+                            {
+                              staticClass:
+                                "text-uppercase text-h6 font-weight-bold  text-left"
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Envíanos un correo electrónico\n                        "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("v-divider", {
+                            staticClass: "primary  mr-auto mb-3",
+                            staticStyle: { "max-width": "28px" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("p", [_vm._v("¿Cuanto quieres aportar?")]),
+                      _vm._v(" "),
+                      _c(
+                        "v-card",
                         {
                           staticClass:
-                            "text-uppercase title primary--text  font-weight-bold mb-1 text-left mb-4"
+                            "d-flex flex-row mb-6 justify-start align-center",
+                          attrs: { color: "transparent", flat: "", tile: "" }
                         },
                         [
-                          _vm._v(
-                            "\n                        Envíanos un correo electrónico\n                    "
+                          _c(
+                            "v-radio-group",
+                            {
+                              attrs: { row: "" },
+                              model: {
+                                value: _vm.valor,
+                                callback: function($$v) {
+                                  _vm.valor = $$v
+                                },
+                                expression: "valor"
+                              }
+                            },
+                            [
+                              _c("v-radio", {
+                                attrs: { label: "$50.000", value: "50000" }
+                              }),
+                              _vm._v(" "),
+                              _c("v-radio", {
+                                attrs: { label: "$100.000", value: "100000" }
+                              }),
+                              _vm._v(" "),
+                              _c("v-radio", {
+                                attrs: { label: "$200.000", value: "200000" }
+                              }),
+                              _vm._v(" "),
+                              _c("v-radio", {
+                                attrs: { label: "$300.000", value: "300000" }
+                              }),
+                              _vm._v(" "),
+                              _c("v-radio", {
+                                attrs: { label: "$400.000", value: "400000" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "mr-3" }, [
+                            _vm._v(
+                              "\n                            Otro valor\n                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  label: "Amount",
+                                  value: "0.00",
+                                  prefix: "$",
+                                  type: "number"
+                                }
+                              })
+                            ],
+                            1
                           )
-                        ]
+                        ],
+                        1
                       ),
                       _vm._v(" "),
                       _c("v-form", [
@@ -451,7 +477,11 @@ var render = function() {
                             "div",
                             [
                               _c("v-text-field", {
-                                attrs: { label: "Nombre", outlined: "" },
+                                attrs: {
+                                  label: "Nombres",
+                                  outlined: "",
+                                  "prepend-inner-icon": "mdi-face"
+                                },
                                 model: {
                                   value: _vm.message.name,
                                   callback: function($$v) {
@@ -466,7 +496,8 @@ var render = function() {
                                   small: "",
                                   label: "Correo",
                                   outlined: "",
-                                  type: "email"
+                                  type: "email",
+                                  "prepend-inner-icon": "mdi-email"
                                 },
                                 model: {
                                   value: _vm.message.email,
@@ -474,17 +505,6 @@ var render = function() {
                                     _vm.$set(_vm.message, "email", $$v)
                                   },
                                   expression: "message.email"
-                                }
-                              }),
-                              _vm._v(" "),
-                              _c("v-text-field", {
-                                attrs: { outlined: "", label: "Tema" },
-                                model: {
-                                  value: _vm.message.subject,
-                                  callback: function($$v) {
-                                    _vm.$set(_vm.message, "subject", $$v)
-                                  },
-                                  expression: "message.subject"
                                 }
                               }),
                               _vm._v(" "),

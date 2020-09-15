@@ -118,7 +118,8 @@ var render = function() {
     { attrs: { dark: "", padless: "", elevation: "24" } },
     [
       _c(
-        "v-layout",
+        "v-container",
+        { staticClass: "ma-0 pa-0", attrs: { fluid: "" } },
         [
           _c(
             "v-card",

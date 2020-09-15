@@ -6,20 +6,20 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="agregando configuración de AppServiceProvider.php" />
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="mostrando pagina principal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/13.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/14.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Donations.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Donations.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/OurServices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/OurServices.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Footer.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +201,9 @@
       <workItem from="1599739445512" duration="15526000" />
       <workItem from="1599786303594" duration="4820000" />
       <workItem from="1599843232877" duration="2986000" />
-      <workItem from="1599972288662" duration="3373000" />
+      <workItem from="1599972288662" duration="4561000" />
+      <workItem from="1600099915790" duration="1245000" />
+      <workItem from="1600101354431" duration="10463000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -259,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597513002669</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mostrando pagina principal">
+      <created>1599976162622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599976162622</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -292,9 +301,14 @@
     <MESSAGE value="cambiando imagen de fondo principal" />
     <MESSAGE value="Añadiendo la imagen desde el public_html" />
     <MESSAGE value="agregando configuración de AppServiceProvider.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando configuración de AppServiceProvider.php" />
+    <MESSAGE value="mostrando pagina principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="mostrando pagina principal" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Plugins" timestamp="1600101687206">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="24" key="#Plugins/0.0.1366.768/-1920.-313.1920.1080@0.0.1366.768" timestamp="1600101687206" />
     <state x="461" y="138" key="FileChooserDialogImpl" timestamp="1597526267151">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
@@ -324,10 +338,12 @@
     </state>
     <state x="183" y="28" key="SettingsEditor/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496005088" />
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1599480645627" />
-    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1597513376007">
-      <screen x="0" y="0" width="1360" height="768" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1600129004857">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597513376007" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-1920.-313.1920.1080@0.0.1366.768" timestamp="1600129004857" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1599976316778" />
     <state x="336" y="172" key="run.anything.popup" timestamp="1599762561944">
       <screen x="0" y="0" width="1360" height="768" />
     </state>

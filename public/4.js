@@ -380,9 +380,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -469,36 +466,31 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         name: "Alexander Castillo",
         email: "alexandercastrillo@hotmail.com",
         occupation: "Director",
-        others: "Especialista en derecho procesal\n                    Magister en planificaci\xF3n territorial",
-        description: "Abogao de profesi\xF3n, especializado en derecho procesal.\n                    Mag\xEDster en planificaci\xF3n territorial, altamente competente, con un marco\n                    \xE9tico y de valores para intervenir en procesos humanos y con la sociedad,\n                    en el logro de la justicia material, y protecci\xF3n de los derechos fundamentales\n                    de los ciudadanos. "
+        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
       }, {
         img: "images/team/Daniel Chaboya.jpg",
         name: "Daniel Chanboya",
         email: "DanielChanboya@hotmail.com",
         occupation: "Director TIA en Tulsa, USA",
-        others: "Especialista en Pediatr\xEDa",
-        description: "M\xE9dico especialista en Pediatr\xEDa, altamente competente con\n                     un amplio compromiso, y entendimiento de las necesidades de la sociedad.\n                     Conservo una \xE9tica profesional que me permite involucrarme en la atenci\xF3n\n                     de la poblaci\xF3n pedi\xE1trica, fomentando un cuidado integral de la salud,\n                     mediante la promoci\xF3n, prevenci\xF3n y rehabilitaci\xF3n del ni\xF1o\n                     dentro de los est\xE1ndares de la m\xE1s alta calidad. "
+        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
       }, {
         img: "images/team/Jenis Sagbini.jpg",
         name: "Jenis Sagbini",
         email: "contacto@jenissagbini.com",
         occupation: "Asesora Estratégica",
-        others: "Especialista en Programaci\xF3n y evaluaci\xF3n del ejercicio",
-        description: "Profesional en cultura f\xEDsica deporte y recreaci\xF3n,\n                    especialista en programaci\xF3n y evaluaci\xF3n del ejercicio, altamente\n                    competente con habilidades de manejo de grupo de los diferentes ciclos\n                    acad\xE9micos  din\xE1micos y creativos, comprometido con el aprendizaje y\n                    progreso de los usuarios y b\xFAsqueda continua para desarrollar habilidades\n                    b\xE1sicas como el trabajo en equipo, autonom\xEDa, responsabilidad y habilidades\n                    f\xEDsicas como resistencia fuerza, velocidad etc.  "
+        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
       }, {
         img: "images/team/Stefanny Castrillo.jpg",
         name: "Stefanny Castrillo",
         email: "StefannyCastrillo@hotmail.com",
         occupation: "Social Media Manager ",
-        others: "Especialista en Programaci\xF3n y evaluaci\xF3n del ejercicio",
-        description: "Profesional en cultura f\xEDsica deporte y recreaci\xF3n,\n                    especialista en programaci\xF3n y evaluaci\xF3n del ejercicio, altamente\n                    competente con habilidades de manejo de grupo de los diferentes ciclos\n                    acad\xE9micos  din\xE1micos y creativos, comprometido con el aprendizaje y\n                    progreso de los usuarios y b\xFAsqueda continua para desarrollar habilidades\n                    b\xE1sicas como el trabajo en equipo, autonom\xEDa, responsabilidad y habilidades\n                    f\xEDsicas como resistencia fuerza, velocidad etc.  "
+        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
       }, {
         img: "images/team/Geiler Radillo.jpg",
         name: "Geiler Radillo",
         email: "geilerelias@hotmail.com",
         occupation: "Desarrollador ",
-        others: "Especialista en Programaci\xF3n y evaluaci\xF3n del ejercicio",
-        description: "Profesional en cultura f\xEDsica deporte y recreaci\xF3n,\n                    especialista en programaci\xF3n y evaluaci\xF3n del ejercicio, altamente\n                    competente con habilidades de manejo de grupo de los diferentes ciclos\n                    acad\xE9micos  din\xE1micos y creativos, comprometido con el aprendizaje y\n                    progreso de los usuarios y b\xFAsqueda continua para desarrollar habilidades\n                    b\xE1sicas como el trabajo en equipo, autonom\xEDa, responsabilidad y habilidades\n                    f\xEDsicas como resistencia fuerza, velocidad etc.  "
+        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
       }],
       colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
       model: 0
@@ -530,7 +522,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.ps {\n    height: 200px;\n}\n.v-card--reveal {\n    align-items: center;\n    bottom: 0;\n    justify-content: center;\n    opacity: 0.5;\n    position: absolute;\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, "\n.ps {\n    height: 200px;\n}\n.v-card--reveal {\n    align-items: center;\n    bottom: 0;\n    justify-content: center;\n    opacity: 0.8;\n    position: absolute;\n    width: 100%;\n}\n", ""]);
 
 // exports
 
@@ -1371,7 +1363,7 @@ var render = function() {
                                                           "v-container",
                                                           {
                                                             staticClass:
-                                                              "body-2",
+                                                              "body-2 primary darken-4",
                                                             staticStyle: {
                                                               height: "400px"
                                                             }
@@ -1431,7 +1423,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-weight-light subtitle-2 mb-2"
+                                                "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10"
                                             },
                                             [
                                               _vm._v(
@@ -1440,18 +1432,7 @@ var render = function() {
                                               ),
                                               _c("br")
                                             ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c("p", {
-                                            staticClass:
-                                              "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10",
-                                            staticStyle: {
-                                              "max-width": "700px"
-                                            },
-                                            domProps: {
-                                              innerHTML: _vm._s(item.others)
-                                            }
-                                          })
+                                          )
                                         ]
                                       )
                                     ],

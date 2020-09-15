@@ -1,6 +1,6 @@
 <template>
     <v-footer dark padless elevation="24">
-        <v-layout>
+        <v-container fluid class="ma-0 pa-0">
             <v-card flat tile class="primary darken-3  white--text">
                 <v-row class="ma-0 pa-0">
                     <v-col class="mx-4 pa-0 d-flex justify-start align-center ">
@@ -60,7 +60,7 @@
                     </v-col>
                 </v-row>
             </v-card>
-        </v-layout>
+        </v-container>
     </v-footer>
 </template>
 

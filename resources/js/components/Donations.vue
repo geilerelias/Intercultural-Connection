@@ -25,72 +25,74 @@
         <section class="mt-12">
             <v-container>
                 <v-row>
-                    <v-col cols="12" md="6">
-                        <h3
-                            class="text-uppercase primary--text title font-weight-bold mb-1 text-left mb-4"
-                        >
-                            AYUDAR AHORA, ES SIMPLE
-                        </h3>
+                    <v-col cols="12">
+
+                        <div class="base-section-heading text-center ">
+                            <h3 class="text-uppercase text-h6 font-weight-bold  text-left">
+                                AYUDAR AHORA, ES SIMPLE
+                            </h3>
+                            <v-divider class="primary  mr-auto mb-3" style="max-width: 28px;"></v-divider>
+                        </div>
                         <p
                             class="base-body body-1 grey--text text--darken-1 text-left mb-6 text-justify"
                         >
-                            atrévete a caminar aunque sea dezcalzo,
+                            atrévete a caminar aunque sea descalzo,
                             a sonreír aunque no tengas motivos, a ayudar a otros sin recibir aplausos.
                             <v-subheader>
                                 Anonymous.
                             </v-subheader>
                             <br>
-                            Aveces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar sria menos si le faltara esa gota.
+                            Aveces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar seria menos
+                            si
+                            le faltara esa gota.
 
                             <v-subheader>
                                 Madre Teresa de Calcuta.
                             </v-subheader>
                         </p>
 
-                        <div
-                            v-for="item in contact"
-                            :key="item.name"
-                            class="pt-2 mb-0 d-flex justify-start align-content-start align-start"
-                        >
-                            <div
-                                class="base-avatar d-inline-flex mb-3 "
-                                style="margin-left:-10"
-                            >
-                                <v-icon
-                                    color="primary"
-                                    size="32"
-                                    class="mt-6"
-                                    v-text="item.icon"
-                                />
-                            </div>
-                            <div class="ml-3">
-                                <h3
-                                    class="text-uppercase font-weight-black subtitle-2 mb-1 text-left primary--text"
-                                >
-                                    {{ item.name }}
-                                </h3>
-                                <div
-                                    class="base-body body-1 mx-auto  text--lighten-1 text-left mb-0"
-                                >
-                                    <div v-html="item.content"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </v-col>
-                    <v-col cols="12" md="6">
-                        <h3
-                            class="text-uppercase title primary--text  font-weight-bold mb-1 text-left mb-4"
-                        >
-                            Envíanos un correo electrónico
-                        </h3>
 
+                        <div class="base-section-heading text-center ">
+                            <h3 class="text-uppercase text-h6 font-weight-bold  text-left">
+                                Envíanos un correo electrónico
+                            </h3>
+                            <v-divider class="primary  mr-auto mb-3" style="max-width: 28px;"></v-divider>
+                        </div>
+                        <p>¿Cuanto quieres aportar?</p>
+                        <v-card
+                            class="d-flex flex-row mb-6 justify-start align-center"
+                            color="transparent"
+                            flat
+                            tile
+                        >
+                            <v-radio-group v-model="valor" row>
+                                <v-radio label="$50.000" value="50000"></v-radio>
+                                <v-radio label="$100.000" value="100000"></v-radio>
+                                <v-radio label="$200.000" value="200000"></v-radio>
+                                <v-radio label="$300.000" value="300000"></v-radio>
+                                <v-radio label="$400.000" value="400000"></v-radio>
+                            </v-radio-group>
+
+                            <div class="mr-3">
+                                Otro valor
+                            </div>
+                            <div>
+                                <v-text-field
+                                    label="Amount"
+                                    value="0.00"
+                                    prefix="$"
+                                    type="number"
+                                ></v-text-field>
+                            </div>
+                        </v-card>
                         <v-form>
                             <div>
                                 <div>
                                     <v-text-field
                                         v-model="message.name"
-                                        label="Nombre"
+                                        label="Nombres"
                                         outlined
+                                        prepend-inner-icon="mdi-face"
                                     ></v-text-field>
                                     <v-text-field
                                         v-model="message.email"
@@ -98,13 +100,9 @@
                                         label="Correo"
                                         outlined
                                         type="email"
+                                        prepend-inner-icon="mdi-email"
                                     ></v-text-field>
 
-                                    <v-text-field
-                                        v-model="message.subject"
-                                        outlined
-                                        label="Tema"
-                                    ></v-text-field>
                                     <v-textarea
                                         v-model="message.content"
                                         outlined
@@ -191,6 +189,7 @@ export default {
                 subject: '',
                 content: ''
             },
+            valor: null
         };
     },
     methods: {
