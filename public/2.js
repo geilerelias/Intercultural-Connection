@@ -80,6 +80,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -335,7 +336,14 @@ var render = function() {
               expression: "fab"
             }
           ],
-          attrs: { fab: "", dark: "", fixed: "", bottom: "", right: "" },
+          attrs: {
+            color: "primary",
+            fab: "",
+            dark: "",
+            fixed: "",
+            bottom: "",
+            right: ""
+          },
           on: { click: _vm.toTop }
         },
         [_c("v-icon", [_vm._v("mdi-chevron-up")])],

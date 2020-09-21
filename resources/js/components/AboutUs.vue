@@ -48,11 +48,11 @@
 
             <v-card
                 class="mx-auto mb-6 px-6"
-                max-width="70vw"
+                :max-width="$vuetify.breakpoint.smAndDown?'90vw':'70vw'"
                 style="margin-top: -64px;"
             >
                 <v-card-title primary-title>
-                    <h2 class="mt-4 headline">
+                    <h2 class="mt-4 headline text-justify">
                         SOMOS LA
                         <strong>
                             FUNDACIÓN INTERCULTURAL CONNECTIONS.
@@ -274,6 +274,8 @@
                 </ul>
             </v-container>
         </v-card>
+
+
     </v-app>
 </template>
 

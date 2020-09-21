@@ -75,23 +75,76 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       icons: ["mdi-facebook", "mdi-twitter", "mdi-google-plus", "mdi-linkedin", "mdi-instagram"],
       links: [{
-        text: "home"
+        to: "/",
+        title: "home",
+        icon: 'mdi-home'
       }, {
-        text: "about-us"
+        to: "about-us",
+        title: "about-us",
+        icon: 'mdi-account-question'
       }, {
-        text: "our-services"
+        to: "our-services",
+        title: "our-services",
+        icon: 'mdi-face-agent'
       }, {
-        text: "projects"
+        to: "projects",
+        title: "projects",
+        icon: 'mdi-folder-multiple'
       }, {
-        text: "donations"
+        to: "donations",
+        title: "donations",
+        icon: 'mdi-hand-heart'
       }, {
-        text: "contact-us"
-      }]
+        to: "contact-us",
+        title: "contact-us",
+        icon: 'mdi-card-account-mail'
+      }],
+      services: [{
+        title: "Acompañamiento Al Tránsito De Colegios Académicos Regulares A\n" + "Colegios Bilingües."
+      }, {
+        title: "Formulación Proyecto Tipo De Bilingüismo DNP A Entidades\n" + "Territoriales"
+      }, {
+        title: "Formación en Ingles"
+      }, {
+        title: "Preparación a estudiantes para la prueba SABER 11º."
+      }, {
+        title: "English Together"
+      }, {
+        title: "Connecting Knowledge"
+      }, {
+        title: "Laboratorios de innovación Bilingüe:"
+      }, {
+        title: "Campamentos de Inmersión bilingüe"
+      }],
+      service: null
     };
   }
 });
@@ -192,7 +245,7 @@ var render = function() {
                     [
                       _c("h3", { staticClass: "headline mb-3 text-center" }, [
                         _vm._v(
-                          "\n                        Intercultural Connections\n                    "
+                          "\n                        Fundación Intercultural Connections\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -217,26 +270,124 @@ var render = function() {
                     "div",
                     { staticClass: "primary darken-1 pa-5 col-md-9 col-12 " },
                     [
-                      _c(
-                        "v-row",
-                        _vm._l(10, function(item) {
-                          return _c(
-                            "div",
-                            {
-                              key: item,
-                              staticClass: "col-md-6 col-12 white--text"
-                            },
-                            [
-                              _vm._v(
-                                "\n                            texto " +
-                                  _vm._s(item) +
-                                  "\n                        "
-                              )
-                            ]
-                          )
-                        }),
-                        0
-                      )
+                      _c("v-row", [
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-12 white--text" },
+                          [
+                            _c(
+                              "v-list",
+                              {
+                                attrs: {
+                                  rounded: "",
+                                  color: "transparent",
+                                  dense: ""
+                                }
+                              },
+                              [
+                                _c("v-subheader", [_vm._v("Links")]),
+                                _vm._v(" "),
+                                _c(
+                                  "v-list-item-group",
+                                  { attrs: { color: "primary" } },
+                                  _vm._l(_vm.links, function(item, i) {
+                                    return _c(
+                                      "v-list-item",
+                                      { key: i, attrs: { to: item.to } },
+                                      [
+                                        _c(
+                                          "v-list-item-icon",
+                                          [
+                                            _c("v-icon", {
+                                              domProps: {
+                                                textContent: _vm._s(item.icon)
+                                              }
+                                            })
+                                          ],
+                                          1
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "v-list-item-content",
+                                          [
+                                            _c("v-list-item-title", [
+                                              _vm._v(_vm._s(_vm.$t(item.title)))
+                                            ])
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  }),
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-12 white--text" },
+                          [
+                            _c(
+                              "v-list",
+                              {
+                                attrs: {
+                                  rounded: "",
+                                  color: "transparent",
+                                  dense: ""
+                                }
+                              },
+                              [
+                                _c("v-subheader", [
+                                  _vm._v("Servicios que ofrecemos")
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "v-list-item-group",
+                                  {
+                                    attrs: { color: "primary" },
+                                    model: {
+                                      value: _vm.service,
+                                      callback: function($$v) {
+                                        _vm.service = $$v
+                                      },
+                                      expression: "service"
+                                    }
+                                  },
+                                  _vm._l(_vm.services, function(item, i) {
+                                    return _c(
+                                      "v-list-item",
+                                      { key: i },
+                                      [
+                                        _c(
+                                          "v-list-item-content",
+                                          [
+                                            _c("v-list-item-title", {
+                                              domProps: {
+                                                textContent: _vm._s(item.title)
+                                              }
+                                            })
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  }),
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ])
                     ],
                     1
                   ),
@@ -245,7 +396,7 @@ var render = function() {
                     _vm._v(
                       "\n                    © 2019 - " +
                         _vm._s(new Date().getFullYear()) +
-                        "\n                    Intercultural Connection — All Rights reserved.\n                "
+                        "\n                    Fundación Intercultural Connection — All Rights reserved.\n                "
                     )
                   ])
                 ],

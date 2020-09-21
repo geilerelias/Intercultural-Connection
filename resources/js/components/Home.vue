@@ -60,256 +60,273 @@
 
         </v-sheet>
         <br/>
-        <h2 class="display-1 font-weight-light text-center mb-4">
-            {{ $t("outstanding-news") }}
-        </h2>
 
-        <v-container>
-            <v-row class="mb-6 d-flex child-flex" no-gutters>
-                <v-col cols="12" sm="8">
-                    <v-subheader class="title">
+        <section id="notices">
+            <div class="text-center py-9 grey lighten-4 mb-4">
+                <v-avatar class="mb-4 primary" size="60 ">
+                    <v-icon color="white" class="text--white">mdi-newspaper-variant-multiple-outline</v-icon>
+                </v-avatar>
+                <h1 class="text-uppercase headline font-weight-bold mb-2 text-center">
+                    {{ $t("outstanding-news") }}
+                </h1>
+                <v-divider class="primary mx-auto" style="max-width: 28px;">
+                </v-divider>
+            </div>
+            <v-container>
+                <v-row class="mb-6 d-flex child-flex" no-gutters>
+                    <v-col cols="12" sm="8">
+                        <v-subheader class="title">
                        <span class="title">
                            COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU COMUNIDAD
                            EDUCATIVA
                        </span>
-                    </v-subheader>
-                    <v-subheader>
-                        <i class="caption">Valledupar, 25 de febrero de 2019.</i>
-                    </v-subheader>
+                        </v-subheader>
+                        <v-subheader>
+                            <i class="caption">Valledupar, 25 de febrero de 2019.</i>
+                        </v-subheader>
 
-                    <v-card class="ma-2" outlined tile>
+                        <v-card class="ma-2" outlined tile>
 
-                        <v-carousel cycle hide-delimiters>
-                            <v-carousel-item
-                                v-for="(item,i) in carousel"
-                                :key="i"
-                                aspect-ratio="1.7"
-                                :src="item.src"
-                            >
-                                <template v-slot:placeholder>
+                            <v-carousel cycle hide-delimiters>
+                                <v-carousel-item
+                                    v-for="(item,i) in carousel"
+                                    :key="i"
+                                    aspect-ratio="1.7"
+                                    :src="item.src"
+                                >
+                                    <template v-slot:placeholder>
+                                        <v-row
+                                            class="fill-height ma-0"
+                                            align="center"
+                                            justify="center"
+                                        >
+                                            <v-progress-circular
+                                                indeterminate
+                                                color="grey lighten-5"
+                                            >
+
+                                            </v-progress-circular>
+                                        </v-row>
+                                    </template>
                                     <v-row
-                                        class="fill-height ma-0"
-                                        align="center"
+                                        class="fill-height"
+                                        align="end"
                                         justify="center"
                                     >
-                                        <v-progress-circular
-                                            indeterminate
-                                            color="grey lighten-5"
-                                        >
-
-                                        </v-progress-circular>
+                                        <v-col class=" justify-center aling-center centered" color="#00000099"
+                                               align="end"
+                                               justify="center">
+                                            <v-card class="d-flex justify-center pa-2" color="#00000099">
+                                                <v-btn block text class=""
+                                                       href="http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE">
+                                                    learn more
+                                                </v-btn>
+                                            </v-card>
+                                        </v-col>
                                     </v-row>
-                                </template>
+                                </v-carousel-item>
+                            </v-carousel>
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12 mt-12 pt-6" sm="4">
+                        <v-list three-line>
+                            <template v-for="(item, index) in notices">
+                                <v-subheader
+                                    v-if="item.header"
+                                    :key="item.header"
+                                    v-text="item.header"
+                                ></v-subheader>
+
+                                <v-divider
+                                    v-else-if="item.divider"
+                                    :key="index"
+                                    :inset="item.inset"
+                                ></v-divider>
+
+                                <v-list-item v-else :key="index" @click="$vuetify.goTo(item.to)">
+                                    <v-list-item-content>
+                                        <v-list-item-title
+                                            v-html="item.title"
+                                        ></v-list-item-title>
+                                        <v-list-item-subtitle
+                                            v-html="item.content"
+                                        ></v-list-item-subtitle>
+                                    </v-list-item-content>
+                                </v-list-item>
+                            </template>
+                        </v-list>
+                    </v-col>
+                </v-row>
+                <v-divider></v-divider>
+                <v-row class="my-6" id="notice-1">
+                    <v-col cols="12" sm="6">
+                        <v-img
+                            height="300"
+                            :src="require('../../images/home/certificates of participation in TIA program.jpeg')"
+                            aspect-ratio="1.7"
+                        >
+                            <template v-slot:placeholder>
                                 <v-row
-                                    class="fill-height"
-                                    align="end"
+                                    class="fill-height ma-0"
+                                    align="center"
                                     justify="center"
                                 >
-                                    <v-col class=" justify-center aling-center centered" color="#00000099" align="end"
-                                           justify="center">
-                                        <v-card class="d-flex justify-center pa-2" color="#00000099">
-                                            <v-btn block text class=""
-                                                   href="http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE">
-                                                learn more
-                                            </v-btn>
-                                        </v-card>
-                                    </v-col>
+                                    <v-progress-circular
+                                        indeterminate
+                                        color="grey lighten-5"
+                                    ></v-progress-circular>
                                 </v-row>
-                            </v-carousel-item>
-                        </v-carousel>
-                    </v-card>
-                </v-col>
-                <v-col cols="12" sm="4">
-                    <v-list three-line>
-                        <template v-for="(item, index) in notices">
-                            <v-subheader
-                                v-if="item.header"
-                                :key="item.header"
-                                v-text="item.header"
-                            ></v-subheader>
+                            </template>
+                        </v-img>
+                    </v-col>
 
-                            <v-divider
-                                v-else-if="item.divider"
-                                :key="index"
-                                :inset="item.inset"
-                            ></v-divider>
+                    <v-col cols="12" sm="6">
+                        <v-card class="mx-auto" tile flat height="300">
+                            <v-card-text>
+                                <div>Noviembre 2019</div>
+                                <p class="display-1 text--primary">
+                                    Certificates of participation in TIA program
+                                </p>
+                                <div class="text--primary">
+                                    Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of
+                                    participation
+                                    in TIA program
+                                </div>
+                                <p>Tulsa, USA</p>
+                            </v-card-text>
+                            <v-card-actions>
+                                <v-btn text color="deep-purple accent-4">
+                                    Learn More
+                                </v-btn>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
+                </v-row>
+                <v-row class="my-6" id="notice-2">
+                    <v-col cols="12" sm="6">
+                        <v-img
+                            height="300"
+                            :src="require('../../images/home/docentes y estudiantes del colegio.jpeg')"
+                            aspect-ratio="1.7"
+                        >
+                            <template v-slot:placeholder>
+                                <v-row
+                                    class="fill-height ma-0"
+                                    align="center"
+                                    justify="center"
+                                >
+                                    <v-progress-circular
+                                        indeterminate
+                                        color="grey lighten-5"
+                                    ></v-progress-circular>
+                                </v-row>
+                            </template>
+                        </v-img>
+                    </v-col>
+                    <v-col cols="12" sm="6">
+                        <v-card class="mx-auto" tile flat height="300">
+                            <v-card-text>
+                                <div>Noviembre 2019</div>
+                                <p class="display-1 text--primary">
+                                    Actividad cultural
+                                </p>
+                                <div class="text--primary">
+                                    Docentes y estudiantes del colegio XXXX de Comfacesar en actividad cultural en TCC
+                                    Northeast Campus 2019.
+                                </div>
+                                <p>Tulsa, USA</p>
+                            </v-card-text>
 
-                            <v-list-item v-else :key="index" @click="$vuetify.goTo(item.to)">
-                                <v-list-item-content>
-                                    <v-list-item-title
-                                        v-html="item.title"
-                                    ></v-list-item-title>
-                                    <v-list-item-subtitle
-                                        v-html="item.content"
-                                    ></v-list-item-subtitle>
-                                </v-list-item-content>
-                            </v-list-item>
-                        </template>
-                    </v-list>
-                </v-col>
-            </v-row>
-            <v-divider></v-divider>
-            <v-row class="my-6" id="notice-1">
-                <v-col cols="12" sm="6">
-                    <v-img
-                        height="300"
-                        :src="require('../../images/home/certificates of participation in TIA program.jpeg')"
-                        aspect-ratio="1.7"
-                    >
-                        <template v-slot:placeholder>
-                            <v-row
-                                class="fill-height ma-0"
-                                align="center"
-                                justify="center"
-                            >
-                                <v-progress-circular
-                                    indeterminate
-                                    color="grey lighten-5"
-                                ></v-progress-circular>
-                            </v-row>
-                        </template>
-                    </v-img>
-                </v-col>
+                            <v-card-actions>
+                                <v-btn text color="deep-purple accent-4">
+                                    Learn More
+                                </v-btn>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
 
-                <v-col cols="12" sm="6">
-                    <v-card class="mx-auto" tile flat height="300">
-                        <v-card-text>
-                            <div>Noviembre 2019</div>
-                            <p class="display-1 text--primary">
-                                Certificates of participation in TIA program
-                            </p>
-                            <div class="text--primary">
-                                Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of participation
-                                in TIA program
-                            </div>
-                            <p>Tulsa, USA</p>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn text color="deep-purple accent-4">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                </v-col>
-            </v-row>
-            <v-row class="my-6" id="notice-2">
-                <v-col cols="12" sm="6">
-                    <v-img
-                        height="300"
-                        :src="require('../../images/home/docentes y estudiantes del colegio.jpeg')"
-                        aspect-ratio="1.7"
-                    >
-                        <template v-slot:placeholder>
-                            <v-row
-                                class="fill-height ma-0"
-                                align="center"
-                                justify="center"
-                            >
-                                <v-progress-circular
-                                    indeterminate
-                                    color="grey lighten-5"
-                                ></v-progress-circular>
-                            </v-row>
-                        </template>
-                    </v-img>
-                </v-col>
-                <v-col cols="12" sm="6">
-                    <v-card class="mx-auto" tile flat height="300">
-                        <v-card-text>
-                            <div>Noviembre 2019</div>
-                            <p class="display-1 text--primary">
-                                Actividad cultural
-                            </p>
-                            <div class="text--primary">
-                                Docentes y estudiantes del colegio XXXX de Comfacesar en actividad cultural en TCC
-                                Northeast Campus 2019.
-                            </div>
-                            <p>Tulsa, USA</p>
-                        </v-card-text>
+                </v-row>
+                <v-row class="my-6">
+                    <v-col v-for="n in 5" :key="n" class="d-flex child-flex" sm="6">
+                        <v-row>
+                            <v-col>
+                                <v-list three-line>
+                                    <template>
+                                        <v-subheader
+                                            v-if="items[1].header"
+                                            :key="items[1].header"
+                                            v-text="items[1].header"
+                                        ></v-subheader>
 
-                        <v-card-actions>
-                            <v-btn text color="deep-purple accent-4">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                </v-col>
+                                        <v-divider
+                                            v-else-if="items[1].divider"
+                                            :key="index"
+                                            :inset="items[1].inset"
+                                        ></v-divider>
 
-            </v-row>
-            <v-row class="my-6">
-                <v-col v-for="n in 5" :key="n" class="d-flex child-flex" sm="6">
-                    <v-row>
-                        <v-col>
-                            <v-list three-line>
-                                <template>
-                                    <v-subheader
-                                        v-if="items[1].header"
-                                        :key="items[1].header"
-                                        v-text="items[1].header"
-                                    ></v-subheader>
-
-                                    <v-divider
-                                        v-else-if="items[1].divider"
-                                        :key="index"
-                                        :inset="items[1].inset"
-                                    ></v-divider>
-
-                                    <v-list-item
-                                        class="ma-0"
-                                        v-else
-                                        :key="items[1].title"
-                                        @click=""
-                                    >
-                                        <v-list-item-content>
-                                            <v-img
-                                                height="150"
-                                                :src="`https://picsum.photos/500/300?image=${
+                                        <v-list-item
+                                            class="ma-0"
+                                            v-else
+                                            :key="items[1].title"
+                                            @click=""
+                                        >
+                                            <v-list-item-content>
+                                                <v-img
+                                                    height="150"
+                                                    :src="`https://picsum.photos/500/300?image=${
                                                     n * 5 + 10
                                                 }`"
-                                                aspect-ratio="1.7"
-                                                class="grey lighten-2"
-                                            >
-                                                <template v-slot:placeholder>
-                                                    <v-row
-                                                        class="fill-height ma-0"
-                                                        align="center"
-                                                        justify="center"
-                                                    >
-                                                        <v-progress-circular
-                                                            indeterminate
-                                                            color="grey lighten-5"
-                                                        ></v-progress-circular>
-                                                    </v-row>
-                                                </template>
-                                            </v-img>
-                                        </v-list-item-content>
-                                        <v-list-item-content class="ml-3">
-                                            <v-list-item-title
-                                                v-html="items[1].title"
-                                            ></v-list-item-title>
-                                            <v-list-item-subtitle
-                                                v-html="items[1].subtitle"
-                                            ></v-list-item-subtitle>
-                                        </v-list-item-content>
-                                    </v-list-item>
-                                </template>
-                            </v-list>
-                            <v-divider></v-divider>
-                        </v-col>
-                    </v-row>
-                </v-col>
-            </v-row>
-        </v-container>
+                                                    aspect-ratio="1.7"
+                                                    class="grey lighten-2"
+                                                >
+                                                    <template v-slot:placeholder>
+                                                        <v-row
+                                                            class="fill-height ma-0"
+                                                            align="center"
+                                                            justify="center"
+                                                        >
+                                                            <v-progress-circular
+                                                                indeterminate
+                                                                color="grey lighten-5"
+                                                            ></v-progress-circular>
+                                                        </v-row>
+                                                    </template>
+                                                </v-img>
+                                            </v-list-item-content>
+                                            <v-list-item-content class="ml-3">
+                                                <v-list-item-title
+                                                    v-html="items[1].title"
+                                                ></v-list-item-title>
+                                                <v-list-item-subtitle
+                                                    v-html="items[1].subtitle"
+                                                ></v-list-item-subtitle>
+                                            </v-list-item-content>
+                                        </v-list-item>
+                                    </template>
+                                </v-list>
+                                <v-divider></v-divider>
+                            </v-col>
+                        </v-row>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </section>
 
         <v-divider></v-divider>
 
-        <div class="mb-12">
+        <section id="team" class="mb-12">
+
+            <div class="text-center py-9 grey lighten-5 mb-4">
+                <v-avatar class="mb-4 primary" size="60 ">
+                    <v-icon color="white" class="text--white">mdi-account-group-outline</v-icon>
+                </v-avatar>
+                <h1 class="text-uppercase headline font-weight-bold mb-2 text-center">
+                    {{ $t("meet-team") }}
+                </h1>
+                <v-divider class="primary mx-auto" style="max-width: 28px;">
+                </v-divider>
+            </div>
             <v-container grid-list-xl>
-                <v-row class="align-center layout justify-center">
-                    <div class="grow hidden-sm-and-down col">
-                        <h1>{{ $t("meet-team") }}</h1>
-                    </div>
-                </v-row>
 
                 <div class="layout justify-center wrap">
                     <div
@@ -336,7 +353,9 @@
                                                     class="body-2 primary darken-4"
 
                                                 >
-                                                    <p class="pa-6 text-justify">{{ item.description }}</p>
+                                                    <perfect-scrollbar>
+                                                        <p class="pa-6 " v-html="item.description"></p>
+                                                    </perfect-scrollbar>
                                                 </v-container>
                                             </div>
                                         </v-expand-transition>
@@ -358,7 +377,7 @@
                     </div>
                 </div>
             </v-container>
-        </div>
+        </section>
 
     </v-app>
 </template>
@@ -482,26 +501,35 @@ export default {
                     "images/team/Jenis Sagbini.jpg",
                 name: "Jenis Sagbini",
                 email: "contacto@jenissagbini.com",
-                occupation: "Asesora Estratégica",
-                description: `<p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt
-                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem
-                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque
-                       </p> `
+                occupation: "Directora de Marketing",
+                description: `
+                     Ingeniera de Sistemas con MSc en Marketing y
+                     Dirección Comercial y con MSc en Gobierno de Tecnologías
+                     de la Información. Con amplia experiencia en Estrategias
+                     comerciales, manejo del recurso humano y capacitación.
+                     Docente Universitaria, Investigadora, Asesora Tecnológica
+                     y Conferencista Internacional. `
             },
             {
                 img:
                     "images/team/Stefanny Castrillo.jpg",
                 name: "Stefanny Castrillo",
                 email: "StefannyCastrillo@hotmail.com",
-                occupation: "Social Media Manager ",
-                description: `<p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt
-                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem
-                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque
-                       </p> `
+                occupation: "Community Manager",
+                description: `Ingeniera Industrial, egresada de la Universidad de
+                Santander-Campus  Valledupar. Con competencias para la creación y
+                dirección de empresas y gestora de proyectos enfocados en el entorno
+                educativo y empresarial. Con experiencia práctica de implementación
+                de proyectos enfocados en la estandarización y optimización de
+                procesos logísticos en la fábrica de Cueros Veléz S.A.S.Ha
+                tenido la oportunidad de liderar procesos y proyectos como
+                director de desarrollo (2017) y  presidente (2018-2019)
+                en la Asociación Nacional de Estudiantes de Ingeniería Industrial,
+                Administrativa y de Producción -ANEIAP , logrando aportar en el crecimiento
+                tanto personal como profesional de los asociados. Ha participado en la gestión
+                y organización de eventos regionales y nacionales dirigidos a estudiantes.
+                Vinculada actualmente al proyecto bilingüe e intercultural de organizaciones
+                internacionales como TCC (Tulsa Community College).`
             },
             {
                 img:
@@ -509,12 +537,9 @@ export default {
                 name: "Geiler Radillo",
                 email: "geilerelias@hotmail.com",
                 occupation: "Desarrollador ",
-                description: `<p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt
-                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem
-                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque
-                       </p> `
+                description: `Ingeniero de Sistemas, egresado de la Universidad Popular del Cesar.
+                 Con amplios conocimientos en la gestión de las tecnologías de la información y
+                 la comunicación con énfasis en el desarrollo de software`
             },
         ],
         colors: [
@@ -553,7 +578,7 @@ export default {
 
 <style>
 .ps {
-    height: 200px;
+    height: 350px;
 }
 
 .v-card--reveal {

@@ -9,6 +9,8 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -104,6 +106,77 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -115,8 +188,77 @@ __webpack_require__.r(__webpack_exports__);
         text: "Contact Us",
         disabled: true,
         href: "/contact-us"
+      }],
+      snackbar: false,
+      text: '',
+      timeout: 2000,
+      dialog: false,
+      message: {
+        name: '',
+        email: '',
+        subject: '',
+        content: ''
+      },
+      contact: [{
+        icon: "mdi-map-marker-outline",
+        name: "Dirección",
+        content: "<div class=\"mb-2 font-weight-black\">2620 Smith Drive</div>Valledupar Cesar - Colombia"
+      }, {
+        icon: "mdi-cellphone",
+        name: "Teléfonos",
+        content: "<div class=\"mb-2 font-weight-black\">+57 310 789 74 85. </div>+1 (321) 383-4531"
+      }, {
+        icon: "mdi-email",
+        name: "Correos",
+        content: "<div class=\"mb-2 font-weight-black\">contacto@interculturalconnections.org</div>alexandercastrillo@hotmail.com"
       }]
     };
+  },
+  methods: {
+    enviar: function enviar() {
+      var _this = this;
+
+      if (this.message.name.trim() === '' || this.message.content.trim() === '') {
+        this.text = 'Debes completar todos los campos antes de enviar';
+        this.snackbar = true;
+        return;
+      }
+
+      this.dialog = true;
+      var messageNuevo = this.message;
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/message', messageNuevo).then(function (response) {
+        if (response.status == 200) {
+          console.log(response);
+          console.log(response.data);
+          _this.dialog = false;
+          _this.message = {
+            name: '',
+            email: '',
+            subject: '',
+            content: ''
+          };
+          Swal.fire('Buen trabajo', 'Mensaje enviado con éxito!', 'success');
+        } else {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong!',
+            footer: '<a href>Why do I have this issue?</a>'
+          });
+          console.log(response.data);
+          _this.dialog = false;
+        }
+      })["catch"](function (error) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong!',
+          footer: '<a href>Why do I have this issue?</a>'
+        });
+        console.log(error);
+        _this.dialog = false;
+      });
+    }
   }
 });
 
@@ -188,164 +330,210 @@ var render = function() {
       ),
       _vm._v(" "),
       _c(
-        "v-container",
-        { staticClass: "my-12" },
+        "section",
+        { staticClass: "mt-12" },
         [
           _c(
-            "v-row",
-            { staticClass: "d-flex align-end justify-center" },
-            [
-              _c("v-col", { attrs: { md: "3", cols: "12" } }, [
-                _c(
-                  "div",
-                  { staticClass: "text-center" },
-                  [
-                    _c("v-icon", { attrs: { size: "64" } }, [
-                      _vm._v("mdi-crosshairs-gps")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "mb-2 headline" }, [
-                      _vm._v("2620 Smith Drive")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", [_vm._v("Titusville, FL 32796")])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("v-col", { attrs: { md: "3", cols: "12" } }, [
-                _c(
-                  "div",
-                  { staticClass: "text-center" },
-                  [
-                    _c("v-icon", { attrs: { size: "64" } }, [
-                      _vm._v("mdi-email")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "mb-2 headline" }, [
-                      _vm._v("info@example.com")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", [_vm._v("contact@example.com")])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("v-col", { attrs: { md: "3", cols: "12" } }, [
-                _c(
-                  "div",
-                  { staticClass: "text-center" },
-                  [
-                    _c("v-icon", { attrs: { size: "64" } }, [
-                      _vm._v("mdi-phone")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "mb-2 headline" }, [
-                      _vm._v("+1 (321) 383-4531")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", [_vm._v("+1 (321) 383-4531")])
-                  ],
-                  1
-                )
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-card",
-        { attrs: { flat: "", color: "indigo lighten-5" } },
-        [
-          _c(
-            "v-form",
-            { staticClass: "v-form", attrs: { novalidate: "novalidate" } },
+            "v-container",
             [
               _c(
-                "v-container",
+                "v-row",
                 [
                   _c(
-                    "v-row",
+                    "v-col",
+                    { attrs: { cols: "12", md: "6" } },
                     [
                       _c(
-                        "v-col",
-                        { attrs: { cols: "12" } },
-                        [
-                          _c("v-text-field", {
-                            attrs: {
-                              label: _vm.$t("your-name") + "*",
-                              outlined: ""
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "v-col",
-                        { attrs: { cols: "12" } },
-                        [
-                          _c("v-text-field", {
-                            attrs: {
-                              label: _vm.$t("your-email") + "*",
-                              outlined: "",
-                              type: "email"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "v-col",
-                        { attrs: { cols: "12" } },
-                        [
-                          _c("v-text-field", {
-                            attrs: {
-                              outlined: "",
-                              label: _vm.$t("subject") + "*"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "v-col",
-                        { attrs: { cols: "12" } },
-                        [
-                          _c("v-textarea", {
-                            attrs: {
-                              outlined: "",
-                              label: _vm.$t("your-message") + "*"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "v-col",
+                        "h3",
                         {
-                          staticClass: "d-flex justify-end align-center",
-                          attrs: { cols: "12" }
+                          staticClass:
+                            "text-uppercase primary--text title font-weight-bold mb-1 text-left mb-4"
                         },
                         [
-                          _c("v-btn", { attrs: { outlined: "", dark: "" } }, [
-                            _vm._v(
-                              "\n                            " +
-                                _vm._s(_vm.$t("send")) +
-                                "\n                        "
-                            )
-                          ])
-                        ],
-                        1
-                      )
+                          _vm._v(
+                            "\n                        MANTENTE EN CONTACTO CON NOSOTROS\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "base-body body-1 grey--text text--darken-1 text-left mb-6 text-justify"
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Si quieres saber mas de lo que hacemos y como podemos\n                        ayudarte, no dudes en escribirnos a nuestros correos\n                        electrónicos o llamar a cualquiera de los números\n                        telefónicos que tenemos disponibles para ti. Para\n                        nosotros es un placer poder servirte.\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _vm._l(_vm.contact, function(item) {
+                        return _c(
+                          "div",
+                          {
+                            key: item.name,
+                            staticClass:
+                              "pt-2 mb-0 d-flex justify-start align-content-start align-start"
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass: "base-avatar d-inline-flex mb-3 ",
+                                staticStyle: { "margin-left": "-10px" }
+                              },
+                              [
+                                _c("v-icon", {
+                                  staticClass: "mt-6",
+                                  attrs: { color: "primary", size: "32" },
+                                  domProps: { textContent: _vm._s(item.icon) }
+                                })
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "ml-3" }, [
+                              _c(
+                                "h3",
+                                {
+                                  staticClass:
+                                    "text-uppercase font-weight-black subtitle-2 mb-1 text-left primary--text"
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                " +
+                                      _vm._s(item.name) +
+                                      "\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "base-body body-1 mx-auto  text--lighten-1 text-left mb-0"
+                                },
+                                [
+                                  _c("div", {
+                                    domProps: {
+                                      innerHTML: _vm._s(item.content)
+                                    }
+                                  })
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", md: "6" } },
+                    [
+                      _c(
+                        "h3",
+                        {
+                          staticClass:
+                            "text-uppercase title primary--text  font-weight-bold mb-1 text-left mb-4"
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Envíanos un correo electrónico\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("v-form", [
+                        _c("div", [
+                          _c(
+                            "div",
+                            [
+                              _c("v-text-field", {
+                                attrs: { label: "Nombre", outlined: "" },
+                                model: {
+                                  value: _vm.message.name,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "name", $$v)
+                                  },
+                                  expression: "message.name"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("v-text-field", {
+                                attrs: {
+                                  small: "",
+                                  label: "Correo",
+                                  outlined: "",
+                                  type: "email"
+                                },
+                                model: {
+                                  value: _vm.message.email,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "email", $$v)
+                                  },
+                                  expression: "message.email"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("v-text-field", {
+                                attrs: { outlined: "", label: "Tema" },
+                                model: {
+                                  value: _vm.message.subject,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "subject", $$v)
+                                  },
+                                  expression: "message.subject"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("v-textarea", {
+                                attrs: {
+                                  outlined: "",
+                                  label: "Descripción o Mensaje"
+                                },
+                                model: {
+                                  value: _vm.message.content,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "content", $$v)
+                                  },
+                                  expression: "message.content"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "white--text",
+                                  attrs: {
+                                    disabled: _vm.dialog,
+                                    loading: _vm.dialog,
+                                    color: "primary",
+                                    outlined: "",
+                                    dark: ""
+                                  },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.enviar()
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                    Enviar\n                                "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ])
+                      ])
                     ],
                     1
                   )
@@ -354,6 +542,91 @@ var render = function() {
               )
             ],
             1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-dialog",
+            {
+              attrs: { "hide-overlay": "", persistent: "", width: "300" },
+              model: {
+                value: _vm.dialog,
+                callback: function($$v) {
+                  _vm.dialog = $$v
+                },
+                expression: "dialog"
+              }
+            },
+            [
+              _c(
+                "v-card",
+                { attrs: { color: "primary", dark: "" } },
+                [
+                  _c(
+                    "v-card-text",
+                    { staticClass: "pa-4" },
+                    [
+                      _c("p", { staticClass: "mb-2" }, [
+                        _vm._v("Por favor espere")
+                      ]),
+                      _vm._v(" "),
+                      _c("v-progress-linear", {
+                        staticClass: "mb-0",
+                        attrs: { indeterminate: "", color: "white" }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-snackbar",
+            {
+              attrs: { timeout: _vm.timeout, top: "", color: "error" },
+              scopedSlots: _vm._u([
+                {
+                  key: "action",
+                  fn: function(ref) {
+                    var attrs = ref.attrs
+                    return [
+                      _c(
+                        "v-btn",
+                        _vm._b(
+                          {
+                            attrs: { color: "blue", text: "" },
+                            on: {
+                              click: function($event) {
+                                _vm.snackbar = false
+                              }
+                            }
+                          },
+                          "v-btn",
+                          attrs,
+                          false
+                        ),
+                        [
+                          _vm._v(
+                            "\n                    Close\n                "
+                          )
+                        ]
+                      )
+                    ]
+                  }
+                }
+              ]),
+              model: {
+                value: _vm.snackbar,
+                callback: function($$v) {
+                  _vm.snackbar = $$v
+                },
+                expression: "snackbar"
+              }
+            },
+            [_vm._v("\n            " + _vm._s(_vm.text) + "\n\n            ")]
           )
         ],
         1

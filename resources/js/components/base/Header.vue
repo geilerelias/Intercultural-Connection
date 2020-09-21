@@ -50,6 +50,7 @@
 
         <v-btn
             v-scroll="onScroll"
+            color="primary"
             v-show="fab"
             fab
             dark

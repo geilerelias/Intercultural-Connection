@@ -380,6 +380,23 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -477,14 +494,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         img: "images/team/Jenis Sagbini.jpg",
         name: "Jenis Sagbini",
         email: "contacto@jenissagbini.com",
-        occupation: "Asesora Estratégica",
-        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
+        occupation: "Directora de Marketing",
+        description: "\n                     Ingeniera de Sistemas con MSc en Marketing y\n                     Direcci\xF3n Comercial y con MSc en Gobierno de Tecnolog\xEDas\n                     de la Informaci\xF3n. Con amplia experiencia en Estrategias\n                     comerciales, manejo del recurso humano y capacitaci\xF3n.\n                     Docente Universitaria, Investigadora, Asesora Tecnol\xF3gica\n                     y Conferencista Internacional. "
       }, {
         img: "images/team/Stefanny Castrillo.jpg",
-        name: "Stefanny Castrillo",
+        name: "Stefanny Castrillo Galván",
         email: "StefannyCastrillo@hotmail.com",
-        occupation: "Social Media Manager ",
-        description: "<p>\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt\n                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem\n                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque\n                       </p> "
+        occupation: "Community Manager",
+        description: "Ingeniera Industrial, egresada de la Universidad de\n                Santander-Campus  Valledupar. Con competencias para la creaci\xF3n y\n                direcci\xF3n de empresas y gestora de proyectos enfocados en el entorno\n                educativo y empresarial. Con experiencia pr\xE1ctica de implementaci\xF3n\n                de proyectos enfocados en la estandarizaci\xF3n y optimizaci\xF3n de\n                procesos log\xEDsticos en la f\xE1brica de Cueros Vel\xE9z S.A.S.Ha\n                tenido la oportunidad de liderar procesos y proyectos como\n                director de desarrollo (2017) y  presidente (2018-2019)\n                en la Asociaci\xF3n Nacional de Estudiantes de Ingenier\xEDa Industrial,\n                Administrativa y de Producci\xF3n -ANEIAP , logrando aportar en el crecimiento\n                tanto personal como profesional de los asociados. Ha participado en la gesti\xF3n\n                y organizaci\xF3n de eventos regionales y nacionales dirigidos a estudiantes.\n                Vinculada actualmente al proyecto biling\xFCe e intercultural de organizaciones\n                internacionales como TCC (Tulsa Community College)."
       }, {
         img: "images/team/Geiler Radillo.jpg",
         name: "Geiler Radillo",
@@ -727,130 +744,177 @@ var render = function() {
       _c("br"),
       _vm._v(" "),
       _c(
-        "h2",
-        { staticClass: "display-1 font-weight-light text-center mb-4" },
-        [_vm._v("\n        " + _vm._s(_vm.$t("outstanding-news")) + "\n    ")]
-      ),
-      _vm._v(" "),
-      _c(
-        "v-container",
+        "section",
+        { attrs: { id: "notices" } },
         [
           _c(
-            "v-row",
-            {
-              staticClass: "mb-6 d-flex child-flex",
-              attrs: { "no-gutters": "" }
-            },
+            "div",
+            { staticClass: "text-center py-9 grey lighten-4 mb-4" },
             [
               _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "8" } },
+                "v-avatar",
+                { staticClass: "mb-4 primary", attrs: { size: "60 " } },
                 [
-                  _c("v-subheader", { staticClass: "title" }, [
-                    _c("span", { staticClass: "title" }, [
-                      _vm._v(
-                        "\n                       COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU COMUNIDAD\n                       EDUCATIVA\n                   "
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("v-subheader", [
-                    _c("i", { staticClass: "caption" }, [
-                      _vm._v("Valledupar, 25 de febrero de 2019.")
-                    ])
-                  ]),
-                  _vm._v(" "),
                   _c(
-                    "v-card",
-                    { staticClass: "ma-2", attrs: { outlined: "", tile: "" } },
+                    "v-icon",
+                    { staticClass: "text--white", attrs: { color: "white" } },
+                    [_vm._v("mdi-newspaper-variant-multiple-outline")]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "h1",
+                {
+                  staticClass:
+                    "text-uppercase headline font-weight-bold mb-2 text-center"
+                },
+                [
+                  _vm._v(
+                    "\n                " +
+                      _vm._s(_vm.$t("outstanding-news")) +
+                      "\n            "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("v-divider", {
+                staticClass: "primary mx-auto",
+                staticStyle: { "max-width": "28px" }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-container",
+            [
+              _c(
+                "v-row",
+                {
+                  staticClass: "mb-6 d-flex child-flex",
+                  attrs: { "no-gutters": "" }
+                },
+                [
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", sm: "8" } },
                     [
+                      _c("v-subheader", { staticClass: "title" }, [
+                        _c("span", { staticClass: "title" }, [
+                          _vm._v(
+                            "\n                       COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU COMUNIDAD\n                       EDUCATIVA\n                   "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("v-subheader", [
+                        _c("i", { staticClass: "caption" }, [
+                          _vm._v("Valledupar, 25 de febrero de 2019.")
+                        ])
+                      ]),
+                      _vm._v(" "),
                       _c(
-                        "v-carousel",
-                        { attrs: { cycle: "", "hide-delimiters": "" } },
-                        _vm._l(_vm.carousel, function(item, i) {
-                          return _c(
-                            "v-carousel-item",
-                            {
-                              key: i,
-                              attrs: { "aspect-ratio": "1.7", src: item.src },
-                              scopedSlots: _vm._u(
-                                [
-                                  {
-                                    key: "placeholder",
-                                    fn: function() {
-                                      return [
-                                        _c(
-                                          "v-row",
-                                          {
-                                            staticClass: "fill-height ma-0",
-                                            attrs: {
-                                              align: "center",
-                                              justify: "center"
-                                            }
-                                          },
-                                          [
-                                            _c("v-progress-circular", {
-                                              attrs: {
-                                                indeterminate: "",
-                                                color: "grey lighten-5"
-                                              }
-                                            })
-                                          ],
-                                          1
-                                        )
-                                      ]
-                                    },
-                                    proxy: true
-                                  }
-                                ],
-                                null,
-                                true
-                              )
-                            },
-                            [
-                              _vm._v(" "),
-                              _c(
-                                "v-row",
+                        "v-card",
+                        {
+                          staticClass: "ma-2",
+                          attrs: { outlined: "", tile: "" }
+                        },
+                        [
+                          _c(
+                            "v-carousel",
+                            { attrs: { cycle: "", "hide-delimiters": "" } },
+                            _vm._l(_vm.carousel, function(item, i) {
+                              return _c(
+                                "v-carousel-item",
                                 {
-                                  staticClass: "fill-height",
-                                  attrs: { align: "end", justify: "center" }
+                                  key: i,
+                                  attrs: {
+                                    "aspect-ratio": "1.7",
+                                    src: item.src
+                                  },
+                                  scopedSlots: _vm._u(
+                                    [
+                                      {
+                                        key: "placeholder",
+                                        fn: function() {
+                                          return [
+                                            _c(
+                                              "v-row",
+                                              {
+                                                staticClass: "fill-height ma-0",
+                                                attrs: {
+                                                  align: "center",
+                                                  justify: "center"
+                                                }
+                                              },
+                                              [
+                                                _c("v-progress-circular", {
+                                                  attrs: {
+                                                    indeterminate: "",
+                                                    color: "grey lighten-5"
+                                                  }
+                                                })
+                                              ],
+                                              1
+                                            )
+                                          ]
+                                        },
+                                        proxy: true
+                                      }
+                                    ],
+                                    null,
+                                    true
+                                  )
                                 },
                                 [
+                                  _vm._v(" "),
                                   _c(
-                                    "v-col",
+                                    "v-row",
                                     {
-                                      staticClass:
-                                        " justify-center aling-center centered",
-                                      attrs: {
-                                        color: "#00000099",
-                                        align: "end",
-                                        justify: "center"
-                                      }
+                                      staticClass: "fill-height",
+                                      attrs: { align: "end", justify: "center" }
                                     },
                                     [
                                       _c(
-                                        "v-card",
+                                        "v-col",
                                         {
                                           staticClass:
-                                            "d-flex justify-center pa-2",
-                                          attrs: { color: "#00000099" }
+                                            " justify-center aling-center centered",
+                                          attrs: {
+                                            color: "#00000099",
+                                            align: "end",
+                                            justify: "center"
+                                          }
                                         },
                                         [
                                           _c(
-                                            "v-btn",
+                                            "v-card",
                                             {
-                                              attrs: {
-                                                block: "",
-                                                text: "",
-                                                href:
-                                                  "http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE"
-                                              }
+                                              staticClass:
+                                                "d-flex justify-center pa-2",
+                                              attrs: { color: "#00000099" }
                                             },
                                             [
-                                              _vm._v(
-                                                "\n                                            learn more\n                                        "
+                                              _c(
+                                                "v-btn",
+                                                {
+                                                  attrs: {
+                                                    block: "",
+                                                    text: "",
+                                                    href:
+                                                      "http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                                                learn more\n                                            "
+                                                  )
+                                                ]
                                               )
-                                            ]
+                                            ],
+                                            1
                                           )
                                         ],
                                         1
@@ -861,426 +925,452 @@ var render = function() {
                                 ],
                                 1
                               )
-                            ],
+                            }),
                             1
                           )
-                        }),
+                        ],
                         1
                       )
                     ],
                     1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "4" } },
-                [
+                  ),
+                  _vm._v(" "),
                   _c(
-                    "v-list",
-                    { attrs: { "three-line": "" } },
+                    "v-col",
+                    { attrs: { cols: "12 mt-12 pt-6", sm: "4" } },
                     [
-                      _vm._l(_vm.notices, function(item, index) {
-                        return [
-                          item.header
-                            ? _c("v-subheader", {
-                                key: item.header,
-                                domProps: { textContent: _vm._s(item.header) }
-                              })
-                            : item.divider
-                            ? _c("v-divider", {
-                                key: index,
-                                attrs: { inset: item.inset }
-                              })
-                            : _c(
-                                "v-list-item",
-                                {
-                                  key: index,
-                                  on: {
-                                    click: function($event) {
-                                      return _vm.$vuetify.goTo(item.to)
+                      _c(
+                        "v-list",
+                        { attrs: { "three-line": "" } },
+                        [
+                          _vm._l(_vm.notices, function(item, index) {
+                            return [
+                              item.header
+                                ? _c("v-subheader", {
+                                    key: item.header,
+                                    domProps: {
+                                      textContent: _vm._s(item.header)
                                     }
-                                  }
-                                },
-                                [
-                                  _c(
-                                    "v-list-item-content",
+                                  })
+                                : item.divider
+                                ? _c("v-divider", {
+                                    key: index,
+                                    attrs: { inset: item.inset }
+                                  })
+                                : _c(
+                                    "v-list-item",
+                                    {
+                                      key: index,
+                                      on: {
+                                        click: function($event) {
+                                          return _vm.$vuetify.goTo(item.to)
+                                        }
+                                      }
+                                    },
                                     [
-                                      _c("v-list-item-title", {
-                                        domProps: {
-                                          innerHTML: _vm._s(item.title)
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c("v-list-item-subtitle", {
-                                        domProps: {
-                                          innerHTML: _vm._s(item.content)
-                                        }
-                                      })
+                                      _c(
+                                        "v-list-item-content",
+                                        [
+                                          _c("v-list-item-title", {
+                                            domProps: {
+                                              innerHTML: _vm._s(item.title)
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _c("v-list-item-subtitle", {
+                                            domProps: {
+                                              innerHTML: _vm._s(item.content)
+                                            }
+                                          })
+                                        ],
+                                        1
+                                      )
                                     ],
                                     1
                                   )
-                                ],
-                                1
-                              )
-                        ]
-                      })
-                    ],
-                    2
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("v-divider"),
-          _vm._v(" "),
-          _c(
-            "v-row",
-            { staticClass: "my-6", attrs: { id: "notice-1" } },
-            [
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "6" } },
-                [
-                  _c("v-img", {
-                    attrs: {
-                      height: "300",
-                      src: __webpack_require__(/*! ../../images/home/certificates of participation in TIA program.jpeg */ "./resources/images/home/certificates of participation in TIA program.jpeg"),
-                      "aspect-ratio": "1.7"
-                    },
-                    scopedSlots: _vm._u([
-                      {
-                        key: "placeholder",
-                        fn: function() {
-                          return [
-                            _c(
-                              "v-row",
-                              {
-                                staticClass: "fill-height ma-0",
-                                attrs: { align: "center", justify: "center" }
-                              },
-                              [
-                                _c("v-progress-circular", {
-                                  attrs: {
-                                    indeterminate: "",
-                                    color: "grey lighten-5"
-                                  }
-                                })
-                              ],
-                              1
-                            )
-                          ]
-                        },
-                        proxy: true
-                      }
-                    ])
-                  })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "6" } },
-                [
-                  _c(
-                    "v-card",
-                    {
-                      staticClass: "mx-auto",
-                      attrs: { tile: "", flat: "", height: "300" }
-                    },
-                    [
-                      _c("v-card-text", [
-                        _c("div", [_vm._v("Noviembre 2019")]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "display-1 text--primary" }, [
-                          _vm._v(
-                            "\n                            Certificates of participation in TIA program\n                        "
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "text--primary" }, [
-                          _vm._v(
-                            "\n                            Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of participation\n                            in TIA program\n                        "
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("p", [_vm._v("Tulsa, USA")])
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "v-card-actions",
-                        [
-                          _c(
-                            "v-btn",
-                            {
-                              attrs: { text: "", color: "deep-purple accent-4" }
-                            },
-                            [
-                              _vm._v(
-                                "\n                            Learn More\n                        "
-                              )
                             ]
-                          )
+                          })
                         ],
-                        1
+                        2
                       )
                     ],
                     1
                   )
                 ],
                 1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-row",
-            { staticClass: "my-6", attrs: { id: "notice-2" } },
-            [
-              _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "6" } },
-                [
-                  _c("v-img", {
-                    attrs: {
-                      height: "300",
-                      src: __webpack_require__(/*! ../../images/home/docentes y estudiantes del colegio.jpeg */ "./resources/images/home/docentes y estudiantes del colegio.jpeg"),
-                      "aspect-ratio": "1.7"
-                    },
-                    scopedSlots: _vm._u([
-                      {
-                        key: "placeholder",
-                        fn: function() {
-                          return [
-                            _c(
-                              "v-row",
-                              {
-                                staticClass: "fill-height ma-0",
-                                attrs: { align: "center", justify: "center" }
-                              },
-                              [
-                                _c("v-progress-circular", {
-                                  attrs: {
-                                    indeterminate: "",
-                                    color: "grey lighten-5"
-                                  }
-                                })
-                              ],
-                              1
-                            )
-                          ]
-                        },
-                        proxy: true
-                      }
-                    ])
-                  })
-                ],
-                1
               ),
               _vm._v(" "),
+              _c("v-divider"),
+              _vm._v(" "),
               _c(
-                "v-col",
-                { attrs: { cols: "12", sm: "6" } },
+                "v-row",
+                { staticClass: "my-6", attrs: { id: "notice-1" } },
                 [
                   _c(
-                    "v-card",
-                    {
-                      staticClass: "mx-auto",
-                      attrs: { tile: "", flat: "", height: "300" }
-                    },
+                    "v-col",
+                    { attrs: { cols: "12", sm: "6" } },
                     [
-                      _c("v-card-text", [
-                        _c("div", [_vm._v("Noviembre 2019")]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "display-1 text--primary" }, [
-                          _vm._v(
-                            "\n                            Actividad cultural\n                        "
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "text--primary" }, [
-                          _vm._v(
-                            "\n                            Docentes y estudiantes del colegio XXXX de Comfacesar en actividad cultural en TCC\n                            Northeast Campus 2019.\n                        "
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("p", [_vm._v("Tulsa, USA")])
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "v-card-actions",
-                        [
-                          _c(
-                            "v-btn",
-                            {
-                              attrs: { text: "", color: "deep-purple accent-4" }
-                            },
-                            [
-                              _vm._v(
-                                "\n                            Learn More\n                        "
-                              )
-                            ]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-row",
-            { staticClass: "my-6" },
-            _vm._l(5, function(n) {
-              return _c(
-                "v-col",
-                {
-                  key: n,
-                  staticClass: "d-flex child-flex",
-                  attrs: { sm: "6" }
-                },
-                [
-                  _c(
-                    "v-row",
-                    [
-                      _c(
-                        "v-col",
-                        [
-                          _c(
-                            "v-list",
-                            { attrs: { "three-line": "" } },
-                            [
-                              [
-                                _vm.items[1].header
-                                  ? _c("v-subheader", {
-                                      key: _vm.items[1].header,
-                                      domProps: {
-                                        textContent: _vm._s(_vm.items[1].header)
+                      _c("v-img", {
+                        attrs: {
+                          height: "300",
+                          src: __webpack_require__(/*! ../../images/home/certificates of participation in TIA program.jpeg */ "./resources/images/home/certificates of participation in TIA program.jpeg"),
+                          "aspect-ratio": "1.7"
+                        },
+                        scopedSlots: _vm._u([
+                          {
+                            key: "placeholder",
+                            fn: function() {
+                              return [
+                                _c(
+                                  "v-row",
+                                  {
+                                    staticClass: "fill-height ma-0",
+                                    attrs: {
+                                      align: "center",
+                                      justify: "center"
+                                    }
+                                  },
+                                  [
+                                    _c("v-progress-circular", {
+                                      attrs: {
+                                        indeterminate: "",
+                                        color: "grey lighten-5"
                                       }
                                     })
-                                  : _vm.items[1].divider
-                                  ? _c("v-divider", {
-                                      key: _vm.index,
-                                      attrs: { inset: _vm.items[1].inset }
+                                  ],
+                                  1
+                                )
+                              ]
+                            },
+                            proxy: true
+                          }
+                        ])
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", sm: "6" } },
+                    [
+                      _c(
+                        "v-card",
+                        {
+                          staticClass: "mx-auto",
+                          attrs: { tile: "", flat: "", height: "300" }
+                        },
+                        [
+                          _c("v-card-text", [
+                            _c("div", [_vm._v("Noviembre 2019")]),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              { staticClass: "display-1 text--primary" },
+                              [
+                                _vm._v(
+                                  "\n                                Certificates of participation in TIA program\n                            "
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "text--primary" }, [
+                              _vm._v(
+                                "\n                                Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of\n                                participation\n                                in TIA program\n                            "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [_vm._v("Tulsa, USA")])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-card-actions",
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  attrs: {
+                                    text: "",
+                                    color: "deep-purple accent-4"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Learn More\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-row",
+                { staticClass: "my-6", attrs: { id: "notice-2" } },
+                [
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", sm: "6" } },
+                    [
+                      _c("v-img", {
+                        attrs: {
+                          height: "300",
+                          src: __webpack_require__(/*! ../../images/home/docentes y estudiantes del colegio.jpeg */ "./resources/images/home/docentes y estudiantes del colegio.jpeg"),
+                          "aspect-ratio": "1.7"
+                        },
+                        scopedSlots: _vm._u([
+                          {
+                            key: "placeholder",
+                            fn: function() {
+                              return [
+                                _c(
+                                  "v-row",
+                                  {
+                                    staticClass: "fill-height ma-0",
+                                    attrs: {
+                                      align: "center",
+                                      justify: "center"
+                                    }
+                                  },
+                                  [
+                                    _c("v-progress-circular", {
+                                      attrs: {
+                                        indeterminate: "",
+                                        color: "grey lighten-5"
+                                      }
                                     })
-                                  : _c(
-                                      "v-list-item",
-                                      {
-                                        key: _vm.items[1].title,
-                                        staticClass: "ma-0",
-                                        on: { click: function($event) {} }
-                                      },
-                                      [
-                                        _c(
-                                          "v-list-item-content",
+                                  ],
+                                  1
+                                )
+                              ]
+                            },
+                            proxy: true
+                          }
+                        ])
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", sm: "6" } },
+                    [
+                      _c(
+                        "v-card",
+                        {
+                          staticClass: "mx-auto",
+                          attrs: { tile: "", flat: "", height: "300" }
+                        },
+                        [
+                          _c("v-card-text", [
+                            _c("div", [_vm._v("Noviembre 2019")]),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              { staticClass: "display-1 text--primary" },
+                              [
+                                _vm._v(
+                                  "\n                                Actividad cultural\n                            "
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "text--primary" }, [
+                              _vm._v(
+                                "\n                                Docentes y estudiantes del colegio XXXX de Comfacesar en actividad cultural en TCC\n                                Northeast Campus 2019.\n                            "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [_vm._v("Tulsa, USA")])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-card-actions",
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  attrs: {
+                                    text: "",
+                                    color: "deep-purple accent-4"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Learn More\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-row",
+                { staticClass: "my-6" },
+                _vm._l(5, function(n) {
+                  return _c(
+                    "v-col",
+                    {
+                      key: n,
+                      staticClass: "d-flex child-flex",
+                      attrs: { sm: "6" }
+                    },
+                    [
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            [
+                              _c(
+                                "v-list",
+                                { attrs: { "three-line": "" } },
+                                [
+                                  [
+                                    _vm.items[1].header
+                                      ? _c("v-subheader", {
+                                          key: _vm.items[1].header,
+                                          domProps: {
+                                            textContent: _vm._s(
+                                              _vm.items[1].header
+                                            )
+                                          }
+                                        })
+                                      : _vm.items[1].divider
+                                      ? _c("v-divider", {
+                                          key: _vm.index,
+                                          attrs: { inset: _vm.items[1].inset }
+                                        })
+                                      : _c(
+                                          "v-list-item",
+                                          {
+                                            key: _vm.items[1].title,
+                                            staticClass: "ma-0",
+                                            on: { click: function($event) {} }
+                                          },
                                           [
-                                            _c("v-img", {
-                                              staticClass: "grey lighten-2",
-                                              attrs: {
-                                                height: "150",
-                                                src:
-                                                  "https://picsum.photos/500/300?image=" +
-                                                  (n * 5 + 10),
-                                                "aspect-ratio": "1.7"
-                                              },
-                                              scopedSlots: _vm._u(
-                                                [
-                                                  {
-                                                    key: "placeholder",
-                                                    fn: function() {
-                                                      return [
-                                                        _c(
-                                                          "v-row",
-                                                          {
-                                                            staticClass:
-                                                              "fill-height ma-0",
-                                                            attrs: {
-                                                              align: "center",
-                                                              justify: "center"
-                                                            }
-                                                          },
-                                                          [
+                                            _c(
+                                              "v-list-item-content",
+                                              [
+                                                _c("v-img", {
+                                                  staticClass: "grey lighten-2",
+                                                  attrs: {
+                                                    height: "150",
+                                                    src:
+                                                      "https://picsum.photos/500/300?image=" +
+                                                      (n * 5 + 10),
+                                                    "aspect-ratio": "1.7"
+                                                  },
+                                                  scopedSlots: _vm._u(
+                                                    [
+                                                      {
+                                                        key: "placeholder",
+                                                        fn: function() {
+                                                          return [
                                                             _c(
-                                                              "v-progress-circular",
+                                                              "v-row",
                                                               {
+                                                                staticClass:
+                                                                  "fill-height ma-0",
                                                                 attrs: {
-                                                                  indeterminate:
-                                                                    "",
-                                                                  color:
-                                                                    "grey lighten-5"
+                                                                  align:
+                                                                    "center",
+                                                                  justify:
+                                                                    "center"
                                                                 }
-                                                              }
+                                                              },
+                                                              [
+                                                                _c(
+                                                                  "v-progress-circular",
+                                                                  {
+                                                                    attrs: {
+                                                                      indeterminate:
+                                                                        "",
+                                                                      color:
+                                                                        "grey lighten-5"
+                                                                    }
+                                                                  }
+                                                                )
+                                                              ],
+                                                              1
                                                             )
-                                                          ],
-                                                          1
-                                                        )
-                                                      ]
-                                                    },
-                                                    proxy: true
-                                                  }
-                                                ],
-                                                null,
-                                                true
-                                              )
-                                            })
-                                          ],
-                                          1
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "v-list-item-content",
-                                          { staticClass: "ml-3" },
-                                          [
-                                            _c("v-list-item-title", {
-                                              domProps: {
-                                                innerHTML: _vm._s(
-                                                  _vm.items[1].title
-                                                )
-                                              }
-                                            }),
+                                                          ]
+                                                        },
+                                                        proxy: true
+                                                      }
+                                                    ],
+                                                    null,
+                                                    true
+                                                  )
+                                                })
+                                              ],
+                                              1
+                                            ),
                                             _vm._v(" "),
-                                            _c("v-list-item-subtitle", {
-                                              domProps: {
-                                                innerHTML: _vm._s(
-                                                  _vm.items[1].subtitle
-                                                )
-                                              }
-                                            })
+                                            _c(
+                                              "v-list-item-content",
+                                              { staticClass: "ml-3" },
+                                              [
+                                                _c("v-list-item-title", {
+                                                  domProps: {
+                                                    innerHTML: _vm._s(
+                                                      _vm.items[1].title
+                                                    )
+                                                  }
+                                                }),
+                                                _vm._v(" "),
+                                                _c("v-list-item-subtitle", {
+                                                  domProps: {
+                                                    innerHTML: _vm._s(
+                                                      _vm.items[1].subtitle
+                                                    )
+                                                  }
+                                                })
+                                              ],
+                                              1
+                                            )
                                           ],
                                           1
                                         )
-                                      ],
-                                      1
-                                    )
-                              ]
+                                  ]
+                                ],
+                                2
+                              ),
+                              _vm._v(" "),
+                              _c("v-divider")
                             ],
-                            2
-                          ),
-                          _vm._v(" "),
-                          _c("v-divider")
+                            1
+                          )
                         ],
                         1
                       )
                     ],
                     1
                   )
-                ],
+                }),
                 1
               )
-            }),
+            ],
             1
           )
         ],
@@ -1290,171 +1380,191 @@ var render = function() {
       _c("v-divider"),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "mb-12" },
+        "section",
+        { staticClass: "mb-12", attrs: { id: "team" } },
         [
           _c(
-            "v-container",
-            { attrs: { "grid-list-xl": "" } },
+            "div",
+            { staticClass: "text-center py-9 grey lighten-5 mb-4" },
             [
               _c(
-                "v-row",
-                { staticClass: "align-center layout justify-center" },
+                "v-avatar",
+                { staticClass: "mb-4 primary", attrs: { size: "60 " } },
                 [
-                  _c("div", { staticClass: "grow hidden-sm-and-down col" }, [
-                    _c("h1", [_vm._v(_vm._s(_vm.$t("meet-team")))])
-                  ])
-                ]
+                  _c(
+                    "v-icon",
+                    { staticClass: "text--white", attrs: { color: "white" } },
+                    [_vm._v("mdi-account-group-outline")]
+                  )
+                ],
+                1
               ),
               _vm._v(" "),
               _c(
-                "div",
-                { staticClass: "layout justify-center wrap" },
-                _vm._l(_vm.group, function(item, index) {
-                  return _c(
-                    "div",
-                    { key: index, staticClass: "flex xs12 sm6 md4" },
-                    [
-                      _c("v-hover", {
-                        scopedSlots: _vm._u(
-                          [
-                            {
-                              key: "default",
-                              fn: function(ref) {
-                                var hover = ref.hover
-                                return [
-                                  _c(
-                                    "div",
-                                    [
-                                      _c(
-                                        "v-card",
-                                        {
-                                          staticClass: "mx-auto",
-                                          attrs: {
-                                            height: "350",
-                                            width: "250",
-                                            color: "grey lighten-4"
-                                          }
-                                        },
-                                        [
-                                          _c(
-                                            "v-img",
-                                            {
-                                              attrs: {
-                                                height: "350",
-                                                width: "250",
-                                                src: item.img
-                                              }
-                                            },
-                                            [
-                                              _c("v-expand-transition", [
-                                                hover
-                                                  ? _c(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text",
-                                                        staticStyle: {
-                                                          height: "100%"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "v-container",
-                                                          {
-                                                            staticClass:
-                                                              "body-2 primary darken-4",
-                                                            staticStyle: {
-                                                              height: "400px"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "p",
-                                                              {
-                                                                staticClass:
-                                                                  "pa-6 text-justify"
-                                                              },
-                                                              [
-                                                                _vm._v(
-                                                                  _vm._s(
-                                                                    item.description
-                                                                  )
-                                                                )
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ],
-                                                      1
-                                                    )
-                                                  : _vm._e()
-                                              ])
-                                            ],
-                                            1
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "v-card",
-                                        {
-                                          staticClass: "mx-auto",
-                                          attrs: { flat: "", width: "250" }
-                                        },
-                                        [
-                                          _c(
-                                            "h3",
-                                            {
-                                              staticClass:
-                                                "title font-weight-black primary--text mb-2"
-                                            },
-                                            [
-                                              _vm._v(
-                                                "\n                                    " +
-                                                  _vm._s(item.name) +
-                                                  "\n                                "
-                                              )
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "div",
-                                            {
-                                              staticClass:
-                                                "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10"
-                                            },
-                                            [
-                                              _vm._v(
-                                                "\n                                    " +
-                                                  _vm._s(item.occupation)
-                                              ),
-                                              _c("br")
-                                            ]
-                                          )
-                                        ]
-                                      )
-                                    ],
-                                    1
-                                  )
-                                ]
-                              }
-                            }
-                          ],
-                          null,
-                          true
-                        )
-                      })
-                    ],
-                    1
+                "h1",
+                {
+                  staticClass:
+                    "text-uppercase headline font-weight-bold mb-2 text-center"
+                },
+                [
+                  _vm._v(
+                    "\n                " +
+                      _vm._s(_vm.$t("meet-team")) +
+                      "\n            "
                   )
-                }),
-                0
-              )
+                ]
+              ),
+              _vm._v(" "),
+              _c("v-divider", {
+                staticClass: "primary mx-auto",
+                staticStyle: { "max-width": "28px" }
+              })
             ],
             1
-          )
+          ),
+          _vm._v(" "),
+          _c("v-container", { attrs: { "grid-list-xl": "" } }, [
+            _c(
+              "div",
+              { staticClass: "layout justify-center wrap" },
+              _vm._l(_vm.group, function(item, index) {
+                return _c(
+                  "div",
+                  { key: index, staticClass: "flex xs12 sm6 md4" },
+                  [
+                    _c("v-hover", {
+                      scopedSlots: _vm._u(
+                        [
+                          {
+                            key: "default",
+                            fn: function(ref) {
+                              var hover = ref.hover
+                              return [
+                                _c(
+                                  "div",
+                                  [
+                                    _c(
+                                      "v-card",
+                                      {
+                                        staticClass: "mx-auto",
+                                        attrs: {
+                                          height: "350",
+                                          width: "250",
+                                          color: "grey lighten-4"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "v-img",
+                                          {
+                                            attrs: {
+                                              height: "350",
+                                              width: "250",
+                                              src: item.img
+                                            }
+                                          },
+                                          [
+                                            _c("v-expand-transition", [
+                                              hover
+                                                ? _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text",
+                                                      staticStyle: {
+                                                        height: "100%"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c(
+                                                        "v-container",
+                                                        {
+                                                          staticClass:
+                                                            "body-2 primary darken-4",
+                                                          staticStyle: {
+                                                            height: "400px"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("p", {
+                                                            staticClass:
+                                                              "pa-6 ",
+                                                            domProps: {
+                                                              innerHTML: _vm._s(
+                                                                item.description
+                                                              )
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    ],
+                                                    1
+                                                  )
+                                                : _vm._e()
+                                            ])
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "v-card",
+                                      {
+                                        staticClass: "mx-auto",
+                                        attrs: { flat: "", width: "250" }
+                                      },
+                                      [
+                                        _c(
+                                          "h3",
+                                          {
+                                            staticClass:
+                                              "title font-weight-black primary--text mb-2"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n                                    " +
+                                                _vm._s(item.name) +
+                                                "\n                                "
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n                                    " +
+                                                _vm._s(item.occupation)
+                                            ),
+                                            _c("br")
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            }
+                          }
+                        ],
+                        null,
+                        true
+                      )
+                    })
+                  ],
+                  1
+                )
+              }),
+              0
+            )
+          ])
         ],
         1
       )
