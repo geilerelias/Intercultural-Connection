@@ -26,30 +26,42 @@
             <v-container>
                 <v-row>
                     <v-col cols="12">
+                        <v-row>
+                            <v-col>
+                                <div class="base-section-heading text-center ">
+                                    <h3 class="text-uppercase text-h6 font-weight-bold  text-left">
+                                        AYUDAR AHORA, ES SIMPLE
+                                    </h3>
+                                    <v-divider class="primary  mr-auto mb-3" style="max-width: 28px;"></v-divider>
+                                </div>
 
-                        <div class="base-section-heading text-center ">
-                            <h3 class="text-uppercase text-h6 font-weight-bold  text-left">
-                                AYUDAR AHORA, ES SIMPLE
-                            </h3>
-                            <v-divider class="primary  mr-auto mb-3" style="max-width: 28px;"></v-divider>
-                        </div>
-                        <p
-                            class="base-body body-1 grey--text text--darken-1 text-left mb-6 text-justify"
-                        >
-                            atrévete a caminar aunque sea descalzo,
-                            a sonreír aunque no tengas motivos, a ayudar a otros sin recibir aplausos.
-                            <v-subheader>
-                                Anonymous.
-                            </v-subheader>
-                            <br>
-                            Aveces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar seria menos
-                            si
-                            le faltara esa gota.
 
-                            <v-subheader>
-                                Madre Teresa de Calcuta.
-                            </v-subheader>
-                        </p>
+                                <p
+                                    class="base-body body-1 grey--text text--darken-1 text-left mb-6 text-justify"
+                                >
+                                    atrévete a caminar aunque sea descalzo,
+                                    a sonreír aunque no tengas motivos, a ayudar a otros sin recibir aplausos.
+                                    <v-subheader>
+                                        Anonymous.
+                                    </v-subheader>
+                                    <br>
+                                    Aveces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar seria
+                                    menos
+                                    si
+                                    le faltara esa gota.
+
+                                    <v-subheader>
+                                        Madre Teresa de Calcuta.
+                                    </v-subheader>
+                                </p>
+                            </v-col>
+                            <v-col>
+
+                                <v-img max-width="400" class="rounded-lg"
+                                       :src="require('./../../images/personas-que-llevan-donacion-caridad.jpg')"></v-img>
+
+                            </v-col>
+                        </v-row>
 
 
                         <div class="base-section-heading text-center ">

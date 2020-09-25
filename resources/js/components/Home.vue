@@ -118,7 +118,8 @@
                                                justify="center">
                                             <v-card class="d-flex justify-center pa-2" color="#00000099">
                                                 <v-btn block text class=""
-                                                       href="http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE">
+                                                       href="http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE"
+                                                       target="_blank">
                                                     learn more
                                                 </v-btn>
                                             </v-card>
@@ -246,69 +247,69 @@
                     </v-col>
 
                 </v-row>
-                <v-row class="my-6">
-                    <v-col v-for="n in 5" :key="n" class="d-flex child-flex" sm="6">
-                        <v-row>
-                            <v-col>
-                                <v-list three-line>
-                                    <template>
-                                        <v-subheader
-                                            v-if="items[1].header"
-                                            :key="items[1].header"
-                                            v-text="items[1].header"
-                                        ></v-subheader>
+                <!--  <v-row class="my-6">
+                      <v-col v-for="n in 5" :key="n" class="d-flex child-flex" sm="6">
+                          <v-row>
+                              <v-col>
+                                  <v-list three-line>
+                                      <template>
+                                          <v-subheader
+                                              v-if="items[1].header"
+                                              :key="items[1].header"
+                                              v-text="items[1].header"
+                                          ></v-subheader>
 
-                                        <v-divider
-                                            v-else-if="items[1].divider"
-                                            :key="index"
-                                            :inset="items[1].inset"
-                                        ></v-divider>
+                                          <v-divider
+                                              v-else-if="items[1].divider"
+                                              :key="index"
+                                              :inset="items[1].inset"
+                                          ></v-divider>
 
-                                        <v-list-item
-                                            class="ma-0"
-                                            v-else
-                                            :key="items[1].title"
-                                            @click=""
-                                        >
-                                            <v-list-item-content>
-                                                <v-img
-                                                    height="150"
-                                                    :src="`https://picsum.photos/500/300?image=${
-                                                    n * 5 + 10
-                                                }`"
-                                                    aspect-ratio="1.7"
-                                                    class="grey lighten-2"
-                                                >
-                                                    <template v-slot:placeholder>
-                                                        <v-row
-                                                            class="fill-height ma-0"
-                                                            align="center"
-                                                            justify="center"
-                                                        >
-                                                            <v-progress-circular
-                                                                indeterminate
-                                                                color="grey lighten-5"
-                                                            ></v-progress-circular>
-                                                        </v-row>
-                                                    </template>
-                                                </v-img>
-                                            </v-list-item-content>
-                                            <v-list-item-content class="ml-3">
-                                                <v-list-item-title
-                                                    v-html="items[1].title"
-                                                ></v-list-item-title>
-                                                <v-list-item-subtitle
-                                                    v-html="items[1].subtitle"
-                                                ></v-list-item-subtitle>
-                                            </v-list-item-content>
-                                        </v-list-item>
-                                    </template>
-                                </v-list>
-                                <v-divider></v-divider>
-                            </v-col>
-                        </v-row>
-                    </v-col>
-                </v-row>
+                                          <v-list-item
+                                              class="ma-0"
+                                              v-else
+                                              :key="items[1].title"
+                                              @click=""
+                                          >
+                                              <v-list-item-content>
+                                                  <v-img
+                                                      height="150"
+                                                      :src="`https://picsum.photos/500/300?image=${
+                                                      n * 5 + 10
+                                                  }`"
+                                                      aspect-ratio="1.7"
+                                                      class="grey lighten-2"
+                                                  >
+                                                      <template v-slot:placeholder>
+                                                          <v-row
+                                                              class="fill-height ma-0"
+                                                              align="center"
+                                                              justify="center"
+                                                          >
+                                                              <v-progress-circular
+                                                                  indeterminate
+                                                                  color="grey lighten-5"
+                                                              ></v-progress-circular>
+                                                          </v-row>
+                                                      </template>
+                                                  </v-img>
+                                              </v-list-item-content>
+                                              <v-list-item-content class="ml-3">
+                                                  <v-list-item-title
+                                                      v-html="items[1].title"
+                                                  ></v-list-item-title>
+                                                  <v-list-item-subtitle
+                                                      v-html="items[1].subtitle"
+                                                  ></v-list-item-subtitle>
+                                              </v-list-item-content>
+                                          </v-list-item>
+                                      </template>
+                                  </v-list>
+                                  <v-divider></v-divider>
+                              </v-col>
+                          </v-row>
+                      </v-col>
+                  </v-row>-->
             </v-container>
         </section>
 
@@ -477,11 +478,15 @@ export default {
                 email: "alexandercastrillo@hotmail.com",
                 occupation: "Director",
                 description: `<p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt
-                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem
-                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque
-                       </p> `
+                     Asesor y consultor socio-empresarial
+                        <ul>
+                            <li>Phd(c) en Ciencias Empresariales de la universidad de Antonio de Nebrija.</li>
+                            <li>Maestría en Creación de Empresas, Universidad EAN Btá.</li>
+                            <li>Maestría en Dirección de Empresas, U. de antonio de Nebrija.</li>
+                            <li>Especialista en Pedagogía para el Aprendizaje Autónomo.</li>
+                            <li>Administrador Financiero.</li>
+                        </ul>
+                </p> `
             },
             {
                 img:
@@ -490,11 +495,8 @@ export default {
                 email: "DanielChanboya@hotmail.com",
                 occupation: "Director TIA en Tulsa, USA",
                 description: `<p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     A adipisci aliquam aliquid blanditiis eligendi id iusto nesciunt
-                      odio sit vitae! Accusantium alias aliquam aliquid aspernatur autem
-                      beatae consectetur cumque deleniti dolore doloribus ducimus eaque
-                       </p> `
+                    Director TIA en Tulsa, USA
+                </p> `
             },
             {
                 img:

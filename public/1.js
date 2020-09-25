@@ -46,6 +46,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -199,7 +203,7 @@ var render = function() {
             {
               attrs: {
                 "aspect-ratio": 16 / 9,
-                src: "https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+                src: __webpack_require__(/*! ../../../images/drawer.jpg */ "./resources/images/drawer.jpg")
               }
             },
             [
@@ -210,17 +214,35 @@ var render = function() {
                   attrs: { align: "end" }
                 },
                 [
-                  _c("v-col", [
-                    _c("div", { staticClass: "subheading" }, [
-                      _vm._v("Jonathan Lee")
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "body-1" }, [
-                      _vm._v(
-                        "\n                    heyfromjonathan@gmail.com\n                "
-                      )
-                    ])
-                  ])
+                  _c(
+                    "v-col",
+                    [
+                      _c(
+                        "v-avatar",
+                        { attrs: { tile: "" } },
+                        [
+                          _c("v-img", {
+                            attrs: {
+                              src: __webpack_require__(/*! ../../../images/logo-letras.png */ "./resources/images/logo-letras.png"),
+                              alt: "Foundation Intercultural Connections "
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "subheading" }, [
+                        _vm._v("Fundación Intercultural Connection")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "Caption" }, [
+                        _vm._v(
+                          "\n                    contacto@interculturalconnections.org\n                "
+                        )
+                      ])
+                    ],
+                    1
+                  )
                 ],
                 1
               )
@@ -268,6 +290,28 @@ var staticRenderFns = []
 render._withStripped = true
 
 
+
+/***/ }),
+
+/***/ "./resources/images/drawer.jpg":
+/*!*************************************!*\
+  !*** ./resources/images/drawer.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/drawer.jpg?3d82253fc50c66d251bd1d88a11fa586";
+
+/***/ }),
+
+/***/ "./resources/images/logo-letras.png":
+/*!******************************************!*\
+  !*** ./resources/images/logo-letras.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo-letras.png?3820cf0a9c0bc3dbe08a5ddffa1b5677";
 
 /***/ }),
 

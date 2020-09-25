@@ -6562,6 +6562,25 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/nprogress/nprogress.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/nprogress/nprogress.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* Make clicks pass-through */\n#nprogress {\n  pointer-events: none;\n}\n\n#nprogress .bar {\n  background: #29d;\n\n  position: fixed;\n  z-index: 1031;\n  top: 0;\n  left: 0;\n\n  width: 100%;\n  height: 2px;\n}\n\n/* Fancy blur effect */\n#nprogress .peg {\n  display: block;\n  position: absolute;\n  right: 0px;\n  width: 100px;\n  height: 100%;\n  box-shadow: 0 0 10px #29d, 0 0 5px #29d;\n  opacity: 1.0;\n  transform: rotate(3deg) translate(0px, -4px);\n}\n\n/* Remove these to get rid of the spinner */\n#nprogress .spinner {\n  display: block;\n  position: fixed;\n  z-index: 1031;\n  top: 15px;\n  right: 15px;\n}\n\n#nprogress .spinner-icon {\n  width: 18px;\n  height: 18px;\n  box-sizing: border-box;\n\n  border: solid 2px transparent;\n  border-top-color: #29d;\n  border-left-color: #29d;\n  border-radius: 50%;\n\n  -webkit-animation: nprogress-spinner 400ms linear infinite;\n          animation: nprogress-spinner 400ms linear infinite;\n}\n\n.nprogress-custom-parent {\n  overflow: hidden;\n  position: relative;\n}\n\n.nprogress-custom-parent #nprogress .spinner,\n.nprogress-custom-parent #nprogress .bar {\n  position: absolute;\n}\n\n@-webkit-keyframes nprogress-spinner {\n  0%   { -webkit-transform: rotate(0deg); }\n  100% { -webkit-transform: rotate(360deg); }\n}\n@keyframes nprogress-spinner {\n  0%   { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css":
 /*!*************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css ***!
@@ -34394,6 +34413,36 @@ return jQuery;
 
 /***/ }),
 
+/***/ "./node_modules/nprogress/nprogress.css":
+/*!**********************************************!*\
+  !*** ./node_modules/nprogress/nprogress.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../css-loader??ref--6-1!../postcss-loader/src??ref--6-2!./nprogress.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/nprogress/nprogress.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/nprogress/nprogress.js":
 /*!*********************************************!*\
   !*** ./node_modules/nprogress/nprogress.js ***!
@@ -55648,10 +55697,11 @@ if(false) {}
 }(this, (function (exports) { 'use strict';
 
   /*!
-   * perfect-scrollbar v1.4.0
-   * (c) 2018 Hyunje Jun
-   * @license MIT
+   * perfect-scrollbar v1.5.0
+   * Copyright 2020 Hyunje Jun, MDBootstrap and Contributors
+   * Licensed under MIT
    */
+
   function get(element) {
     return getComputedStyle(element);
   }
@@ -55705,6 +55755,7 @@ if(false) {}
 
   var cls = {
     main: 'ps',
+    rtl: 'ps__rtl',
     element: {
       thumb: function (x) { return ("ps__thumb-" + x); },
       rail: function (x) { return ("ps__rail-" + x); },
@@ -55774,7 +55825,7 @@ if(false) {}
   };
 
   EventElement.prototype.unbindAll = function unbindAll () {
-      var this$1 = this;
+    var this$1 = this;
 
     for (var name in this$1.handlers) {
       this$1.unbind(name);
@@ -55842,7 +55893,7 @@ if(false) {}
     }
   }
 
-  var processScrollDiff = function(
+  function processScrollDiff(
     i,
     axis,
     diff,
@@ -55874,7 +55925,7 @@ if(false) {}
     }
 
     processScrollDiff$1(i, diff, fields, useScrollingClass, forceFireReachEvent);
-  };
+  }
 
   function processScrollDiff$1(
     i,
@@ -55957,6 +56008,8 @@ if(false) {}
     supportsTouch:
       typeof window !== 'undefined' &&
       ('ontouchstart' in window ||
+        ('maxTouchPoints' in window.navigator &&
+          window.navigator.maxTouchPoints > 0) ||
         (window.DocumentTouch && document instanceof window.DocumentTouch)),
     supportsIePointer:
       typeof navigator !== 'undefined' && navigator.msMaxTouchPoints,
@@ -55965,12 +56018,13 @@ if(false) {}
       /Chrome/i.test(navigator && navigator.userAgent),
   };
 
-  var updateGeometry = function(i) {
+  function updateGeometry(i) {
     var element = i.element;
     var roundedScrollTop = Math.floor(element.scrollTop);
+    var rect = element.getBoundingClientRect();
 
-    i.containerWidth = element.clientWidth;
-    i.containerHeight = element.clientHeight;
+    i.containerWidth = Math.ceil(rect.width);
+    i.containerHeight = Math.ceil(rect.height);
     i.contentWidth = element.scrollWidth;
     i.contentHeight = element.scrollHeight;
 
@@ -55996,11 +56050,11 @@ if(false) {}
       i.railXRatio = i.containerWidth / i.railXWidth;
       i.scrollbarXWidth = getThumbSize(
         i,
-        toInt(i.railXWidth * i.containerWidth / i.contentWidth)
+        toInt((i.railXWidth * i.containerWidth) / i.contentWidth)
       );
       i.scrollbarXLeft = toInt(
-        (i.negativeScrollAdjustment + element.scrollLeft) *
-          (i.railXWidth - i.scrollbarXWidth) /
+        ((i.negativeScrollAdjustment + element.scrollLeft) *
+          (i.railXWidth - i.scrollbarXWidth)) /
           (i.contentWidth - i.containerWidth)
       );
     } else {
@@ -56016,11 +56070,10 @@ if(false) {}
       i.railYRatio = i.containerHeight / i.railYHeight;
       i.scrollbarYHeight = getThumbSize(
         i,
-        toInt(i.railYHeight * i.containerHeight / i.contentHeight)
+        toInt((i.railYHeight * i.containerHeight) / i.contentHeight)
       );
       i.scrollbarYTop = toInt(
-        roundedScrollTop *
-          (i.railYHeight - i.scrollbarYHeight) /
+        (roundedScrollTop * (i.railYHeight - i.scrollbarYHeight)) /
           (i.contentHeight - i.containerHeight)
       );
     } else {
@@ -56042,7 +56095,7 @@ if(false) {}
       element.classList.remove(cls.state.active('x'));
       i.scrollbarXWidth = 0;
       i.scrollbarXLeft = 0;
-      element.scrollLeft = 0;
+      element.scrollLeft = i.isRtl === true ? i.contentWidth : 0;
     }
     if (i.scrollbarYActive) {
       element.classList.add(cls.state.active('y'));
@@ -56052,7 +56105,7 @@ if(false) {}
       i.scrollbarYTop = 0;
       element.scrollTop = 0;
     }
-  };
+  }
 
   function getThumbSize(i, thumbSize) {
     if (i.settings.minScrollbarLength) {
@@ -56091,7 +56144,8 @@ if(false) {}
           i.contentWidth -
           (i.negativeScrollAdjustment + element.scrollLeft) -
           i.scrollbarYRight -
-          i.scrollbarYOuterWidth;
+          i.scrollbarYOuterWidth -
+          9;
       } else {
         yRailOffset.right = i.scrollbarYRight - element.scrollLeft;
       }
@@ -56120,7 +56174,9 @@ if(false) {}
     });
   }
 
-  var clickRail = function(i) {
+  function clickRail(i) {
+    var element = i.element;
+
     i.event.bind(i.scrollbarY, 'mousedown', function (e) { return e.stopPropagation(); });
     i.event.bind(i.scrollbarYRail, 'mousedown', function (e) {
       var positionTop =
@@ -56148,9 +56204,9 @@ if(false) {}
 
       e.stopPropagation();
     });
-  };
+  }
 
-  var dragThumb = function(i) {
+  function dragThumb(i) {
     bindMouseScrollHandler(i, [
       'containerWidth',
       'contentWidth',
@@ -56171,7 +56227,7 @@ if(false) {}
       'scrollTop',
       'y',
       'scrollbarYRail' ]);
-  };
+  }
 
   function bindMouseScrollHandler(
     i,
@@ -56194,6 +56250,9 @@ if(false) {}
     var scrollBy = null;
 
     function mouseMoveHandler(e) {
+      if (e.touches && e.touches[0]) {
+        e[pageY] = e.touches[0].pageY;
+      }
       element[scrollTop] =
         startingScrollTop + scrollBy * (e[pageY] - startingMousePageY);
       addScrollingClass(i, y);
@@ -56209,24 +56268,37 @@ if(false) {}
       i.event.unbind(i.ownerDocument, 'mousemove', mouseMoveHandler);
     }
 
-    i.event.bind(i[scrollbarY], 'mousedown', function (e) {
+    function bindMoves(e, touchMode) {
       startingScrollTop = element[scrollTop];
+      if (touchMode && e.touches) {
+        e[pageY] = e.touches[0].pageY;
+      }
       startingMousePageY = e[pageY];
       scrollBy =
         (i[contentHeight] - i[containerHeight]) /
         (i[railYHeight] - i[scrollbarYHeight]);
-
-      i.event.bind(i.ownerDocument, 'mousemove', mouseMoveHandler);
-      i.event.once(i.ownerDocument, 'mouseup', mouseUpHandler);
+      if (!touchMode) {
+        i.event.bind(i.ownerDocument, 'mousemove', mouseMoveHandler);
+        i.event.once(i.ownerDocument, 'mouseup', mouseUpHandler);
+        e.preventDefault();
+      } else {
+        i.event.bind(i.ownerDocument, 'touchmove', mouseMoveHandler);
+      }
 
       i[scrollbarYRail].classList.add(cls.state.clicking);
 
       e.stopPropagation();
-      e.preventDefault();
+    }
+
+    i.event.bind(i[scrollbarY], 'mousedown', function (e) {
+      bindMoves(e);
+    });
+    i.event.bind(i[scrollbarY], 'touchstart', function (e) {
+      bindMoves(e, true);
     });
   }
 
-  var keyboard = function(i) {
+  function keyboard(i) {
     var element = i.element;
 
     var elementHovered = function () { return matches(element, ':hover'); };
@@ -56368,9 +56440,9 @@ if(false) {}
         e.preventDefault();
       }
     });
-  };
+  }
 
-  var wheel = function(i) {
+  function wheel(i) {
     var element = i.element;
 
     function shouldPreventDefault(deltaX, deltaY) {
@@ -56400,7 +56472,7 @@ if(false) {}
 
       if (typeof deltaX === 'undefined' || typeof deltaY === 'undefined') {
         // OS X Safari
-        deltaX = -1 * e.wheelDeltaX / 6;
+        deltaX = (-1 * e.wheelDeltaX) / 6;
         deltaY = e.wheelDeltaY / 6;
       }
 
@@ -56441,26 +56513,26 @@ if(false) {}
         }
 
         var style = get(cursor);
-        var overflow = [style.overflow, style.overflowX, style.overflowY].join(
-          ''
-        );
 
-        // if scrollable
-        if (overflow.match(/(scroll|auto)/)) {
+        // if deltaY && vertical scrollable
+        if (deltaY && style.overflowY.match(/(scroll|auto)/)) {
           var maxScrollTop = cursor.scrollHeight - cursor.clientHeight;
           if (maxScrollTop > 0) {
             if (
-              !(cursor.scrollTop === 0 && deltaY > 0) &&
-              !(cursor.scrollTop === maxScrollTop && deltaY < 0)
+              (cursor.scrollTop > 0 && deltaY < 0) ||
+              (cursor.scrollTop < maxScrollTop && deltaY > 0)
             ) {
               return true;
             }
           }
+        }
+        // if deltaX && horizontal scrollable
+        if (deltaX && style.overflowX.match(/(scroll|auto)/)) {
           var maxScrollLeft = cursor.scrollWidth - cursor.clientWidth;
           if (maxScrollLeft > 0) {
             if (
-              !(cursor.scrollLeft === 0 && deltaX < 0) &&
-              !(cursor.scrollLeft === maxScrollLeft && deltaX > 0)
+              (cursor.scrollLeft > 0 && deltaX < 0) ||
+              (cursor.scrollLeft < maxScrollLeft && deltaX > 0)
             ) {
               return true;
             }
@@ -56522,9 +56594,9 @@ if(false) {}
     } else if (typeof window.onmousewheel !== 'undefined') {
       i.event.bind(element, 'mousewheel', mousewheelHandler);
     }
-  };
+  }
 
-  var touch = function(i) {
+  function touch(i) {
     if (!env.supportsTouch && !env.supportsIePointer) {
       return;
     }
@@ -56629,26 +56701,26 @@ if(false) {}
         }
 
         var style = get(cursor);
-        var overflow = [style.overflow, style.overflowX, style.overflowY].join(
-          ''
-        );
 
-        // if scrollable
-        if (overflow.match(/(scroll|auto)/)) {
+        // if deltaY && vertical scrollable
+        if (deltaY && style.overflowY.match(/(scroll|auto)/)) {
           var maxScrollTop = cursor.scrollHeight - cursor.clientHeight;
           if (maxScrollTop > 0) {
             if (
-              !(cursor.scrollTop === 0 && deltaY > 0) &&
-              !(cursor.scrollTop === maxScrollTop && deltaY < 0)
+              (cursor.scrollTop > 0 && deltaY < 0) ||
+              (cursor.scrollTop < maxScrollTop && deltaY > 0)
             ) {
               return true;
             }
           }
-          var maxScrollLeft = cursor.scrollLeft - cursor.clientWidth;
+        }
+        // if deltaX && horizontal scrollable
+        if (deltaX && style.overflowX.match(/(scroll|auto)/)) {
+          var maxScrollLeft = cursor.scrollWidth - cursor.clientWidth;
           if (maxScrollLeft > 0) {
             if (
-              !(cursor.scrollLeft === 0 && deltaX < 0) &&
-              !(cursor.scrollLeft === maxScrollLeft && deltaX > 0)
+              (cursor.scrollLeft > 0 && deltaX < 0) ||
+              (cursor.scrollLeft < maxScrollLeft && deltaX > 0)
             ) {
               return true;
             }
@@ -56733,7 +56805,7 @@ if(false) {}
         i.event.bind(element, 'MSPointerUp', touchEnd);
       }
     }
-  };
+  }
 
   var defaultSettings = function () { return ({
     handlers: ['click-rail', 'drag-thumb', 'keyboard', 'wheel', 'touch'],
@@ -56759,6 +56831,8 @@ if(false) {}
   };
 
   var PerfectScrollbar = function PerfectScrollbar(element, userSettings) {
+    var this$2 = this;
+
     var this$1 = this;
     if ( userSettings === void 0 ) { userSettings = {}; }
 
@@ -56776,7 +56850,7 @@ if(false) {}
 
     this.settings = defaultSettings();
     for (var key in userSettings) {
-      this$1.settings[key] = userSettings[key];
+      this$2.settings[key] = userSettings[key];
     }
 
     this.containerWidth = null;
@@ -56788,6 +56862,9 @@ if(false) {}
     var blur = function () { return element.classList.remove(cls.state.focus); };
 
     this.isRtl = get(element).direction === 'rtl';
+    if (this.isRtl === true) {
+      element.classList.add(cls.rtl);
+    }
     this.isNegativeScroll = (function () {
       var originalScrollLeft = element.scrollLeft;
       var result = null;
@@ -56863,14 +56940,14 @@ if(false) {}
         element.scrollLeft <= 0
           ? 'start'
           : element.scrollLeft >= this.contentWidth - this.containerWidth
-            ? 'end'
-            : null,
+          ? 'end'
+          : null,
       y:
         element.scrollTop <= 0
           ? 'start'
           : element.scrollTop >= this.contentHeight - this.containerHeight
-            ? 'end'
-            : null,
+          ? 'end'
+          : null,
     };
 
     this.isAlive = true;
@@ -102398,8 +102475,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js");
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! nprogress/nprogress.css */ "./node_modules/nprogress/nprogress.css");
+/* harmony import */ var nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js");
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -102416,7 +102496,7 @@ var routes = [{
   path: "/construccion",
   name: "construccion",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./components/Construccion.vue */ "./resources/js/components/Construccion.vue"));
+    return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./components/Construccion.vue */ "./resources/js/components/Construccion.vue"));
   }
 }, {
   path: "/",
@@ -102427,13 +102507,13 @@ var routes = [{
     path: "",
     name: "home",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./components/Home.vue */ "./resources/js/components/Home.vue"));
+      return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./components/Home.vue */ "./resources/js/components/Home.vue"));
     }
   }, {
     path: "/about-us",
     name: "about-us",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./components/AboutUs.vue */ "./resources/js/components/AboutUs.vue"));
+      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./components/AboutUs.vue */ "./resources/js/components/AboutUs.vue"));
     }
   }, {
     path: "/our-services",
@@ -102451,13 +102531,13 @@ var routes = [{
     path: "/donations",
     name: "donations",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./components/Donations.vue */ "./resources/js/components/Donations.vue"));
+      return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./components/Donations.vue */ "./resources/js/components/Donations.vue"));
     }
   }, {
     path: "/contact-us",
     name: "contact-us",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./components/ContactUs.vue */ "./resources/js/components/ContactUs.vue"));
+      return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./components/ContactUs.vue */ "./resources/js/components/ContactUs.vue"));
     }
   }]
 }, {
@@ -102470,13 +102550,13 @@ var routes = [{
   path: "/custom",
   name: "custom",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! ./components/examples/CustonScrollBar.vue */ "./resources/js/components/examples/CustonScrollBar.vue"));
+    return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ./components/examples/CustonScrollBar.vue */ "./resources/js/components/examples/CustonScrollBar.vue"));
   }
 }, {
   path: "/login",
   name: "login",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./components/Auth/Login.vue */ "./resources/js/components/Auth/Login.vue"));
+    return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./components/Auth/Login.vue */ "./resources/js/components/Auth/Login.vue"));
   },
   meta: {
     withAuth: true
@@ -102485,7 +102565,7 @@ var routes = [{
   path: "/register",
   name: "register",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./components/Auth/Register.vue */ "./resources/js/components/Auth/Register.vue"));
+    return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./components/Auth/Register.vue */ "./resources/js/components/Auth/Register.vue"));
   },
   meta: {
     withAuth: true
@@ -102494,13 +102574,13 @@ var routes = [{
   path: "/send-notification",
   name: "send-notification",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./components/Auth/sendNotificationPassword.vue */ "./resources/js/components/Auth/sendNotificationPassword.vue"));
+    return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./components/Auth/sendNotificationPassword.vue */ "./resources/js/components/Auth/sendNotificationPassword.vue"));
   }
 }, {
   path: "/reset-password/:id",
   name: "reset-password",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./components/Auth/ResetPassword.vue */ "./resources/js/components/Auth/ResetPassword.vue"));
+    return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./components/Auth/ResetPassword.vue */ "./resources/js/components/Auth/ResetPassword.vue"));
   }
 }, {
   path: "*",
@@ -102546,11 +102626,11 @@ router.beforeEach(function (to, from, next) {
   next();
 });
 router.beforeEach(function (to, from, next) {
-  nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.start();
+  nprogress__WEBPACK_IMPORTED_MODULE_3___default.a.start();
   next();
 });
 router.afterEach(function () {
-  nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.done();
+  nprogress__WEBPACK_IMPORTED_MODULE_3___default.a.done();
 });
 /* harmony default export */ __webpack_exports__["default"] = (router);
 

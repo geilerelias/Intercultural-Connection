@@ -2,13 +2,17 @@
     <v-navigation-drawer v-model="drawer" app clipped v-if="$vuetify.breakpoint.smAndDown">
         <v-img
             :aspect-ratio="16 / 9"
-            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+            :src="require('../../../images/drawer.jpg')"
         >
             <v-row align="end" class="lightbox white--text pa-2 fill-height">
                 <v-col>
-                    <div class="subheading">Jonathan Lee</div>
-                    <div class="body-1">
-                        heyfromjonathan@gmail.com
+                    <v-avatar tile>
+                        <v-img :src="require('../../../images/logo-letras.png')"
+                               alt="Foundation Intercultural Connections "/>
+                    </v-avatar>
+                    <div class="subheading">Fundación Intercultural Connection</div>
+                    <div class="Caption">
+                        contacto@interculturalconnections.org
                     </div>
                 </v-col>
             </v-row>

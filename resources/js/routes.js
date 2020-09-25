@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import "nprogress/nprogress.css";
 import NProgress from "nprogress";
-
 
 Vue.use(VueRouter);
 
