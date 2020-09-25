@@ -556,11 +556,9 @@ export default {
 
     }),
     mounted() {
-        console.log("mounted principal");
         this.setPagePrincipal(true);
     },
     destroyed() {
-        console.log("destroyed principal");
         this.setPagePrincipal(false);
     },
     computed: {
