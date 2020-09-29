@@ -24,21 +24,25 @@
                 </v-btn>
             </template>
 
-            <v-list>
-                <v-list-item
-                    v-for="(language, i) in languages"
-                    :key="i"
-                    @click="changeLanguage(language.locale)"
-                >
-                    <v-list-item-avatar tile>
-                        <v-img
-                            aspect-ratio="1.7"
-                            contain
-                            :src="language.img"
-                        ></v-img>
-                    </v-list-item-avatar>
-                    <v-list-item-title>{{ language.title }}</v-list-item-title>
-                </v-list-item>
+            <v-list dense>
+                <v-subheader>Cambio de idioma</v-subheader>
+
+                <v-list-item-group v-model="model" color="primary">
+                    <v-list-item
+                        v-for="(language, i) in languages"
+                        :key="i"
+                        @click="changeLanguage(language.locale)"
+                    >
+                        <v-list-item-avatar tile>
+                            <v-img
+                                aspect-ratio="1.7"
+                                contain
+                                :src="language.img"
+                            ></v-img>
+                        </v-list-item-avatar>
+                        <v-list-item-title>{{ language.title }}</v-list-item-title>
+                    </v-list-item>
+                </v-list-item-group>
             </v-list>
         </v-menu>
 
@@ -54,7 +58,8 @@
 </template>
 
 <script>
-import { i18n } from "../../plugins/i18n";
+import {i18n} from "../../plugins/i18n";
+
 export default {
     name: "LanguageComponent",
     data() {
@@ -86,7 +91,6 @@ export default {
     },
     methods: {
         changeLanguage(item) {
-            console.log(item);
             i18n.locale = item;
         }
     }

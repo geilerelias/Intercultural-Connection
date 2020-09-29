@@ -15,7 +15,7 @@
                            alt="Foundation Intercultural Connections "/>
                 </v-avatar>
                 <span v-if="showName || !flat">
-                Fundación Intercultural Connections
+                {{$t("intercultural-connections-foundation")}}
                 </span>
             </v-toolbar-title>
 
@@ -23,22 +23,22 @@
 
             <template v-if="$vuetify.breakpoint.mdAndUp">
                 <v-btn to="/" style="font-stretch:ultra-condensed !important;" text>
-                    {{ $t("home") }}
+                    {{ $t("header.home") }}
                 </v-btn>
                 <v-btn to="about-us" style="font-stretch:ultra-condensed !important;" text>
-                    {{ $t("about-us") }}
+                    {{ $t("header.about-us") }}
                 </v-btn>
                 <v-btn to="our-services" style="font-stretch:ultra-condensed !important;" text>
-                    {{ $t("our-services") }}
+                    {{ $t("header.our-services") }}
                 </v-btn>
                 <v-btn to="projects" style="font-stretch:ultra-condensed !important;" text>
-                    {{ $t("projects") }}
+                    {{ $t("header.projects") }}
                 </v-btn>
                 <v-btn to="donations" style="font-stretch:ultra-condensed !important;" text>
-                    {{ $t("donations") }}
+                    {{ $t("header.donations") }}
                 </v-btn>
                 <v-btn to="contact-us" style="font-stretch:ultra-condensed !important;" text>
-                    {{ $t("contact-us") }}
+                    {{ $t("header.contact-us") }}
                 </v-btn>
             </template>
             <language></language>

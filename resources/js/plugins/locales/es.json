@@ -1,21 +1,23 @@
 {
-    "hello": {
-        "world": "Hola Mundo!"
-    },
+    "intercultural-connections-foundation": "Fundación Intercultural Connections",
     "spanish": "Español",
     "english": "Inglés",
-    "home": "Inicio",
-    "about-us": "¿Quienes somos?",
-    "our-services": "Nuestros servicios",
-    "projects": "Proyectos",
-    "donations": "Donaciones ",
-    "contact-us": "Contáctenos ",
+    "header": {
+        "home": "Inicio",
+        "about-us": "¿Quienes somos?",
+        "our-services": "Nuestros servicios",
+        "projects": "Proyectos",
+        "donations": "Donaciones ",
+        "contact-us": "Contáctenos"
+    },
+    "footer": {
+        "all-rights-reserved": "Todos los derechos reservados.",
+        "quick-links": "Enlaces rápidos."
+    },
     "slogan-foundation": "¡La interculturalidad como puente para que nadie se quede atrás!",
     "slogan-subtitle": "Ejecución de Estrategias que Permiten el Aprovechamiento de las Capacidades Humanas en las Áreas Académicas, Interculturales, Bilingües",
     "share-your-culture-with-others": "Comparte tu cultura con los demás.",
     "more-information": "mas Información",
-    "outstanding-news": "Noticias destacadas",
-    "meet-team": "Conoce nuestro equipo de trabajo",
     "your-name": "Su Nombre",
     "your-email": "Su Email",
     "subject": "Asunto",
@@ -23,5 +25,13 @@
     "send": "Enviar",
     "page-construction": "Estamos trabajando para que el sitio web esté listo pronto.",
     "connect-social-media": "¡Conéctate con nosotros en nuestras redes sociales!",
-    "copy": "Haga clic para copiar"
+    "copy": "Haga clic para copiar",
+    "home": {
+        "building-bridges-so-no-one-is-left-behind": "Construyendo puentes para que nadie se quede atrás",
+        "outstanding-news": "Noticias destacadas",
+        "meet-team": "Conoce nuestro equipo de trabajo"
+    },
+    "services": {
+        "our-services": "Nuestros servicios."
+    }
 }

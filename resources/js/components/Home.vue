@@ -33,7 +33,7 @@
                                 <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'"
                                     class="font-weight-bold"
                                     style="font-weight: bold; font-stretch:ultra-condensed !important;">
-                                    Fundación Intercultural Connections
+                                    {{$t("intercultural-connections-foundation")}}
                                 </h1>
                             </v-col>
                         </v-row>
@@ -50,7 +50,7 @@
                             <div class="font-weight-light "
                                  :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'"
                                  style="font-stretch: ultra-condensed">
-                                Construyendo puentes para que nadie se quede atrás
+                                {{$t("home.building-bridges-so-no-one-is-left-behind")}}
                             </div>
                         </h2>
                     </v-col>
@@ -67,7 +67,7 @@
                     <v-icon color="white" class="text--white">mdi-newspaper-variant-multiple-outline</v-icon>
                 </v-avatar>
                 <h1 class="text-uppercase headline font-weight-bold mb-2 text-center">
-                    {{ $t("outstanding-news") }}
+                    {{ $t("home.outstanding-news") }}
                 </h1>
                 <v-divider class="primary mx-auto" style="max-width: 28px;">
                 </v-divider>
@@ -322,7 +322,7 @@
                     <v-icon color="white" class="text--white">mdi-account-group-outline</v-icon>
                 </v-avatar>
                 <h1 class="text-uppercase headline font-weight-bold mb-2 text-center">
-                    {{ $t("meet-team") }}
+                    {{ $t("home.meet-team") }}
                 </h1>
                 <v-divider class="primary mx-auto" style="max-width: 28px;">
                 </v-divider>

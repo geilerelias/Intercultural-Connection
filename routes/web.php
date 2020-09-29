@@ -42,7 +42,6 @@ Route::get('storage/{folder}/{filename}', function ($folder, $filename) {
         return  $th->getMessage();
     }
 });
-
 Route::get('/{any?}', function () {
     return view("app");
 })->where('any', '.*')->name('app');

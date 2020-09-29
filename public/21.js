@@ -1,1 +1,14 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{103:function(e,t,r){"use strict";r.r(t);var n=r(1);function o(e,t){var r=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);t&&(n=n.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),r.push.apply(r,n)}return r}function c(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}var i={components:{"hijo-component":function(){return r.e(20).then(r.bind(null,113))}},computed:function(e){for(var t=1;t<arguments.length;t++){var r=null!=arguments[t]?arguments[t]:{};t%2?o(Object(r),!0).forEach((function(t){c(e,t,r[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(r)):o(Object(r)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(r,t))}))}return e}({},Object(n.c)(["numero"]))},u=r(0),s=Object(u.a)(i,(function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("div",[t("h1",[this._v("numero: "+this._s(this.numero))]),this._v(" "),t("hijo-component")],1),this._v(" "),t("button")])}),[],!1,null,"ab5d7b56",null);t.default=s.exports}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[21],{
+
+/***/ "./resources/images/logo-letras.png":
+/*!******************************************!*\
+  !*** ./resources/images/logo-letras.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo-letras.png?3820cf0a9c0bc3dbe08a5ddffa1b5677";
+
+/***/ })
+
+}]);
