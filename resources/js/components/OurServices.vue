@@ -10,7 +10,7 @@
             <v-row class="white--text">
                 <v-col cols="12" class="d-flex justify-center align-center">
                     <h1 class="display-2 text-center ">
-                        {{ $t("our-services") }}
+                        {{ $t("header.our-services") }}
                     </h1>
                 </v-col>
                 <v-col class="d-flex justify-center align-center">
@@ -25,8 +25,8 @@
 
 
         <section class="py-5">
-            <h2 class="display-1 font-weight-light text-center mb-4">
-                Our Services
+            <h2 class="title font-weight-bold text-center mb-4">
+               {{$t("services.these-are-the-main-services-we-offer")}}
             </h2>
             <div class="container">
                 <div v-for="(item, index ) in services" :key="item.title">

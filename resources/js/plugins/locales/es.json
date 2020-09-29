@@ -32,6 +32,7 @@
         "meet-team": "Conoce nuestro equipo de trabajo"
     },
     "services": {
-        "our-services": "Nuestros servicios."
+        "our-services": "Nuestros servicios.",
+        "these-are-the-main-services-we-offer": "Estos son los principales servicios que ofrecemos."
     }
 }

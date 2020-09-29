@@ -10,7 +10,7 @@
             <v-row class="white--text">
                 <v-col cols="12" class="d-flex justify-center align-center">
                     <h1 class="display-2 text-center ">
-                        {{ $t("donations") }}
+                        {{ $t("header.donations") }}
                     </h1>
                 </v-col>
                 <v-col class="d-flex justify-center align-center">

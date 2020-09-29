@@ -190,7 +190,7 @@ var render = function() {
                   _c("h1", { staticClass: "display-2 text-center " }, [
                     _vm._v(
                       "\n                    " +
-                        _vm._s(_vm.$t("our-services")) +
+                        _vm._s(_vm.$t("header.our-services")) +
                         "\n                "
                     )
                   ])
@@ -216,11 +216,13 @@ var render = function() {
       ),
       _vm._v(" "),
       _c("section", { staticClass: "py-5" }, [
-        _c(
-          "h2",
-          { staticClass: "display-1 font-weight-light text-center mb-4" },
-          [_vm._v("\n            Our Services\n        ")]
-        ),
+        _c("h2", { staticClass: "title font-weight-bold text-center mb-4" }, [
+          _vm._v(
+            "\n           " +
+              _vm._s(_vm.$t("services.these-are-the-main-services-we-offer")) +
+              "\n        "
+          )
+        ]),
         _vm._v(" "),
         _c(
           "div",

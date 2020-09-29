@@ -94,7 +94,7 @@ var render = function() {
                   _c("h1", { staticClass: "display-2 text-center " }, [
                     _vm._v(
                       "\n                    " +
-                        _vm._s(_vm.$t("projects")) +
+                        _vm._s(_vm.$t("header.projects")) +
                         "\n                "
                     )
                   ])
