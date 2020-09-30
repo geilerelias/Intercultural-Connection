@@ -102489,7 +102489,7 @@ var routes = [{
 }, {
   path: "/",
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(14), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ./components/layout.vue */ "./resources/js/components/layout.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(20), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ./components/layout.vue */ "./resources/js/components/layout.vue"));
   },
   children: [{
     path: "",
@@ -102507,7 +102507,7 @@ var routes = [{
     path: "/our-services",
     name: "our-services",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ./components/OurServices.vue */ "./resources/js/components/OurServices.vue"));
+      return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ./components/OurServices.vue */ "./resources/js/components/OurServices.vue"));
     }
   }, {
     path: "/projects",

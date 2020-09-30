@@ -189,6 +189,7 @@
                 </v-expand-transition>
             </v-card>
         </v-card>
+
         <v-card>
             <v-container grid-list-xs class="mb-12">
                 <v-row class="mb-5 align-center">
@@ -527,6 +528,12 @@ export default {
 
         };
     },
+    mounted() {
+        console.log(window.navigator.language||navigator.browserLanguage)
+    },
+    created() {
+        console.log(window.navigator.language||navigator.browserLanguage)
+    }
 };
 </script>
 

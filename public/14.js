@@ -1,51 +1,436 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[14],{
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue2-animate/dist/vue2-animate.min.css":
-/*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue2-animate/dist/vue2-animate.min.css ***!
-  \*********************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/OurServices.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      links: [{
+        text: "Home",
+        disabled: false,
+        href: "/"
+      }, {
+        text: "Our Services",
+        disabled: true,
+        href: "/our-services"
+      }],
+      ofertaDeFormacion: {
+        title: "OFERTA DE FORMACIÓN",
+        description: "La oferta del presente portafolio de servicios est\xE1 centrado en acompa\xF1ar a\n                directivos docentes de colegios oficiales y privados en temas relacionados con\n                biling\xFCismo y sus metas de convertirse en Colegios Reconocidos oficialmente\n                como Biling\xFCes. Desarrollar habilidades comunicativas en ingl\xE9s. Igualmente\n                fortalecer pr\xE1cticas de ense\xF1anza del ingl\xE9s. Integrar el ingl\xE9s con otras \xE1reas\n                curriculares y acompa\xF1ar a los padres de familia y comunidad en general en su\n                deseo de hacer del ingl\xE9s su aliado estrat\xE9gico para conectarse con el mundo."
+      },
+      services: [{
+        src: "services/acompañamiento-al-transito-de-colegios-academicos-regulares.jpg",
+        title: "Acompañamiento al tránsito de Colegios Académicos Regulares a Colegios Bilingües.",
+        description: "Este programa buscar acompa\xF1ar a directivos docentes de colegios\n                    oficiales y privados en temas relacionados con biling\xFCismo y sus metas de\n                    convertirse en Colegios Reconocidos oficialmente como Biling\xFCes. Tiene\n                    como objetivo promover y/o motivar transformaciones curriculares\n                    sostenibles desde quienes toman decisiones institucionales en la educaci\xF3n\n                    escolar.\n                    Dada nuestra experiencia en este campo, la fundaci\xF3n Intercultural\n                    Connections est\xE1 en la capacidad de acompa\xF1ar y asesorar el tr\xE1nsito de\n                    colegios de tipo acad\xE9micos regulares a colegios con educaci\xF3n biling\xFCe,\n                    teniendo en cuenta los tres tipos de colegio biling\xFCe que distingue el\n                    Ministerio de Educaci\xF3n Nacional as\xED:<br>\n                    \u2705 Intensificaci\xF3n\n                    \u2705 Colegio biling\xFCe nacional\n                    \u2705 Colegio biling\xFCe internacional."
+      }, {
+        src: "services/proyectos-de-educacion.jpg",
+        title: "Proyectos De Educación Bilingüe.",
+        description: "Ofrecemos completo e integral acompa\xF1amiento en las diferentes iniciativas\n                    escolares o acad\xE9micas que promuevan el uso del ingl\xE9s como segunda\n                    lengua."
+      }, {
+        src: "services/formulacion-de-proyectos.jpg",
+        title: "Formulación Proyecto tipo De Bilingüismo DNP a Entidades\n" + "Territoriales",
+        description: "El equipo especializado de la Fundaci\xF3n Intercultural Connections le\n                    asesora en las distintas las fases de formulaci\xF3n, implementaci\xF3n,\n                    monitoreo y evaluaci\xF3n acorde con el plan de Desarrollo de su\n                    municipalidad o Departamental en materia de biling\xFCismo, tomando como\n                    referencia y realizando el an\xE1lisis de las competencias comunicativas en\n                    ingl\xE9s de los ni\xF1os, ni\xF1as, adolescentes y j\xF3venes que asisten a las\n                    Instituciones Educativas sean estas oficiales o privadas del pa\xEDs; Las l\xEDneas\n                    de acci\xF3n propuestas son: - Formaci\xF3n Docente - Inmersiones para\n                    docentes y estudiantes - Evaluaci\xF3n de docentes y estudiantes -\n                    Acompa\xF1amiento a las pr\xE1cticas pedag\xF3gicas de aula - Dotaci\xF3n de\n                    materiales y recursos educativos"
+      }, {
+        src: "services/formacion-en-ingles.jpg",
+        title: "Formación en Ingles",
+        description: "Desarrollar habilidades comunicativas en ingl\xE9s. Fortalecer pr\xE1cticas de\n                    ense\xF1anza del ingl\xE9s. Integrar el ingl\xE9s con otras \xE1reas curriculares. Aplicar\n                    los est\xE1ndares del MEN para el \xE1rea de ingl\xE9s.\n                    Manejar nuevas metodolog\xEDas para la ense\xF1anza del ingl\xE9s."
+      }, {
+        src: "services/preparacion-a-estudiantes.jpg",
+        title: "Preparación a estudiantes para la prueba SABER 11º.",
+        description: "En Intercultural Connections Foundation acompa\xF1amos a Secretar\xEDas de\n                    Educaci\xF3n e Instituciones Educativas en el proceso de preparaci\xF3n de\n                    estudiantes de grado 11\xBA para la presentaci\xF3n de la prueba SABER 11\xBA. El\n                    proceso incluye la construcci\xF3n de un an\xE1lisis de contexto y necesidades\n                    por instituci\xF3n, la aplicaci\xF3n de dos simulacros (de entrada y salida) para\n                    determinar el nivel de los estudiantes en cada una de las \xE1reas evaluadas y\n                    la detecci\xF3n de aspectos que requieren fortalecimiento. Adicionalmente,\n                    brindamos un proceso de formaci\xF3n a estudiantes con una intensidad de 40\n                    horas presenciales y 20 horas de trabajo aut\xF3nomo, complementado con\n                    una estrategia de acompa\xF1amiento virtual."
+      }, {
+        src: "services/english-together.jpg",
+        title: "English Together",
+        description: "Encuentros l\xFAdico/acad\xE9micos entre estudiantes de grados 6 a 9 de\n                    Instituciones Educativas Oficiales y de colegios privados biling\xFCes, para\n                    estimular el aprendizaje y la pr\xE1ctica del ingl\xE9s en ambientes diferentes y\n                    con metodolog\xEDas efectivas.\n                    Cada colegio privado biling\xFCe aporta: profesores y estudiantes biling\xFCes,\n                    instalaciones del colegio, material did\xE1ctico y refrigerios.\n                    La Secretar\xEDa de Educaci\xF3n Municipal financia el transporte de los\n                    estudiantes de las Instituciones Educativas Oficiales."
+      }, {
+        src: "services/connecting-knowledge.jpg",
+        title: "Connecting Knowledge",
+        description: "\n                    Con el prop\xF3sito de conectar el conocimiento, las ideas, las reflexiones, las\n                    lecciones y las perspectivas que se construyen en los procesos de\n                    Ense\xF1anza y Aprendizaje del Ingles como segunda lengua con la\n                    producci\xF3n acad\xE9mica de la regi\xF3n, nace una l\xEDnea de trabajo que se ha\n                    denominado Connecting knowledge, cuyo prop\xF3sito es impulsar la creaci\xF3n\n                    de conocimiento e investigaci\xF3n alrededor del biling\xFCismo en cada regi\xF3n\n                    donde se promovida esta iniciativa, de la mano con la academia y las\n                    instituciones educativas de la regi\xF3n.\n                    Con esta l\xEDnea, se busca generar alianzas y trabajo colaborativo con las\n                    universidades y centros acad\xE9micos interesados, para visibilizar y abordar,\n                    desde la investigaci\xF3n, problem\xE1ticas trabajadas en mesas de trabajo\n                    relacionadas con pol\xEDticas, inversi\xF3n, aprendizaje y ense\xF1anza del ingl\xE9s,\n                    en los que se est\xE1 en capacidad de ofrecer insumos e informaci\xF3n\n                    significativa. La idea es que estas problem\xE1ticas puedan desarrollarse\n                    desde los trabajos de grado de los estudiantes de licenciatura, maestr\xEDas en\n                    lenguas extranjeras y carreras o posgrados afines.\n                    En suma, esta iniciativa pretende articular la producci\xF3n acad\xE9mica de los\n                    estudiantes de las universidades con las reflexiones y propuestas de\n                    intervenci\xF3n construidas desde las mesas de trabajo propuestas para que\n                    haya retroalimentaci\xF3n en doble v\xEDa."
+      }, {
+        src: "services/laboratorios-de-innovacion.jpg",
+        title: "Laboratorios de innovación Bilingüe:",
+        description: "Laboratorios de innovaci\xF3n para la ense\xF1anza del ingl\xE9s para docentes de\n                    ingl\xE9s de colegios oficiales y privados. Estos programas podr\xE1n ser\n                    subvencionados por patrocinadores estatales o privados y ello promover\xE1 la\n                    gratuidad de la participaci\xF3n de docentes que no cuenten con los recursos\n                    necesarios para cubrir los costos de su participaci\xF3n."
+      }, {
+        src: "services/campamentos-de-inmersion.jpg",
+        title: "Campamentos de Inmersión bilingüe",
+        description: "Cuando hablamos de\xA0Campamentos de Inmersi\xF3n Biling\xFCe no s\xF3lo\n                    hablamos de un campamento en ingl\xE9s. En un\xA0Campamento de Inmersi\xF3n\n                    Biling\xFCe (Ingl\xE9s)\xA0el contacto con el idioma es\xA0TOTAL.\n                    En los\xA0Campamentos de Inmersi\xF3n Ling\xFC\xEDstica en Ingl\xE9s\xA0los monitores y\n                    profesores son biling\xFCes y tambi\xE9n nativos.\n                    LA INMERSI\xD3N CULTURAL\xA0es la clave para el \xE9xito de estos\n                    campamentos: los ni\xF1os y j\xF3venes conocen gente joven de otras lugares al\n                    tiempo que aprenden de sus propias vivencias con sus monitores y\n                    profesores. Se encuentran en todo momento en un entorno seguro,\n                    divertido y d\xF3nde el \xFAnico idioma empleado es el ingl\xE9s."
+      }]
+    };
+  }
+});
 
+/***/ }),
 
-// module
-exports.push([module.i, "/*!\n * vue2-animate\n * (c) 2018 Pavel Savushkin\n * Released under the MIT License.\n * Documentation: https://github.com/asika32764/vue2-animate\n */@-webkit-keyframes bounceIn{20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{opacity:1;transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}to{opacity:1;transform:scale3d(1,1,1)}}@keyframes bounceIn{20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{opacity:1;transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}to{opacity:1;transform:scale3d(1,1,1)}}@-webkit-keyframes bounceOut{20%{transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;transform:scale3d(1.1,1.1,1.1)}to{opacity:0;transform:scale3d(.3,.3,.3)}}@keyframes bounceOut{20%{transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;transform:scale3d(1.1,1.1,1.1)}to{opacity:0;transform:scale3d(.3,.3,.3)}}@-webkit-keyframes bounceInDown{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(0,-3000px,0)}60%{opacity:1;transform:translate3d(0,25px,0)}75%{transform:translate3d(0,-10px,0)}90%{transform:translate3d(0,5px,0)}to{transform:none}}@keyframes bounceInDown{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(0,-3000px,0)}60%{opacity:1;transform:translate3d(0,25px,0)}75%{transform:translate3d(0,-10px,0)}90%{transform:translate3d(0,5px,0)}to{transform:none}}@-webkit-keyframes bounceOutDown{20%{transform:translate3d(0,10px,0)}40%,45%{opacity:1;transform:translate3d(0,-20px,0)}to{opacity:0;transform:translate3d(0,2000px,0)}}@keyframes bounceOutDown{20%{transform:translate3d(0,10px,0)}40%,45%{opacity:1;transform:translate3d(0,-20px,0)}to{opacity:0;transform:translate3d(0,2000px,0)}}@-webkit-keyframes bounceInLeft{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(-3000px,0,0)}60%{opacity:1;transform:translate3d(25px,0,0)}75%{transform:translate3d(-10px,0,0)}90%{transform:translate3d(5px,0,0)}to{transform:none}}@keyframes bounceInLeft{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(-3000px,0,0)}60%{opacity:1;transform:translate3d(25px,0,0)}75%{transform:translate3d(-10px,0,0)}90%{transform:translate3d(5px,0,0)}to{transform:none}}@-webkit-keyframes bounceOutLeft{20%{opacity:1;transform:translate3d(20px,0,0)}to{opacity:0;transform:translate3d(-2000px,0,0)}}@keyframes bounceOutLeft{20%{opacity:1;transform:translate3d(20px,0,0)}to{opacity:0;transform:translate3d(-2000px,0,0)}}@-webkit-keyframes bounceInRight{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}from{opacity:0;transform:translate3d(3000px,0,0)}60%{opacity:1;transform:translate3d(-25px,0,0)}75%{transform:translate3d(10px,0,0)}90%{transform:translate3d(-5px,0,0)}to{transform:none}}@keyframes bounceInRight{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}from{opacity:0;transform:translate3d(3000px,0,0)}60%{opacity:1;transform:translate3d(-25px,0,0)}75%{transform:translate3d(10px,0,0)}90%{transform:translate3d(-5px,0,0)}to{transform:none}}@-webkit-keyframes bounceOutRight{20%{opacity:1;transform:translate3d(-20px,0,0)}to{opacity:0;transform:translate3d(2000px,0,0)}}@keyframes bounceOutRight{20%{opacity:1;transform:translate3d(-20px,0,0)}to{opacity:0;transform:translate3d(2000px,0,0)}}@-webkit-keyframes bounceInUp{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}from{opacity:0;transform:translate3d(0,3000px,0)}60%{opacity:1;transform:translate3d(0,-20px,0)}75%{transform:translate3d(0,10px,0)}90%{transform:translate3d(0,-5px,0)}to{transform:translate3d(0,0,0)}}@keyframes bounceInUp{60%,75%,90%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}from{opacity:0;transform:translate3d(0,3000px,0)}60%{opacity:1;transform:translate3d(0,-20px,0)}75%{transform:translate3d(0,10px,0)}90%{transform:translate3d(0,-5px,0)}to{transform:translate3d(0,0,0)}}@-webkit-keyframes bounceOutUp{20%{transform:translate3d(0,-10px,0)}40%,45%{opacity:1;transform:translate3d(0,20px,0)}to{opacity:0;transform:translate3d(0,-2000px,0)}}@keyframes bounceOutUp{20%{transform:translate3d(0,-10px,0)}40%,45%{opacity:1;transform:translate3d(0,20px,0)}to{opacity:0;transform:translate3d(0,-2000px,0)}}.bounce-enter-active,.bounce-leave-active,.bounceIn,.bounceOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.bounce-enter-active,.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}.bounce-leave-active,.bounceOut{-webkit-animation-name:bounceOut;animation-name:bounceOut}.bounceDown-enter-active,.bounceDown-leave-active,.bounceInDown,.bounceOutDown{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.bounceDown-enter-active,.bounceInDown{-webkit-animation-name:bounceInDown;animation-name:bounceInDown}.bounceDown-leave-active,.bounceOutDown{-webkit-animation-name:bounceOutDown;animation-name:bounceOutDown}.bounceInLeft,.bounceLeft-enter-active,.bounceLeft-leave-active,.bounceOutLeft{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.bounceInLeft,.bounceLeft-enter-active{-webkit-animation-name:bounceInLeft;animation-name:bounceInLeft}.bounceLeft-leave-active,.bounceOutLeft{-webkit-animation-name:bounceOutLeft;animation-name:bounceOutLeft}.bounceInRight,.bounceOutRight,.bounceRight-enter-active,.bounceRight-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.bounceInRight,.bounceRight-enter-active{-webkit-animation-name:bounceInRight;animation-name:bounceInRight}.bounceOutRight,.bounceRight-leave-active{-webkit-animation-name:bounceOutRight;animation-name:bounceOutRight}.bounceInUp,.bounceOutUp,.bounceUp-enter-active,.bounceUp-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.bounceInUp,.bounceUp-enter-active{-webkit-animation-name:bounceInUp;animation-name:bounceInUp}.bounceOutUp,.bounceUp-leave-active{-webkit-animation-name:bounceOutUp;animation-name:bounceOutUp}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}@-webkit-keyframes fadeOut{from{opacity:1}to{opacity:0}}@keyframes fadeOut{from{opacity:1}to{opacity:0}}@-webkit-keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutDown{from{opacity:1}to{opacity:0;transform:translate3d(0,100%,0)}}@keyframes fadeOutDown{from{opacity:1}to{opacity:0;transform:translate3d(0,100%,0)}}@-webkit-keyframes fadeInDownBig{from{opacity:0;transform:translate3d(0,-2000px,0)}to{opacity:1;transform:none}}@keyframes fadeInDownBig{from{opacity:0;transform:translate3d(0,-2000px,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutDownBig{from{opacity:1}to{opacity:0;transform:translate3d(0,2000px,0)}}@keyframes fadeOutDownBig{from{opacity:1}to{opacity:0;transform:translate3d(0,2000px,0)}}@-webkit-keyframes fadeInLeft{from{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}@keyframes fadeInLeft{from{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutLeft{from{opacity:1}to{opacity:0;transform:translate3d(-100%,0,0)}}@keyframes fadeOutLeft{from{opacity:1}to{opacity:0;transform:translate3d(-100%,0,0)}}@-webkit-keyframes fadeInLeftBig{from{opacity:0;transform:translate3d(-2000px,0,0)}to{opacity:1;transform:none}}@keyframes fadeInLeftBig{from{opacity:0;transform:translate3d(-2000px,0,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutLeftBig{from{opacity:1}to{opacity:0;transform:translate3d(-2000px,0,0)}}@keyframes fadeOutLeftBig{from{opacity:1}to{opacity:0;transform:translate3d(-2000px,0,0)}}@-webkit-keyframes fadeInRight{from{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:none}}@keyframes fadeInRight{from{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutRight{from{opacity:1}to{opacity:0;transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{from{opacity:1}to{opacity:0;transform:translate3d(100%,0,0)}}@-webkit-keyframes fadeInRightBig{from{opacity:0;transform:translate3d(2000px,0,0)}to{opacity:1;transform:none}}@keyframes fadeInRightBig{from{opacity:0;transform:translate3d(2000px,0,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutRightBig{from{opacity:1}to{opacity:0;transform:translate3d(2000px,0,0)}}@keyframes fadeOutRightBig{from{opacity:1}to{opacity:0;transform:translate3d(2000px,0,0)}}@-webkit-keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}@keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutUp{from{opacity:1}to{opacity:0;transform:translate3d(0,-100%,0)}}@keyframes fadeOutUp{from{opacity:1}to{opacity:0;transform:translate3d(0,-100%,0)}}@-webkit-keyframes fadeInUpBig{from{opacity:0;transform:translate3d(0,2000px,0)}to{opacity:1;transform:none}}@keyframes fadeInUpBig{from{opacity:0;transform:translate3d(0,2000px,0)}to{opacity:1;transform:none}}@-webkit-keyframes fadeOutUpBig{from{opacity:1}to{opacity:0;transform:translate3d(0,-2000px,0)}}@keyframes fadeOutUpBig{from{opacity:1}to{opacity:0;transform:translate3d(0,-2000px,0)}}.fade-enter-active,.fade-leave-active,.fadeIn,.fadeOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fade-enter-active,.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}.fade-leave-active,.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}.fadeDown-enter-active,.fadeDown-leave-active,.fadeInDown,.fadeOutDown{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeDown-enter-active,.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}.fadeDown-leave-active,.fadeOutDown{-webkit-animation-name:fadeOutDown;animation-name:fadeOutDown}.fadeDownBig-enter-active,.fadeDownBig-leave-active,.fadeInDownBig,.fadeOutDownBig{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeDownBig-enter-active,.fadeInDownBig{-webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}.fadeDownBig-leave-active,.fadeOutDownBig{-webkit-animation-name:fadeOutDownBig;animation-name:fadeOutDownBig}.fadeInLeft,.fadeLeft-enter-active,.fadeLeft-leave-active,.fadeOutLeft{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeInLeft,.fadeLeft-enter-active{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}.fadeLeft-leave-active,.fadeOutLeft{-webkit-animation-name:fadeOutLeft;animation-name:fadeOutLeft}.fadeInLeftBig,.fadeLeftBig-enter-active,.fadeLeftBig-leave-active,.fadeOutLeftBig{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeInLeftBig,.fadeLeftBig-enter-active{-webkit-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}.fadeLeftBig-leave-active,.fadeOutLeftBig{-webkit-animation-name:fadeOutLeftBig;animation-name:fadeOutLeftBig}.fadeInRight,.fadeOutRight,.fadeRight-enter-active,.fadeRight-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeInRight,.fadeRight-enter-active{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}.fadeOutRight,.fadeRight-leave-active{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}.fadeInRightBig,.fadeOutRightBig,.fadeRightBig-enter-active,.fadeRightBig-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeInRightBig,.fadeRightBig-enter-active{-webkit-animation-name:fadeInRightBig;animation-name:fadeInRightBig}.fadeOutRightBig,.fadeRightBig-leave-active{-webkit-animation-name:fadeOutRightBig;animation-name:fadeOutRightBig}.fadeInUp,.fadeOutUp,.fadeUp-enter-active,.fadeUp-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeInUp,.fadeUp-enter-active{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}.fadeOutUp,.fadeUp-leave-active{-webkit-animation-name:fadeOutUp;animation-name:fadeOutUp}.fadeInUpBig,.fadeOutUpBig,.fadeUpBig-enter-active,.fadeUpBig-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeInUpBig,.fadeUpBig-enter-active{-webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}.fadeOutUpBig,.fadeUpBig-leave-active{-webkit-animation-name:fadeOutUpBig;animation-name:fadeOutUpBig}@-webkit-keyframes rotateIn{from{transform-origin:center;transform:rotate3d(0,0,1,-200deg);opacity:0}to{transform-origin:center;transform:none;opacity:1}}@keyframes rotateIn{from{transform-origin:center;transform:rotate3d(0,0,1,-200deg);opacity:0}to{transform-origin:center;transform:none;opacity:1}}@-webkit-keyframes rotateOut{from{transform-origin:center;opacity:1}to{transform-origin:center;transform:rotate3d(0,0,1,200deg);opacity:0}}@keyframes rotateOut{from{transform-origin:center;opacity:1}to{transform-origin:center;transform:rotate3d(0,0,1,200deg);opacity:0}}@-webkit-keyframes rotateInDownLeft{from{transform-origin:left bottom;transform:rotate3d(0,0,1,-45deg);opacity:0}to{transform-origin:left bottom;transform:none;opacity:1}}@keyframes rotateInDownLeft{from{transform-origin:left bottom;transform:rotate3d(0,0,1,-45deg);opacity:0}to{transform-origin:left bottom;transform:none;opacity:1}}@-webkit-keyframes rotateOutDownLeft{from{transform-origin:left bottom;opacity:1}to{transform-origin:left bottom;transform:rotate3d(0,0,1,45deg);opacity:0}}@keyframes rotateOutDownLeft{from{transform-origin:left bottom;opacity:1}to{transform-origin:left bottom;transform:rotate3d(0,0,1,45deg);opacity:0}}@-webkit-keyframes rotateInDownRight{from{transform-origin:right bottom;transform:rotate3d(0,0,1,45deg);opacity:0}to{transform-origin:right bottom;transform:none;opacity:1}}@keyframes rotateInDownRight{from{transform-origin:right bottom;transform:rotate3d(0,0,1,45deg);opacity:0}to{transform-origin:right bottom;transform:none;opacity:1}}@-webkit-keyframes rotateOutDownRight{from{transform-origin:right bottom;opacity:1}to{transform-origin:right bottom;transform:rotate3d(0,0,1,-45deg);opacity:0}}@keyframes rotateOutDownRight{from{transform-origin:right bottom;opacity:1}to{transform-origin:right bottom;transform:rotate3d(0,0,1,-45deg);opacity:0}}@-webkit-keyframes rotateInUpLeft{from{transform-origin:left bottom;transform:rotate3d(0,0,1,45deg);opacity:0}to{transform-origin:left bottom;transform:none;opacity:1}}@keyframes rotateInUpLeft{from{transform-origin:left bottom;transform:rotate3d(0,0,1,45deg);opacity:0}to{transform-origin:left bottom;transform:none;opacity:1}}@-webkit-keyframes rotateOutUpLeft{from{transform-origin:left bottom;opacity:1}to{transform-origin:left bottom;transform:rotate3d(0,0,1,-45deg);opacity:0}}@keyframes rotateOutUpLeft{from{transform-origin:left bottom;opacity:1}to{transform-origin:left bottom;transform:rotate3d(0,0,1,-45deg);opacity:0}}@-webkit-keyframes rotateInUpRight{from{transform-origin:right bottom;transform:rotate3d(0,0,1,-90deg);opacity:0}to{transform-origin:right bottom;transform:none;opacity:1}}@keyframes rotateInUpRight{from{transform-origin:right bottom;transform:rotate3d(0,0,1,-90deg);opacity:0}to{transform-origin:right bottom;transform:none;opacity:1}}@-webkit-keyframes rotateOutUpRight{from{transform-origin:right bottom;opacity:1}to{transform-origin:right bottom;transform:rotate3d(0,0,1,90deg);opacity:0}}@keyframes rotateOutUpRight{from{transform-origin:right bottom;opacity:1}to{transform-origin:right bottom;transform:rotate3d(0,0,1,90deg);opacity:0}}.rotate-enter-active,.rotate-leave-active,.rotateIn,.rotateOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.rotate-enter-active,.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}.rotate-leave-active,.rotateOut{-webkit-animation-name:rotateOut;animation-name:rotateOut}.rotateDownLeft-enter-active,.rotateDownLeft-leave-active,.rotateInDownLeft,.rotateOutDownLeft{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.rotateDownLeft-enter-active,.rotateInDownLeft{-webkit-animation-name:rotateInDownLeft;animation-name:rotateInDownLeft}.rotateDownLeft-leave-active,.rotateOutDownLeft{-webkit-animation-name:rotateOutDownLeft;animation-name:rotateOutDownLeft}.rotateDownRight-enter-active,.rotateDownRight-leave-active,.rotateInDownRight,.rotateOutDownRight{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.rotateDownRight-enter-active,.rotateInDownRight{-webkit-animation-name:rotateInDownRight;animation-name:rotateInDownRight}.rotateDownRight-leave-active,.rotateOutDownRight{-webkit-animation-name:rotateOutDownRight;animation-name:rotateOutDownRight}.rotateInUpLeft,.rotateOutUpLeft,.rotateUpLeft-enter-active,.rotateUpLeft-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.rotateInUpLeft,.rotateUpLeft-enter-active{-webkit-animation-name:rotateInUpLeft;animation-name:rotateInUpLeft}.rotateOutUpLeft,.rotateUpLeft-leave-active{-webkit-animation-name:rotateOutUpLeft;animation-name:rotateOutUpLeft}.rotateInUpRight,.rotateOutUpRight,.rotateUpRight-enter-active,.rotateUpRight-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.rotateInUpRight,.rotateUpRight-enter-active{-webkit-animation-name:rotateInUpRight;animation-name:rotateInUpRight}.rotateOutUpRight,.rotateUpRight-leave-active{-webkit-animation-name:rotateOutUpRight;animation-name:rotateOutUpRight}@-webkit-keyframes slideInDown{from{transform:translate3d(0,-100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInDown{from{transform:translate3d(0,-100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}@-webkit-keyframes slideOutDown{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(0,100%,0)}}@keyframes slideOutDown{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(0,100%,0)}}@-webkit-keyframes slideInLeft{from{transform:translate3d(-100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInLeft{from{transform:translate3d(-100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}@-webkit-keyframes slideOutLeft{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(-100%,0,0)}}@keyframes slideOutLeft{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(-100%,0,0)}}@-webkit-keyframes slideInRight{from{transform:translate3d(100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInRight{from{transform:translate3d(100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}@-webkit-keyframes slideOutRight{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(100%,0,0)}}@keyframes slideOutRight{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(100%,0,0)}}@-webkit-keyframes slideInUp{from{transform:translate3d(0,100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInUp{from{transform:translate3d(0,100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}@-webkit-keyframes slideOutUp{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(0,-100%,0)}}@keyframes slideOutUp{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(0,-100%,0)}}.slide-enter-active,.slide-leave-active,.slideIn,.slideOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.slide-enter-active,.slideIn{-webkit-animation-name:slideIn;animation-name:slideIn}.slide-leave-active,.slideOut{-webkit-animation-name:slideOut;animation-name:slideOut}.slideDown-enter-active,.slideDown-leave-active,.slideInDown,.slideOutDown{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.slideDown-enter-active,.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}.slideDown-leave-active,.slideOutDown{-webkit-animation-name:slideOutDown;animation-name:slideOutDown}.slideInLeft,.slideLeft-enter-active,.slideLeft-leave-active,.slideOutLeft{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.slideInLeft,.slideLeft-enter-active{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}.slideLeft-leave-active,.slideOutLeft{-webkit-animation-name:slideOutLeft;animation-name:slideOutLeft}.slideInRight,.slideOutRight,.slideRight-enter-active,.slideRight-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.slideInRight,.slideRight-enter-active{-webkit-animation-name:slideInRight;animation-name:slideInRight}.slideOutRight,.slideRight-leave-active{-webkit-animation-name:slideOutRight;animation-name:slideOutRight}.slideInUp,.slideOutUp,.slideUp-enter-active,.slideUp-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.slideInUp,.slideUp-enter-active{-webkit-animation-name:slideInUp;animation-name:slideInUp}.slideOutUp,.slideUp-leave-active{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}@-webkit-keyframes zoomIn{from{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{from{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}@-webkit-keyframes zoomOut{from{opacity:1}50%{opacity:0;transform:scale3d(.3,.3,.3)}to{opacity:0}}@keyframes zoomOut{from{opacity:1}50%{opacity:0;transform:scale3d(.3,.3,.3)}to{opacity:0}}@-webkit-keyframes zoomInDown{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInDown{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@-webkit-keyframes zoomOutDown{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutDown{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@-webkit-keyframes zoomInLeft{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInLeft{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@-webkit-keyframes zoomOutLeft{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;transform:scale(.1) translate3d(-2000px,0,0);transform-origin:left center}}@keyframes zoomOutLeft{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;transform:scale(.1) translate3d(-2000px,0,0);transform-origin:left center}}@-webkit-keyframes zoomInRight{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInRight{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@-webkit-keyframes zoomOutRight{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;transform:scale(.1) translate3d(2000px,0,0);transform-origin:right center}}@keyframes zoomOutRight{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;transform:scale(.1) translate3d(2000px,0,0);transform-origin:right center}}@-webkit-keyframes zoomInUp{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInUp{from{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@-webkit-keyframes zoomOutUp{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutUp{40%{opacity:1;transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoom-enter-active,.zoom-leave-active,.zoomIn,.zoomOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.zoom-enter-active,.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}.zoom-leave-active,.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}.zoomDown-enter-active,.zoomDown-leave-active,.zoomInDown,.zoomOutDown{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.zoomDown-enter-active,.zoomInDown{-webkit-animation-name:zoomInDown;animation-name:zoomInDown}.zoomDown-leave-active,.zoomOutDown{-webkit-animation-name:zoomOutDown;animation-name:zoomOutDown}.zoomInLeft,.zoomLeft-enter-active,.zoomLeft-leave-active,.zoomOutLeft{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.zoomInLeft,.zoomLeft-enter-active{-webkit-animation-name:zoomInLeft;animation-name:zoomInLeft}.zoomLeft-leave-active,.zoomOutLeft{-webkit-animation-name:zoomOutLeft;animation-name:zoomOutLeft}.zoomInRight,.zoomOutRight,.zoomRight-enter-active,.zoomRight-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.zoomInRight,.zoomRight-enter-active{-webkit-animation-name:zoomInRight;animation-name:zoomInRight}.zoomOutRight,.zoomRight-leave-active{-webkit-animation-name:zoomOutRight;animation-name:zoomOutRight}.zoomInUp,.zoomOutUp,.zoomUp-enter-active,.zoomUp-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.zoomInUp,.zoomUp-enter-active{-webkit-animation-name:zoomInUp;animation-name:zoomInUp}.zoomOutUp,.zoomUp-leave-active{-webkit-animation-name:zoomOutUp;animation-name:zoomOutUp}@-webkit-keyframes flipIn{from{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,-360deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:0}40%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-190deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:.4}50%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-170deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.5}80%{transform:perspective(400px) scale3d(.95,.95,.95) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.8}to{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:1}}@keyframes flipIn{from{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,-360deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:0}40%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-190deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:.4}50%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-170deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.5}80%{transform:perspective(400px) scale3d(.95,.95,.95) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.8}to{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:1}}@-webkit-keyframes flipOut{from{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:1}40%{transform:perspective(400px) scale3d(.95,.95,.95) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.6}50%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-170deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.5}80%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-190deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:.2}to{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,-360deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:0}}@keyframes flipOut{from{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:1}40%{transform:perspective(400px) scale3d(.95,.95,.95) translate3d(0,0,0) rotate3d(0,1,0,0deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.6}50%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-170deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:.5}80%{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,150px) rotate3d(0,1,0,-190deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:.2}to{transform:perspective(400px) scale3d(1,1,1) translate3d(0,0,0) rotate3d(0,1,0,-360deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:0}}@-webkit-keyframes flipInX{from{transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{transform:perspective(400px) rotate3d(1,0,0,10deg);opacity:1}80%{transform:perspective(400px) rotate3d(1,0,0,-5deg)}to{transform:perspective(400px)}}@keyframes flipInX{from{transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{transform:perspective(400px) rotate3d(1,0,0,10deg);opacity:1}80%{transform:perspective(400px) rotate3d(1,0,0,-5deg)}to{transform:perspective(400px)}}@-webkit-keyframes flipInY{from{transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{transform:perspective(400px) rotate3d(0,1,0,10deg);opacity:1}80%{transform:perspective(400px) rotate3d(0,1,0,-5deg)}to{transform:perspective(400px)}}@keyframes flipInY{from{transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{transform:perspective(400px) rotate3d(0,1,0,10deg);opacity:1}80%{transform:perspective(400px) rotate3d(0,1,0,-5deg)}to{transform:perspective(400px)}}@-webkit-keyframes flipOutX{from{transform:perspective(400px)}30%{transform:perspective(400px) rotate3d(1,0,0,-20deg);opacity:1}to{transform:perspective(400px) rotate3d(1,0,0,90deg);opacity:0}}@keyframes flipOutX{from{transform:perspective(400px)}30%{transform:perspective(400px) rotate3d(1,0,0,-20deg);opacity:1}to{transform:perspective(400px) rotate3d(1,0,0,90deg);opacity:0}}@-webkit-keyframes flipOutY{from{transform:perspective(400px)}30%{transform:perspective(400px) rotate3d(0,1,0,-15deg);opacity:1}to{transform:perspective(400px) rotate3d(0,1,0,90deg);opacity:0}}@keyframes flipOutY{from{transform:perspective(400px)}30%{transform:perspective(400px) rotate3d(0,1,0,-15deg);opacity:1}to{transform:perspective(400px) rotate3d(0,1,0,90deg);opacity:0}}.flip-enter-active,.flip-leave-active,.flipIn,.flipOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.flip-enter-active,.flipIn{-webkit-animation-name:flipIn;animation-name:flipIn}.flip-leave-active,.flipOut{-webkit-animation-name:flipOut;animation-name:flipOut}.flipInX,.flipOutX,.flipX-enter-active,.flipX-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.flipInX,.flipX-enter-active{-webkit-animation-name:flipInX;animation-name:flipInX}.flipOutX,.flipX-leave-active{-webkit-animation-name:flipOutX;animation-name:flipOutX}.flipInY,.flipOutY,.flipY-enter-active,.flipY-leave-active{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.flipInY,.flipY-enter-active{-webkit-animation-name:flipInY;animation-name:flipInY}.flipOutY,.flipY-leave-active{-webkit-animation-name:flipOutY;animation-name:flipOutY}@-webkit-keyframes lightSpeedIn{from{transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{transform:skewX(20deg);opacity:1}80%{transform:skewX(-5deg)}to{transform:translate3d(0,0,0)}}@keyframes lightSpeedIn{from{transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{transform:skewX(20deg);opacity:1}80%{transform:skewX(-5deg)}to{transform:translate3d(0,0,0)}}@-webkit-keyframes lightSpeedOut{from{opacity:1}to{transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}@keyframes lightSpeedOut{from{opacity:1}to{transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}.lightSpeed-enter-active,.lightSpeed-leave-active,.lightSpeedIn,.lightSpeedOut{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.lightSpeed-enter-active,.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn}.lightSpeed-leave-active,.lightSpeedOut{-webkit-animation-name:lightSpeedOut;animation-name:lightSpeedOut}", ""]);
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// exports
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-app",
+    [
+      _c(
+        "v-card",
+        {
+          staticClass: "d-flex align-end",
+          staticStyle: { height: "40vh" },
+          attrs: { flat: "", tile: "", color: "primary darken-2" }
+        },
+        [
+          _c(
+            "v-row",
+            { staticClass: "white--text" },
+            [
+              _c(
+                "v-col",
+                {
+                  staticClass: "d-flex justify-center align-center",
+                  attrs: { cols: "12" }
+                },
+                [
+                  _c("h1", { staticClass: "display-2 text-center " }, [
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(_vm.$t("header.our-services")) +
+                        "\n                "
+                    )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { staticClass: "d-flex justify-center align-center" },
+                [
+                  _c("v-breadcrumbs", {
+                    staticClass: "white--text",
+                    attrs: { dark: "", items: _vm.links }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("section", { staticClass: "py-5" }, [
+        _c("h2", { staticClass: "title font-weight-bold text-center mb-4" }, [
+          _vm._v(
+            "\n           " +
+              _vm._s(_vm.$t("services.these-are-the-main-services-we-offer")) +
+              "\n        "
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "container" },
+          _vm._l(_vm.services, function(item, index) {
+            return _c(
+              "div",
+              { key: item.title },
+              [
+                _c(
+                  "v-row",
+                  { staticClass: "mb-5 align-center" },
+                  [
+                    _c(
+                      "v-col",
+                      {
+                        staticClass: "col-md-4 col-12",
+                        class: index % 2 !== 0 ? "order-md-2" : ""
+                      },
+                      [
+                        _c(
+                          "v-card",
+                          { attrs: { outlined: "" } },
+                          [
+                            _c("v-img", {
+                              staticClass: "grey lighten-2 ",
+                              attrs: {
+                                height: "200",
+                                src: "/storage/" + item.src,
+                                "aspect-ratio": "1"
+                              },
+                              scopedSlots: _vm._u(
+                                [
+                                  {
+                                    key: "placeholder",
+                                    fn: function() {
+                                      return [
+                                        _c(
+                                          "v-row",
+                                          {
+                                            staticClass: "fill-height ma-0",
+                                            attrs: {
+                                              align: "center",
+                                              justify: "center"
+                                            }
+                                          },
+                                          [
+                                            _c("v-progress-circular", {
+                                              attrs: {
+                                                indeterminate: "",
+                                                color: "grey lighten-5"
+                                              }
+                                            })
+                                          ],
+                                          1
+                                        )
+                                      ]
+                                    },
+                                    proxy: true
+                                  }
+                                ],
+                                null,
+                                true
+                              )
+                            })
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "px-0 col-md-8 col-12" },
+                      [
+                        _c(
+                          "v-card",
+                          { attrs: { flat: "", color: "transparent" } },
+                          [
+                            _c("v-card-title", [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "base-section-heading text-center mt-5"
+                                },
+                                [
+                                  _c(
+                                    "h3",
+                                    {
+                                      staticClass:
+                                        "text-h6 font-weight-bold  text-truncate"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                                        " +
+                                          _vm._s(item.title) +
+                                          "\n                                    "
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("v-divider", {
+                                    staticClass: "primary  mr-auto mb-3",
+                                    staticStyle: { "max-width": "28px" }
+                                  })
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("v-card-text", {
+                              domProps: { innerHTML: _vm._s(item.description) }
+                            })
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          }),
+          0
+        )
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
 
 
 /***/ }),
 
-/***/ "./node_modules/vue2-animate/dist/vue2-animate.min.css":
-/*!*************************************************************!*\
-  !*** ./node_modules/vue2-animate/dist/vue2-animate.min.css ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./resources/js/components/OurServices.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/OurServices.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OurServices.vue?vue&type=template&id=71c11daf&scoped=true& */ "./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&");
+/* harmony import */ var _OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OurServices.vue?vue&type=script&lang=js& */ "./resources/js/components/OurServices.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
-var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./vue2-animate.min.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue2-animate/dist/vue2-animate.min.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
 
 
 
-var options = {"hmr":true}
+/* normalize component */
 
-options.transform = transform
-options.insertInto = undefined;
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "71c11daf",
+  null
+  
+)
 
-var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/OurServices.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
-if(content.locals) module.exports = content.locals;
+/***/ }),
 
-if(false) {}
+/***/ "./resources/js/components/OurServices.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/OurServices.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./OurServices.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./OurServices.vue?vue&type=template&id=71c11daf&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

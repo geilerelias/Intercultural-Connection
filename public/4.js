@@ -518,6 +518,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -532,6 +533,12 @@ __webpack_require__.r(__webpack_exports__);
         href: "/about-us"
       }]
     };
+  },
+  mounted: function mounted() {
+    console.log(window.navigator.language || navigator.browserLanguage);
+  },
+  created: function created() {
+    console.log(window.navigator.language || navigator.browserLanguage);
   }
 });
 

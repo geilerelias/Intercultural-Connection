@@ -10,21 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="agregando traducciones a la pagina">
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="corrigiendo headers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/13.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/15.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/14.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/14.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/20.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/team/Stefanny Castrillo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/team/Stefanny Castrillo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/home/team/Stefanny Castrillo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/home/team/Stefanny Castrillo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/AboutUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AboutUs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ContactUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ContactUs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Donations.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Donations.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/OurServices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/OurServices.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Projects.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/plugins/locales/es.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jenis Sagbini/JenisSagbini/resources/js/components/page/InicioComponent.vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/team" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -227,7 +221,8 @@
       <workItem from="1601257871445" duration="2219000" />
       <workItem from="1601298019879" duration="998000" />
       <workItem from="1601299135699" duration="1030000" />
-      <workItem from="1601300660270" duration="18843000" />
+      <workItem from="1601300660270" duration="19574000" />
+      <workItem from="1601381823885" duration="3765000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -334,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601338524232</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="corrigiendo headers">
+      <created>1601342658293</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601342658293</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -374,7 +376,8 @@
     <MESSAGE value="run prod" />
     <MESSAGE value="eliminando mensajes de la pagina home" />
     <MESSAGE value="agregando traducciones a la pagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando traducciones a la pagina" />
+    <MESSAGE value="corrigiendo headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigiendo headers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Plugins" timestamp="1600101687206">
@@ -416,11 +419,11 @@
     </state>
     <state x="183" y="28" key="SettingsEditor/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597496005088" />
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1599480645627" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1601338541768">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1601342666577">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1360.768/-1600.-137.1600.900@0.0.1360.768" timestamp="1597513376007" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-1920.-313.1920.1080@0.0.1366.768" timestamp="1601338541768" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/-1920.-313.1920.1080@0.0.1366.768" timestamp="1601342666577" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1601029427049" />
     <state x="-1446" y="-71" key="run.anything.popup" timestamp="1601322160804">
       <screen x="-1920" y="-313" width="1920" height="1080" />
@@ -439,7 +442,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/resources/js/components/OurServices.vue</url>
           <line>108</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
