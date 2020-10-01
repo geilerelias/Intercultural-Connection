@@ -110,6 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -140,7 +141,7 @@ __webpack_require__.r(__webpack_exports__);
         icon: 'mdi-card-account-mail'
       }],
       services: [{
-        src: "services/acompañamiento-al-transito-de-colegios-academicos-regulares.jpg",
+        src: "services/acompanamiento-al-transito-de-colegios-academicos-regulares.jpg",
         title: "Acompañamiento al tránsito de Colegios Académicos Regulares a Colegios Bilingües.",
         description: "Este programa buscar acompa\xF1ar a directivos docentes de colegios\n                    oficiales y privados en temas relacionados con biling\xFCismo y sus metas de\n                    convertirse en Colegios Reconocidos oficialmente como Biling\xFCes. Tiene\n                    como objetivo promover y/o motivar transformaciones curriculares\n                    sostenibles desde quienes toman decisiones institucionales en la educaci\xF3n\n                    escolar.\n                    Dada nuestra experiencia en este campo, la fundaci\xF3n Intercultural\n                    Connections est\xE1 en la capacidad de acompa\xF1ar y asesorar el tr\xE1nsito de\n                    colegios de tipo acad\xE9micos regulares a colegios con educaci\xF3n biling\xFCe,\n                    teniendo en cuenta los tres tipos de colegio biling\xFCe que distingue el\n                    Ministerio de Educaci\xF3n Nacional as\xED:<br>\n                    \u2705 Intensificaci\xF3n\n                    \u2705 Colegio biling\xFCe nacional\n                    \u2705 Colegio biling\xFCe internacional."
       }, {

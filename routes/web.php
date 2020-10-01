@@ -22,6 +22,17 @@ Route::get('/clear-cache', function () {
     }
 });
 
+
+Route::get('/storage', function () {
+    try {
+        $exitCode = Artisan::call('storage:link');
+
+        return 'DONE =>'.$exitCode; //Return anything
+    } catch (Throwable $th) {
+        //throw $th;
+    }
+});
+
 Route::get('storage/{folder}/{filename}', function ($folder, $filename) {
 
     try {

@@ -108,7 +108,7 @@ export default {
             },
             services: [
                 {
-                    src: "services/acompañamiento-al-transito-de-colegios-academicos-regulares.jpg",
+                    src: "services/acompanamiento-al-transito-de-colegios-academicos-regulares.jpg",
                     title: "Acompañamiento al tránsito de Colegios Académicos Regulares a Colegios Bilingües.",
                     description: `Este programa buscar acompañar a directivos docentes de colegios
                     oficiales y privados en temas relacionados con bilingüismo y sus metas de

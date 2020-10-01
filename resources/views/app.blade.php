@@ -1,52 +1,39 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible"
-              content="IE=edge">
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1">
-        <meta name="csrf-token"
-              content="{{ csrf_token() }}">
-        <meta charset="utf-8">
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon"
-              type="image/png"
-              href="{{ asset('/favicon.ico') }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
 
-        <!-- CSRF Token -->
-        <meta name="csrf-token"
-              content="{{ csrf_token() }}">
+    <title>Soy Maria Victoria Aponte</title>
+    <meta
+        name="description"
+        content="Me inspira el saber de las mujeres, estoy comprometida con su autovaloración. Confiero pasión en el empoderamiento de cada mujer, con objetividad y claridad. Mi travesía personal refleja una combinación de saberes cotidianos, profesionales y sociales, inspirados en la necesidad de despertar conciencias de mujeres."
+    />
+    <meta name="keywords" content="Maria Victoria Aponte Valverde, Empoderamiento"/>
+    <meta name="author" content="Geiler Elias Radillo Sarmiento" />
 
-        <title>{{ config('app.name') }}</title>
-        <!-- Fonts -->
-        <link rel="dns-prefetch"
-              href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito"
-              rel="stylesheet">
+    <meta name="copyright" content="Laravel - vue - vuetify" />
+    <meta name="robots" content="index"/>
 
-        <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}"
-              rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600"
+          rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <!-- Styles -->
+    <link href="{{ mix('css/app.css') }}"
+          rel="stylesheet">
 
-        {{-- <style>
-            ::-webkit-scrollbar {
-                display: none;
-            }
 
-        </style> --}}
-    </head>
+</head>
 
-    <body style="overflow-x:hidden !important">
-        <div id="app"
-             style="overflow-x:hidden !important">
-            <vue-app style="overflow-x:hidden !important"></vue-app>
-        </div>
+<body>
+<div id="app">
+    <vue-app></vue-app>
+</div>
+<script src="{{ mix('js/app.js') }}"></script>
 
-        <script src="{{ asset('js/app.js') }}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    </body>
+</body>
 
 </html>

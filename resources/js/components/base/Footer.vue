@@ -23,7 +23,7 @@
                 <v-row class="ma-0">
                     <div class="primary darken-2 pa-5 col-md-3 col-12">
                         <h3 class="headline mb-3 text-center">
-                            {{$t("intercultural-connections-foundation")}}
+                            {{ $t("intercultural-connections-foundation") }}
                         </h3>
 
                         <div
@@ -39,12 +39,12 @@
                             >
 
 
-                                <v-list rounded color="transparent" >
+                                <v-list rounded color="transparent">
                                     <v-list-item-content>
-                                        <v-list-item-title>{{$t("footer.quick-links")}}</v-list-item-title>
+                                        <v-list-item-title>{{ $t("footer.quick-links") }}</v-list-item-title>
                                     </v-list-item-content>
 
-                                    <v-list-item-group  color="primary">
+                                    <v-list-item-group color="primary">
                                         <v-list-item
                                             v-for="(item, i) in links"
                                             :key="i"
@@ -52,17 +52,18 @@
 
                                         >
                                             <v-list-item-icon>
-                                                <v-icon v-text="item.icon" ></v-icon>
+                                                <v-icon v-text="item.icon"></v-icon>
                                             </v-list-item-icon>
                                             <v-list-item-content>
-                                                <v-list-item-title >{{$t("header."+item.title) }}</v-list-item-title>
+                                                <v-list-item-title>{{ $t("header." + item.title) }}</v-list-item-title>
                                             </v-list-item-content>
                                         </v-list-item>
                                     </v-list-item-group>
                                 </v-list>
                             </div>
 
-                            <v-divider style="height: 5px" class="white text--white" v-if="$vuetify.breakpoint.smAndDown"></v-divider>
+                            <v-divider style="height: 5px" class="white text--white"
+                                       v-if="$vuetify.breakpoint.smAndDown"></v-divider>
                             <v-divider v-if="$vuetify.breakpoint.smAndDown"></v-divider>
 
                             <div
@@ -70,7 +71,7 @@
                             >
                                 <v-list rounded color="transparent" dense>
                                     <v-list-item-content>
-                                        <v-list-item-title>{{$t("services.our-services")}}</v-list-item-title>
+                                        <v-list-item-title>{{ $t("services.our-services") }}</v-list-item-title>
                                     </v-list-item-content>
                                     <v-list-item-group v-model="service" color="primary">
                                         <v-list-item
@@ -91,7 +92,7 @@
                     </div>
                     <v-col class="text-center pa-3">
                         © 2019 - {{ new Date().getFullYear() }}
-                        {{$t("intercultural-connections-foundation")}} — {{$t("footer.all-rights-reserved")}}
+                        {{ $t("intercultural-connections-foundation") }} — {{ $t("footer.all-rights-reserved") }}
                     </v-col>
                 </v-row>
             </v-card>
@@ -111,16 +112,16 @@ export default {
                 "mdi-instagram"
             ],
             links: [
-                {to: "/", title: "home", icon:'mdi-home'},
-                {to: "about-us", title: "about-us",icon:'mdi-account-question'},
-                {to: "our-services", title: "our-services",icon:'mdi-face-agent'},
-                {to: "projects", title: "projects",icon:'mdi-folder-multiple'},
-                {to: "donations", title: "donations", icon:'mdi-hand-heart'},
-                {to: "contact-us", title: "contact-us",icon:'mdi-card-account-mail'},
+                {to: "/", title: "home", icon: 'mdi-home'},
+                {to: "about-us", title: "about-us", icon: 'mdi-account-question'},
+                {to: "our-services", title: "our-services", icon: 'mdi-face-agent'},
+                {to: "projects", title: "projects", icon: 'mdi-folder-multiple'},
+                {to: "donations", title: "donations", icon: 'mdi-hand-heart'},
+                {to: "contact-us", title: "contact-us", icon: 'mdi-card-account-mail'},
             ],
             services: [
                 {
-                    src: "services/acompañamiento-al-transito-de-colegios-academicos-regulares.jpg",
+                    src: "services/acompanamiento-al-transito-de-colegios-academicos-regulares.jpg",
                     title: "Acompañamiento al tránsito de Colegios Académicos Regulares a Colegios Bilingües.",
                     description: `Este programa buscar acompañar a directivos docentes de colegios
                     oficiales y privados en temas relacionados con bilingüismo y sus metas de
