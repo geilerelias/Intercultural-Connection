@@ -6,15 +6,22 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
 
-    <title>Fundacion Intercultural Connection</title>
+    <title>Fundación Intercultural Connection</title>
     <meta
         name="description"
-        content="Me inspira el saber de las mujeres, estoy comprometida con su autovaloración. Confiero pasión en el empoderamiento de cada mujer, con objetividad y claridad. Mi travesía personal refleja una combinación de saberes cotidianos, profesionales y sociales, inspirados en la necesidad de despertar conciencias de mujeres."
+        content="SOMOS LA FUNDACIÓN INTERCULTURAL CONNECTIONS.
+                Nuestro objetivo es prestar el servicio público esencial de educación, impartiendo educación formal bilingüe (Inglés- español u otros idiomas), para niños, jóvenes y adultos de ambos sexos, en colegios públicos y privados con las modalidades de preescolar, básica primaria, básica secundaria y media vocacional, o las que en el futuro las sustituyan legalmente.Facilitamos la educación no formal, prestamos servicios en áreas socio humanísticos, turísticas, culturales, medioambientales, deportivas y programas de extensión académica.
+                Buscamos el desarrollo y la formación integral de los estudiantes, profesionales o personas de la sociedad civil dentro de un profundo sentido humanista y de los valores, así como de conocimientos académicos y de prácticas turísticas, culturales y deportivas, mediante la educación formal y no formal.
+                Fomentamos el estudio del turismo y la cultura colombiana en el marco de la cultura universal.
+                Establecemos mecanismos que proporcionen el intercambio de experiencias con personas de habla inglesa y otros idiomas.
+                Ofrecemos a los estudiantes, profesionales y a toda la comunidad educativa medios o programas que contribuyan a su capacitación y actualización.
+                Establecemos actividades periódicas que favorezcan el turismo, la cultura, el medio ambiente, deporte y recreación del grupo familiar de los asociados.
+                Estimulamos el acercamiento cultural con los países de habla inglesa y/o países con cualquier otro tipo de idiomas."
     />
-    <meta name="keywords" content="Maria Victoria Aponte Valverde, Empoderamiento"/>
-    <meta name="author" content="Geiler Elias Radillo Sarmiento" />
+    <meta name="keywords" content="Fundacíon Intercultural Connection "/>
+    <meta name="author" content="Geiler Elias Radillo Sarmiento"/>
 
-    <meta name="copyright" content="Laravel - vue - vuetify" />
+    <meta name="copyright" content="Laravel - vue - vuetify"/>
     <meta name="robots" content="index"/>
 
     <!-- Fonts -->
@@ -24,8 +31,6 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}"
           rel="stylesheet">
-
-
 </head>
 
 <body>
