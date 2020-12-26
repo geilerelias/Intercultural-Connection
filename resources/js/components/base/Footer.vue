@@ -1,7 +1,7 @@
 <template>
-    <v-footer dark padless elevation="24">
-        <v-container fluid class="ma-0 pa-0">
-            <v-card flat tile class="primary darken-3  white--text">
+    <v-footer dark elevation="24" padless>
+        <v-container class="ma-0 pa-0" fluid>
+            <v-card class="primary darken-3  white--text" flat tile>
                 <v-row class="ma-0 pa-0">
                     <v-col class="mx-4 pa-0 d-flex justify-start align-center ">
                         <strong class="subheading  white--text ">
@@ -35,58 +35,72 @@
                     <div class="primary darken-1 pa-5 col-md-9 col-12 ">
                         <v-row>
                             <div
-                                class="col-md-6 col-12 white--text"
+                                class="col-md-4 col-12 white--text"
                             >
-
-
-                                <v-list rounded color="transparent">
+                                <v-list color="transparent" dense rounded>
                                     <v-list-item-content>
                                         <v-list-item-title>{{ $t("footer.quick-links") }}</v-list-item-title>
                                     </v-list-item-content>
+                                    <v-list-item
+                                        v-for="(item, i) in links"
+                                        :key="i"
+                                        :to="item.to"
 
-                                    <v-list-item-group color="primary">
-                                        <v-list-item
-                                            v-for="(item, i) in links"
-                                            :key="i"
-                                            :to="item.to"
-
-                                        >
-                                            <v-list-item-icon>
-                                                <v-icon v-text="item.icon"></v-icon>
-                                            </v-list-item-icon>
-                                            <v-list-item-content>
-                                                <v-list-item-title>{{ $t("header." + item.title) }}</v-list-item-title>
-                                            </v-list-item-content>
-                                        </v-list-item>
-                                    </v-list-item-group>
+                                    >
+                                        <v-list-item-icon>
+                                            <v-icon v-text="item.icon"></v-icon>
+                                        </v-list-item-icon>
+                                        <v-list-item-content>
+                                            <v-list-item-title>{{ $t("header." + item.title) }}</v-list-item-title>
+                                        </v-list-item-content>
+                                    </v-list-item>
                                 </v-list>
                             </div>
 
-                            <v-divider style="height: 5px" class="white text--white"
-                                       v-if="$vuetify.breakpoint.smAndDown"></v-divider>
+                            <v-divider v-if="$vuetify.breakpoint.smAndDown" class="white text--white"
+                                       style="height: 5px"></v-divider>
                             <v-divider v-if="$vuetify.breakpoint.smAndDown"></v-divider>
 
                             <div
-                                class="col-md-6 col-12 white--text"
+                                class="col-md-8 col-12 white--text"
                             >
-                                <v-list rounded color="transparent" dense>
-                                    <v-list-item-content>
-                                        <v-list-item-title>{{ $t("services.our-services") }}</v-list-item-title>
-                                    </v-list-item-content>
-                                    <v-list-item-group v-model="service" color="primary">
-                                        <v-list-item
-                                            v-for="(item, i) in services"
-                                            :key="i"
-                                        >
-                                            <v-list-item-avatar>
-                                                <v-img :src="`/storage/${item.src}`"></v-img>
-                                            </v-list-item-avatar>
-                                            <v-list-item-content>
-                                                <v-list-item-title v-text="item.title"></v-list-item-title>
-                                            </v-list-item-content>
-                                        </v-list-item>
-                                    </v-list-item-group>
-                                </v-list>
+                                <v-list-item-content>
+                                    <v-list-item-title>{{ $t("services.our-services") }}</v-list-item-title>
+                                </v-list-item-content>
+                                <v-row>
+                                    <v-col class="col-md-6 col-12 white--text" >
+                                        <v-list color="transparent" dense rounded>
+                                            <v-list-item v-for="(item, i) in services" v-if="i%2==0"
+                                                         :key="i"
+                                                         v-model="service"
+                                                         color="primary"
+                                            >
+                                                <v-list-item-avatar>
+                                                    <v-img :src="`/storage/${item.src}`"></v-img>
+                                                </v-list-item-avatar>
+                                                <v-list-item-content>
+                                                    <v-list-item-title v-text="item.title"></v-list-item-title>
+                                                </v-list-item-content>
+                                            </v-list-item>
+                                        </v-list>
+                                    </v-col>
+                                    <v-col class="col-md-6 col-12 white--text">
+                                        <v-list color="transparent" dense rounded>
+                                            <v-list-item v-for="(item, i) in services" v-if="i%2!=0"
+                                                         :key="i"
+                                                         v-model="service"
+                                                         color="primary"
+                                            >
+                                                <v-list-item-avatar>
+                                                    <v-img :src="`/storage/${item.src}`"></v-img>
+                                                </v-list-item-avatar>
+                                                <v-list-item-content>
+                                                    <v-list-item-title v-text="item.title"></v-list-item-title>
+                                                </v-list-item-content>
+                                            </v-list-item>
+                                        </v-list>
+                                    </v-col>
+                                </v-row>
                             </div>
                         </v-row>
                     </div>

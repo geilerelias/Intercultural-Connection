@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
 
-    <title>Soy Maria Victoria Aponte</title>
+    <title>Fundacion Intercultural Connection</title>
     <meta
         name="description"
         content="Me inspira el saber de las mujeres, estoy comprometida con su autovaloración. Confiero pasión en el empoderamiento de cada mujer, con objetividad y claridad. Mi travesía personal refleja una combinación de saberes cotidianos, profesionales y sociales, inspirados en la necesidad de despertar conciencias de mujeres."

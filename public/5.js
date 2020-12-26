@@ -400,6 +400,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -427,7 +430,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }, {
         title: 'Certificates of participation in TIA program',
         src: '../../images/home/certificates of participation in TIA program.jpeg',
-        content: 'Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of participation in TIA program',
+        content: 'Los estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación familiar\n' + '       Comfacesar recibieron certificado de participación en el programa TIA. en Tulsa:\n' + '       Certificates of\n' + '       participation in TIA program',
         location: 'Tulsa, USA',
         date: 'Noviembre 2019',
         to: '#notice-1'
@@ -437,7 +440,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }, {
         title: "Actividad cultural",
         src: '../../images/home/docentes y estudiantes del colegio.jpeg',
-        content: 'Docentes y estudiantes del colegio XXXX de  Comfacesar en actividad cultural en  TCC Northeast Campus  2019.',
+        content: 'Docentes y estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación familiar Comfacesar en actividad cultural en TCC\n' + ' Northeast Campus 2019.',
         location: 'Tulsa, USA',
         date: 'Noviembre 2019',
         to: '#notice-2'
@@ -492,7 +495,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         name: "Daniel Chanboya",
         email: "DanielChanboya@hotmail.com",
         occupation: "Director TIA en Tulsa, USA",
-        description: "<p>\n                    Director TIA en Tulsa, USA\n                </p> "
+        description: "\n                    \u2714\tMarried to Nasiba from Kyrgystan, two kids: Lilah (10 yrs.) and Alek (5 yrs.) <br>\n\n                    \u2714\tLoves to spend time with his family, play soccer, travel, eat international cuisine, listen to global music\u2026 <br>\n\n                    \u2714\tStudied at Oral Roberts University (B.S. Marketing)  and University of Oklahoma (Master of Human Relations)<br>\n\n                    \u2714\tDirector of the English as a Second Language Program at Tulsa Community College where he has worked for over 18 years helping people learn English to find better jobs, enroll in college, and connect with others in their communities. <br>\n\n                    \u2714\tHas served our local and global community for many years mostly focused on improving the lives of immigrants and refugees by providing access to educational, workplace, and intercultural exchange opportunities. <br>\n\n                    \u2714\tIn 2012, he and his wife Nasiba founded the non-profit organization Tulsa Intercultural Association that promotes intercultural competency, language proficiency, community service, and academic excellence.  They are currently involved in various projects in Colombia, Honduras, Krygyzstan, and other places through English training programs for teachers and English language classes for students plus intercultural exchange opportunities in Tulsa. <br>\n\n                    \u2714\tIn 2020, he founded the Fundacion Intercultural Connections with Alexander Castrillo in Valledupar, Colombia.  This foundation is committed to providing programs, activities, and exchange opportunities which promote bilingualism and intercultural awareness in Colombia and throughout the world. <br>\n\n                    \u2714\tDaniel is committed to helping people communicate more effectively and empowering people to reach their dreams! <br>"
       }, {
         img: "images/team/Jenis Sagbini.jpg",
         name: "Jenis Sagbini",
@@ -602,11 +605,11 @@ var render = function() {
             "v-img",
             {
               attrs: {
-                height: "50vh",
                 src: __webpack_require__(/*! ../../images/fotos/DSC_0192.jpg */ "./resources/images/fotos/DSC_0192.jpg"),
                 alt: "principal",
                 gradient:
-                  "to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
+                  "to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)",
+                height: "50vh"
               }
             },
             [
@@ -624,10 +627,14 @@ var render = function() {
                           "padding-left": "0px !important"
                         },
                         attrs: {
-                          height: "45vh",
-                          contain: "",
+                          height: _vm.$vuetify.breakpoint.mdAndUp
+                            ? "45vh"
+                            : _vm.$vuetify.breakpoint.smAndUp
+                            ? "100vh"
+                            : "",
                           src: __webpack_require__(/*! ../../images/logo-transparente.png */ "./resources/images/logo-transparente.png"),
-                          "aspect-ratio": "1"
+                          "aspect-ratio": "1",
+                          contain: ""
                         }
                       })
                     : _vm._e(),
@@ -638,7 +645,7 @@ var render = function() {
                       staticClass: "d-flex align-end  ",
                       class: _vm.$vuetify.breakpoint.smAndDown ? "" : "mr-12",
                       staticStyle: { height: "50vh" },
-                      attrs: { flat: "", tile: "", color: "transparent" }
+                      attrs: { color: "transparent", flat: "", tile: "" }
                     },
                     [
                       _c(
@@ -844,8 +851,8 @@ var render = function() {
                                 {
                                   key: i,
                                   attrs: {
-                                    "aspect-ratio": "1.7",
-                                    src: item.src
+                                    src: item.src,
+                                    "aspect-ratio": "1.7"
                                   },
                                   scopedSlots: _vm._u(
                                     [
@@ -865,8 +872,8 @@ var render = function() {
                                               [
                                                 _c("v-progress-circular", {
                                                   attrs: {
-                                                    indeterminate: "",
-                                                    color: "grey lighten-5"
+                                                    color: "grey lighten-5",
+                                                    indeterminate: ""
                                                   }
                                                 })
                                               ],
@@ -896,8 +903,8 @@ var render = function() {
                                           staticClass:
                                             " justify-center aling-center centered",
                                           attrs: {
-                                            color: "#00000099",
                                             align: "end",
+                                            color: "#00000099",
                                             justify: "center"
                                           }
                                         },
@@ -915,10 +922,10 @@ var render = function() {
                                                 {
                                                   attrs: {
                                                     block: "",
-                                                    text: "",
                                                     href:
                                                       "http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE",
-                                                    target: "_blank"
+                                                    target: "_blank",
+                                                    text: ""
                                                   }
                                                 },
                                                 [
@@ -1026,9 +1033,9 @@ var render = function() {
                     [
                       _c("v-img", {
                         attrs: {
-                          height: "300",
                           src: __webpack_require__(/*! ../../images/home/certificates of participation in TIA program.jpeg */ "./resources/images/home/certificates of participation in TIA program.jpeg"),
-                          "aspect-ratio": "1.7"
+                          "aspect-ratio": "1.7",
+                          height: "300"
                         },
                         scopedSlots: _vm._u([
                           {
@@ -1047,8 +1054,8 @@ var render = function() {
                                   [
                                     _c("v-progress-circular", {
                                       attrs: {
-                                        indeterminate: "",
-                                        color: "grey lighten-5"
+                                        color: "grey lighten-5",
+                                        indeterminate: ""
                                       }
                                     })
                                   ],
@@ -1072,7 +1079,7 @@ var render = function() {
                         "v-card",
                         {
                           staticClass: "mx-auto",
-                          attrs: { tile: "", flat: "", height: "300" }
+                          attrs: { flat: "", height: "300", tile: "" }
                         },
                         [
                           _c("v-card-text", [
@@ -1090,7 +1097,7 @@ var render = function() {
                             _vm._v(" "),
                             _c("div", { staticClass: "text--primary" }, [
                               _vm._v(
-                                "\n                                Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of\n                                participation\n                                in TIA program\n                            "
+                                "\n                                Los estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación familiar\n                                Comfacesar recibieron certificado de participación en el programa TIA. en Tulsa:\n                                Certificates of\n                                participation in TIA program\n                            "
                               )
                             ]),
                             _vm._v(" "),
@@ -1104,8 +1111,8 @@ var render = function() {
                                 "v-btn",
                                 {
                                   attrs: {
-                                    text: "",
-                                    color: "deep-purple accent-4"
+                                    color: "deep-purple accent-4",
+                                    text: ""
                                   }
                                 },
                                 [
@@ -1137,9 +1144,9 @@ var render = function() {
                     [
                       _c("v-img", {
                         attrs: {
-                          height: "300",
                           src: __webpack_require__(/*! ../../images/home/docentes y estudiantes del colegio.jpeg */ "./resources/images/home/docentes y estudiantes del colegio.jpeg"),
-                          "aspect-ratio": "1.7"
+                          "aspect-ratio": "1.7",
+                          height: "300"
                         },
                         scopedSlots: _vm._u([
                           {
@@ -1158,8 +1165,8 @@ var render = function() {
                                   [
                                     _c("v-progress-circular", {
                                       attrs: {
-                                        indeterminate: "",
-                                        color: "grey lighten-5"
+                                        color: "grey lighten-5",
+                                        indeterminate: ""
                                       }
                                     })
                                   ],
@@ -1183,7 +1190,7 @@ var render = function() {
                         "v-card",
                         {
                           staticClass: "mx-auto",
-                          attrs: { tile: "", flat: "", height: "300" }
+                          attrs: { flat: "", height: "300", tile: "" }
                         },
                         [
                           _c("v-card-text", [
@@ -1201,7 +1208,7 @@ var render = function() {
                             _vm._v(" "),
                             _c("div", { staticClass: "text--primary" }, [
                               _vm._v(
-                                "\n                                Docentes y estudiantes del colegio XXXX de Comfacesar en actividad cultural en TCC\n                                Northeast Campus 2019.\n                            "
+                                "\n                                Docentes y estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación\n                                familiar Comfacesar en actividad cultural en TCC\n                                Northeast Campus 2019.\n                            "
                               )
                             ]),
                             _vm._v(" "),
@@ -1215,8 +1222,8 @@ var render = function() {
                                 "v-btn",
                                 {
                                   attrs: {
-                                    text: "",
-                                    color: "deep-purple accent-4"
+                                    color: "deep-purple accent-4",
+                                    text: ""
                                   }
                                 },
                                 [
@@ -1297,7 +1304,7 @@ var render = function() {
               _vm._l(_vm.group, function(item, index) {
                 return _c(
                   "div",
-                  { key: index, staticClass: "flex xs12 sm6 md4" },
+                  { key: index, staticClass: "flex xs12 sm6 md4 " },
                   [
                     _c("v-hover", {
                       scopedSlots: _vm._u(
@@ -1315,9 +1322,9 @@ var render = function() {
                                       {
                                         staticClass: "mx-auto",
                                         attrs: {
+                                          color: "grey lighten-4",
                                           height: "350",
-                                          width: "250",
-                                          color: "grey lighten-4"
+                                          width: "250"
                                         }
                                       },
                                       [
@@ -1325,9 +1332,9 @@ var render = function() {
                                           "v-img",
                                           {
                                             attrs: {
+                                              src: item.img,
                                               height: "350",
-                                              width: "250",
-                                              src: item.img
+                                              width: "250"
                                             }
                                           },
                                           [
@@ -1358,7 +1365,7 @@ var render = function() {
                                                             [
                                                               _c("p", {
                                                                 staticClass:
-                                                                  "pa-6 ",
+                                                                  "pa-6 text-justify",
                                                                 domProps: {
                                                                   innerHTML: _vm._s(
                                                                     item.description

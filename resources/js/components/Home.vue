@@ -1,39 +1,38 @@
 <template>
     <v-app>
         <v-sheet>
-            <!-- https://s2.best-wallpaper.net/wallpaper/1920x1200/1504/USA-San-Francisco-Golden-Gate-bridge-rocks-waves-beach_1920x1200.jpg -->
             <v-img
-                height="50vh"
                 :src="require('../../images/fotos/DSC_0192.jpg')"
                 alt="principal"
                 gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
+                height="50vh"
             >
 
-                <v-container fluid class="fill-height white--text ">
+                <v-container class="fill-height white--text " fluid>
 
                     <v-img v-if="$vuetify.breakpoint.mdAndUp"
-                           style="left: 10px !important; ; padding-left: 0px !important;"
-                           height="45vh"
-                           contain
+                           :height="$vuetify.breakpoint.mdAndUp?'45vh': $vuetify.breakpoint.smAndUp?'100vh':''"
                            :src="require('../../images/logo-transparente.png')"
                            aspect-ratio="1"
+                           contain
+                           style="left: 10px !important; ; padding-left: 0px !important;"
                     ></v-img>
 
 
                     <v-card
-                        flat
-                        tile
-                        style="height: 50vh;"
-                        class="d-flex align-end  "
                         :class="$vuetify.breakpoint.smAndDown?'':'mr-12'"
+                        class="d-flex align-end  "
                         color="transparent"
+                        flat
+                        style="height: 50vh;"
+                        tile
                     >
-                        <v-row class="white--text text-left " :class="$vuetify.breakpoint.smAndDown?'':'mr-2'">
-                            <v-col cols="12" class="d-flex justify-end align-end mb-4">
+                        <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-2'" class="white--text text-left ">
+                            <v-col class="d-flex justify-end align-end mb-4" cols="12">
                                 <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'"
                                     class="font-weight-bold"
                                     style="font-weight: bold; font-stretch:ultra-condensed !important;">
-                                    {{$t("intercultural-connections-foundation")}}
+                                    {{ $t("intercultural-connections-foundation") }}
                                 </h1>
                             </v-col>
                         </v-row>
@@ -42,15 +41,16 @@
             </v-img>
         </v-sheet>
 
+
         <v-sheet color="primary darken-3" dark style="border-radius: 0px;">
             <v-container class="container--fluid py-0">
-                <v-row class="align-center justify-center " :class="$vuetify.breakpoint.smAndDown?'':'mr-12'">
+                <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-12'" class="align-center justify-center ">
                     <v-col class="grow">
                         <h2 class=" font-weight-light float-right">
-                            <div class="font-weight-light "
-                                 :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'"
+                            <div :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'"
+                                 class="font-weight-light "
                                  style="font-stretch: ultra-condensed">
-                                {{$t("home.building-bridges-so-no-one-is-left-behind")}}
+                                {{ $t("home.building-bridges-so-no-one-is-left-behind") }}
                             </div>
                         </h2>
                     </v-col>
@@ -64,7 +64,7 @@
         <section id="notices">
             <div class="text-center py-9 grey lighten-4 mb-4">
                 <v-avatar class="mb-4 primary" size="60 ">
-                    <v-icon color="white" class="text--white">mdi-newspaper-variant-multiple-outline</v-icon>
+                    <v-icon class="text--white" color="white">mdi-newspaper-variant-multiple-outline</v-icon>
                 </v-avatar>
                 <h1 class="text-uppercase headline font-weight-bold mb-2 text-center">
                     {{ $t("home.outstanding-news") }}
@@ -91,35 +91,36 @@
                                 <v-carousel-item
                                     v-for="(item,i) in carousel"
                                     :key="i"
-                                    aspect-ratio="1.7"
                                     :src="item.src"
+                                    aspect-ratio="1.7"
                                 >
                                     <template v-slot:placeholder>
                                         <v-row
-                                            class="fill-height ma-0"
                                             align="center"
+                                            class="fill-height ma-0"
                                             justify="center"
                                         >
                                             <v-progress-circular
-                                                indeterminate
                                                 color="grey lighten-5"
+                                                indeterminate
                                             >
 
                                             </v-progress-circular>
                                         </v-row>
                                     </template>
                                     <v-row
-                                        class="fill-height"
                                         align="end"
+                                        class="fill-height"
                                         justify="center"
                                     >
-                                        <v-col class=" justify-center aling-center centered" color="#00000099"
-                                               align="end"
+                                        <v-col align="end" class=" justify-center aling-center centered"
+                                               color="#00000099"
                                                justify="center">
                                             <v-card class="d-flex justify-center pa-2" color="#00000099">
-                                                <v-btn block text class=""
+                                                <v-btn block class=""
                                                        href="http://www.comfacesar.com/articulo.aspx?idc=1098&fbclid=IwAR21UE59KuJEyLxfrmn6kPiXe-GPUau7p_bXR07wASUU3TiaVzNqYJhJoBE"
-                                                       target="_blank">
+                                                       target="_blank"
+                                                       text>
                                                     learn more
                                                 </v-btn>
                                             </v-card>
@@ -159,22 +160,22 @@
                     </v-col>
                 </v-row>
                 <v-divider></v-divider>
-                <v-row class="my-6" id="notice-1">
+                <v-row id="notice-1" class="my-6">
                     <v-col cols="12" sm="6">
                         <v-img
-                            height="300"
                             :src="require('../../images/home/certificates of participation in TIA program.jpeg')"
                             aspect-ratio="1.7"
+                            height="300"
                         >
                             <template v-slot:placeholder>
                                 <v-row
-                                    class="fill-height ma-0"
                                     align="center"
+                                    class="fill-height ma-0"
                                     justify="center"
                                 >
                                     <v-progress-circular
-                                        indeterminate
                                         color="grey lighten-5"
+                                        indeterminate
                                     ></v-progress-circular>
                                 </v-row>
                             </template>
@@ -182,64 +183,66 @@
                     </v-col>
 
                     <v-col cols="12" sm="6">
-                        <v-card class="mx-auto" tile flat height="300">
+                        <v-card class="mx-auto" flat height="300" tile>
                             <v-card-text>
                                 <div>Noviembre 2019</div>
                                 <p class="display-1 text--primary">
                                     Certificates of participation in TIA program
                                 </p>
                                 <div class="text--primary">
-                                    Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of
-                                    participation
-                                    in TIA program
+                                    Los estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación familiar
+                                    Comfacesar recibieron certificado de participación en el programa TIA. en Tulsa:
+                                    Certificates of
+                                    participation in TIA program
                                 </div>
                                 <p>Tulsa, USA</p>
                             </v-card-text>
                             <v-card-actions>
-                                <v-btn text color="deep-purple accent-4">
+                                <v-btn color="deep-purple accent-4" text>
                                     Learn More
                                 </v-btn>
                             </v-card-actions>
                         </v-card>
                     </v-col>
                 </v-row>
-                <v-row class="my-6" id="notice-2">
+                <v-row id="notice-2" class="my-6">
                     <v-col cols="12" sm="6">
                         <v-img
-                            height="300"
                             :src="require('../../images/home/docentes y estudiantes del colegio.jpeg')"
                             aspect-ratio="1.7"
+                            height="300"
                         >
                             <template v-slot:placeholder>
                                 <v-row
-                                    class="fill-height ma-0"
                                     align="center"
+                                    class="fill-height ma-0"
                                     justify="center"
                                 >
                                     <v-progress-circular
-                                        indeterminate
                                         color="grey lighten-5"
+                                        indeterminate
                                     ></v-progress-circular>
                                 </v-row>
                             </template>
                         </v-img>
                     </v-col>
                     <v-col cols="12" sm="6">
-                        <v-card class="mx-auto" tile flat height="300">
+                        <v-card class="mx-auto" flat height="300" tile>
                             <v-card-text>
                                 <div>Noviembre 2019</div>
                                 <p class="display-1 text--primary">
                                     Actividad cultural
                                 </p>
                                 <div class="text--primary">
-                                    Docentes y estudiantes del colegio XXXX de Comfacesar en actividad cultural en TCC
+                                    Docentes y estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación
+                                    familiar Comfacesar en actividad cultural en TCC
                                     Northeast Campus 2019.
                                 </div>
                                 <p>Tulsa, USA</p>
                             </v-card-text>
 
                             <v-card-actions>
-                                <v-btn text color="deep-purple accent-4">
+                                <v-btn color="deep-purple accent-4" text>
                                     Learn More
                                 </v-btn>
                             </v-card-actions>
@@ -319,7 +322,7 @@
 
             <div class="text-center py-9 grey lighten-5 mb-4">
                 <v-avatar class="mb-4 primary" size="60 ">
-                    <v-icon color="white" class="text--white">mdi-account-group-outline</v-icon>
+                    <v-icon class="text--white" color="white">mdi-account-group-outline</v-icon>
                 </v-avatar>
                 <h1 class="text-uppercase headline font-weight-bold mb-2 text-center">
                     {{ $t("home.meet-team") }}
@@ -331,18 +334,18 @@
 
                 <div class="layout justify-center wrap">
                     <div
-                        class="flex xs12 sm6 md4"
                         v-for="(item, index) in group"
                         :key="index"
+                        class="flex xs12 sm6 md4 "
                     >
                         <v-hover v-slot:default="{ hover }">
                             <div>
                                 <v-card
-                                    height="350" width="250"
-                                    class="mx-auto"
-                                    color="grey lighten-4"
+                                    class="mx-auto" color="grey lighten-4"
+                                    height="350"
+                                    width="250"
                                 >
-                                    <v-img height="350" width="250" :src="item.img">
+                                    <v-img :src="item.img" height="350" width="250">
                                         <v-expand-transition>
                                             <div
                                                 v-if="hover"
@@ -350,20 +353,20 @@
                                                 style="height: 100%;"
                                             >
                                                 <v-container
-                                                    style="height:400px "
                                                     class="body-2 primary darken-4"
+                                                    style="height:400px "
 
                                                 >
                                                     <perfect-scrollbar>
-                                                        <p class="pa-6 " v-html="item.description"></p>
+                                                        <p class="pa-6 text-justify" v-html="item.description"></p>
                                                     </perfect-scrollbar>
                                                 </v-container>
                                             </div>
                                         </v-expand-transition>
                                     </v-img>
                                 </v-card>
-                                <v-card flat width="250"
-                                        class="mx-auto">
+                                <v-card class="mx-auto" flat
+                                        width="250">
                                     <h3 class="title font-weight-black primary--text mb-2">
                                         {{ item.name }}
                                     </h3>
@@ -383,7 +386,7 @@
     </v-app>
 </template>
 <script>
-import {mapState, mapMutations} from "vuex";
+import {mapMutations, mapState} from "vuex";
 
 export default {
     components: {
@@ -413,7 +416,10 @@ export default {
             {
                 title: 'Certificates of participation in TIA program',
                 src: '../../images/home/certificates of participation in TIA program.jpeg',
-                content: 'Los estudiantes del Colegio XXXXX de Comfacesar en Tulsa: Certificates of participation in TIA program',
+                content: 'Los estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación familiar\n' +
+                    '       Comfacesar recibieron certificado de participación en el programa TIA. en Tulsa:\n' +
+                    '       Certificates of\n' +
+                    '       participation in TIA program',
                 location: 'Tulsa, USA',
                 date: 'Noviembre 2019',
                 to: '#notice-1'
@@ -422,7 +428,8 @@ export default {
             {
                 title: "Actividad cultural",
                 src: '../../images/home/docentes y estudiantes del colegio.jpeg',
-                content: 'Docentes y estudiantes del colegio XXXX de  Comfacesar en actividad cultural en  TCC Northeast Campus  2019.',
+                content: 'Docentes y estudiantes del Colegio Rodolfo Campo Soto de la Caja de Compensación familiar Comfacesar en actividad cultural en TCC\n' +
+                    ' Northeast Campus 2019.',
                 location: 'Tulsa, USA',
                 date: 'Noviembre 2019',
                 to: '#notice-2'
@@ -494,9 +501,22 @@ export default {
                 name: "Daniel Chanboya",
                 email: "DanielChanboya@hotmail.com",
                 occupation: "Director TIA en Tulsa, USA",
-                description: `<p>
-                    Director TIA en Tulsa, USA
-                </p> `
+                description: `
+                    ✔	Married to Nasiba from Kyrgystan, two kids: Lilah (10 yrs.) and Alek (5 yrs.) <br>
+
+                    ✔	Loves to spend time with his family, play soccer, travel, eat international cuisine, listen to global music… <br>
+
+                    ✔	Studied at Oral Roberts University (B.S. Marketing)  and University of Oklahoma (Master of Human Relations)<br>
+
+                    ✔	Director of the English as a Second Language Program at Tulsa Community College where he has worked for over 18 years helping people learn English to find better jobs, enroll in college, and connect with others in their communities. <br>
+
+                    ✔	Has served our local and global community for many years mostly focused on improving the lives of immigrants and refugees by providing access to educational, workplace, and intercultural exchange opportunities. <br>
+
+                    ✔	In 2012, he and his wife Nasiba founded the non-profit organization Tulsa Intercultural Association that promotes intercultural competency, language proficiency, community service, and academic excellence.  They are currently involved in various projects in Colombia, Honduras, Krygyzstan, and other places through English training programs for teachers and English language classes for students plus intercultural exchange opportunities in Tulsa. <br>
+
+                    ✔	In 2020, he founded the Fundacion Intercultural Connections with Alexander Castrillo in Valledupar, Colombia.  This foundation is committed to providing programs, activities, and exchange opportunities which promote bilingualism and intercultural awareness in Colombia and throughout the world. <br>
+
+                    ✔	Daniel is committed to helping people communicate more effectively and empowering people to reach their dreams! <br>`
             },
             {
                 img:

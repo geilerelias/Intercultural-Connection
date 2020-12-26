@@ -39,7 +39,7 @@
                                 <p
                                     class="base-body body-1 grey--text text--darken-1 text-left mb-6 text-justify"
                                 >
-                                    atrévete a caminar aunque sea descalzo,
+                                    Atrévete a caminar aunque sea descalzo,
                                     a sonreír aunque no tengas motivos, a ayudar a otros sin recibir aplausos.
                                     <v-subheader>
                                         Anonymous.

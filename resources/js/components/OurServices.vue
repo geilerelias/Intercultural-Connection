@@ -65,7 +65,7 @@
                                     </div>
 
                                 </v-card-title>
-                                <v-card-text v-html="item.description">
+                                <v-card-text class="text-justify" v-html="item.description">
 
                                 </v-card-text>
                             </v-card>
@@ -151,7 +151,7 @@ export default {
                 },
                 {
                     src: "services/formacion-en-ingles.jpg",
-                    title: "Formación en Ingles",
+                    title: "Formación en Inglés ",
                     description: `Desarrollar habilidades comunicativas en inglés. Fortalecer prácticas de
                     enseñanza del inglés. Integrar el inglés con otras áreas curriculares. Aplicar
                     los estándares del MEN para el área de inglés.

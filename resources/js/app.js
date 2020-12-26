@@ -30,7 +30,7 @@ Vue.use(Vuetify);
 Vue.use(VueAxios, axios);
 Vue.use(VueClipboard);
 Vue.use(PerfectScrollbar)
-Vue.component("vue-app", require("./App.vue").default);
+Vue.component("vue-app",  require("./App.vue").default);
 
 
 const app = new Vue({

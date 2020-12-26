@@ -111,6 +111,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -201,7 +215,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "v-footer",
-    { attrs: { dark: "", padless: "", elevation: "24" } },
+    { attrs: { dark: "", elevation: "24", padless: "" } },
     [
       _c(
         "v-container",
@@ -312,12 +326,16 @@ var render = function() {
                         [
                           _c(
                             "div",
-                            { staticClass: "col-md-6 col-12 white--text" },
+                            { staticClass: "col-md-4 col-12 white--text" },
                             [
                               _c(
                                 "v-list",
                                 {
-                                  attrs: { rounded: "", color: "transparent" }
+                                  attrs: {
+                                    color: "transparent",
+                                    dense: "",
+                                    rounded: ""
+                                  }
                                 },
                                 [
                                   _c(
@@ -332,49 +350,42 @@ var render = function() {
                                     1
                                   ),
                                   _vm._v(" "),
-                                  _c(
-                                    "v-list-item-group",
-                                    { attrs: { color: "primary" } },
-                                    _vm._l(_vm.links, function(item, i) {
-                                      return _c(
-                                        "v-list-item",
-                                        { key: i, attrs: { to: item.to } },
-                                        [
-                                          _c(
-                                            "v-list-item-icon",
-                                            [
-                                              _c("v-icon", {
-                                                domProps: {
-                                                  textContent: _vm._s(item.icon)
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "v-list-item-content",
-                                            [
-                                              _c("v-list-item-title", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.$t(
-                                                      "header." + item.title
-                                                    )
-                                                  )
+                                  _vm._l(_vm.links, function(item, i) {
+                                    return _c(
+                                      "v-list-item",
+                                      { key: i, attrs: { to: item.to } },
+                                      [
+                                        _c(
+                                          "v-list-item-icon",
+                                          [
+                                            _c("v-icon", {
+                                              domProps: {
+                                                textContent: _vm._s(item.icon)
+                                              }
+                                            })
+                                          ],
+                                          1
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "v-list-item-content",
+                                          [
+                                            _c("v-list-item-title", [
+                                              _vm._v(
+                                                _vm._s(
+                                                  _vm.$t("header." + item.title)
                                                 )
-                                              ])
-                                            ],
-                                            1
-                                          )
-                                        ],
-                                        1
-                                      )
-                                    }),
-                                    1
-                                  )
+                                              )
+                                            ])
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  })
                                 ],
-                                1
+                                2
                               )
                             ],
                             1
@@ -393,78 +404,158 @@ var render = function() {
                           _vm._v(" "),
                           _c(
                             "div",
-                            { staticClass: "col-md-6 col-12 white--text" },
+                            { staticClass: "col-md-8 col-12 white--text" },
                             [
                               _c(
-                                "v-list",
-                                {
-                                  attrs: {
-                                    rounded: "",
-                                    color: "transparent",
-                                    dense: ""
-                                  }
-                                },
+                                "v-list-item-content",
+                                [
+                                  _c("v-list-item-title", [
+                                    _vm._v(
+                                      _vm._s(_vm.$t("services.our-services"))
+                                    )
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-row",
                                 [
                                   _c(
-                                    "v-list-item-content",
+                                    "v-col",
+                                    {
+                                      staticClass: "col-md-6 col-12 white--text"
+                                    },
                                     [
-                                      _c("v-list-item-title", [
-                                        _vm._v(
-                                          _vm._s(
-                                            _vm.$t("services.our-services")
-                                          )
-                                        )
-                                      ])
+                                      _c(
+                                        "v-list",
+                                        {
+                                          attrs: {
+                                            color: "transparent",
+                                            dense: "",
+                                            rounded: ""
+                                          }
+                                        },
+                                        _vm._l(_vm.services, function(item, i) {
+                                          return i % 2 == 0
+                                            ? _c(
+                                                "v-list-item",
+                                                {
+                                                  key: i,
+                                                  attrs: { color: "primary" },
+                                                  model: {
+                                                    value: _vm.service,
+                                                    callback: function($$v) {
+                                                      _vm.service = $$v
+                                                    },
+                                                    expression: "service"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "v-list-item-avatar",
+                                                    [
+                                                      _c("v-img", {
+                                                        attrs: {
+                                                          src:
+                                                            "/storage/" +
+                                                            item.src
+                                                        }
+                                                      })
+                                                    ],
+                                                    1
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "v-list-item-content",
+                                                    [
+                                                      _c("v-list-item-title", {
+                                                        domProps: {
+                                                          textContent: _vm._s(
+                                                            item.title
+                                                          )
+                                                        }
+                                                      })
+                                                    ],
+                                                    1
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            : _vm._e()
+                                        }),
+                                        1
+                                      )
                                     ],
                                     1
                                   ),
                                   _vm._v(" "),
                                   _c(
-                                    "v-list-item-group",
+                                    "v-col",
                                     {
-                                      attrs: { color: "primary" },
-                                      model: {
-                                        value: _vm.service,
-                                        callback: function($$v) {
-                                          _vm.service = $$v
-                                        },
-                                        expression: "service"
-                                      }
+                                      staticClass: "col-md-6 col-12 white--text"
                                     },
-                                    _vm._l(_vm.services, function(item, i) {
-                                      return _c(
-                                        "v-list-item",
-                                        { key: i },
-                                        [
-                                          _c(
-                                            "v-list-item-avatar",
-                                            [
-                                              _c("v-img", {
-                                                attrs: {
-                                                  src: "/storage/" + item.src
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "v-list-item-content",
-                                            [
-                                              _c("v-list-item-title", {
-                                                domProps: {
-                                                  textContent: _vm._s(
-                                                    item.title
+                                    [
+                                      _c(
+                                        "v-list",
+                                        {
+                                          attrs: {
+                                            color: "transparent",
+                                            dense: "",
+                                            rounded: ""
+                                          }
+                                        },
+                                        _vm._l(_vm.services, function(item, i) {
+                                          return i % 2 != 0
+                                            ? _c(
+                                                "v-list-item",
+                                                {
+                                                  key: i,
+                                                  attrs: { color: "primary" },
+                                                  model: {
+                                                    value: _vm.service,
+                                                    callback: function($$v) {
+                                                      _vm.service = $$v
+                                                    },
+                                                    expression: "service"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "v-list-item-avatar",
+                                                    [
+                                                      _c("v-img", {
+                                                        attrs: {
+                                                          src:
+                                                            "/storage/" +
+                                                            item.src
+                                                        }
+                                                      })
+                                                    ],
+                                                    1
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "v-list-item-content",
+                                                    [
+                                                      _c("v-list-item-title", {
+                                                        domProps: {
+                                                          textContent: _vm._s(
+                                                            item.title
+                                                          )
+                                                        }
+                                                      })
+                                                    ],
+                                                    1
                                                   )
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          )
-                                        ],
+                                                ],
+                                                1
+                                              )
+                                            : _vm._e()
+                                        }),
                                         1
                                       )
-                                    }),
+                                    ],
                                     1
                                   )
                                 ],

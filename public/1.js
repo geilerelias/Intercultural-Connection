@@ -108,7 +108,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.v-navigation-drawer[data-v-351a4594] {\n    transition: none !important;\n}\n.lightbox[data-v-351a4594] {\n    box-shadow: 0 0 20px inset rgba(0, 0, 0, 0.2);\n    background-image: linear-gradient(\n        to top,\n        rgba(0, 0, 0, 0.4) 0%,\n        transparent 72px\n    );\n}\n", ""]);
+exports.push([module.i, "\n.v-navigation-drawer[data-v-351a4594] {\r\n    transition: none !important;\n}\n.lightbox[data-v-351a4594] {\r\n    box-shadow: 0 0 20px inset rgba(0, 0, 0, 0.2);\r\n    background-image: linear-gradient(\r\n        to top,\r\n        rgba(0, 0, 0, 0.4) 0%,\r\n        transparent 72px\r\n    );\n}\r\n", ""]);
 
 // exports
 

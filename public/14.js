@@ -1,14 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[14],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/OurServices.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ContactUs.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ContactUs.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -91,6 +93,90 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -99,61 +185,89 @@ __webpack_require__.r(__webpack_exports__);
         disabled: false,
         href: "/"
       }, {
-        text: "Our Services",
+        text: "Contact Us",
         disabled: true,
-        href: "/our-services"
+        href: "/contact-us"
       }],
-      ofertaDeFormacion: {
-        title: "OFERTA DE FORMACIÓN",
-        description: "La oferta del presente portafolio de servicios est\xE1 centrado en acompa\xF1ar a\n                directivos docentes de colegios oficiales y privados en temas relacionados con\n                biling\xFCismo y sus metas de convertirse en Colegios Reconocidos oficialmente\n                como Biling\xFCes. Desarrollar habilidades comunicativas en ingl\xE9s. Igualmente\n                fortalecer pr\xE1cticas de ense\xF1anza del ingl\xE9s. Integrar el ingl\xE9s con otras \xE1reas\n                curriculares y acompa\xF1ar a los padres de familia y comunidad en general en su\n                deseo de hacer del ingl\xE9s su aliado estrat\xE9gico para conectarse con el mundo."
+      snackbar: false,
+      text: '',
+      timeout: 2000,
+      dialog: false,
+      message: {
+        name: '',
+        email: '',
+        subject: '',
+        content: ''
       },
-      services: [{
-        src: "services/acompanamiento-al-transito-de-colegios-academicos-regulares.jpg",
-        title: "Acompañamiento al tránsito de Colegios Académicos Regulares a Colegios Bilingües.",
-        description: "Este programa buscar acompa\xF1ar a directivos docentes de colegios\n                    oficiales y privados en temas relacionados con biling\xFCismo y sus metas de\n                    convertirse en Colegios Reconocidos oficialmente como Biling\xFCes. Tiene\n                    como objetivo promover y/o motivar transformaciones curriculares\n                    sostenibles desde quienes toman decisiones institucionales en la educaci\xF3n\n                    escolar.\n                    Dada nuestra experiencia en este campo, la fundaci\xF3n Intercultural\n                    Connections est\xE1 en la capacidad de acompa\xF1ar y asesorar el tr\xE1nsito de\n                    colegios de tipo acad\xE9micos regulares a colegios con educaci\xF3n biling\xFCe,\n                    teniendo en cuenta los tres tipos de colegio biling\xFCe que distingue el\n                    Ministerio de Educaci\xF3n Nacional as\xED:<br>\n                    \u2705 Intensificaci\xF3n\n                    \u2705 Colegio biling\xFCe nacional\n                    \u2705 Colegio biling\xFCe internacional."
+      contact: [{
+        icon: "mdi-map-marker-outline",
+        name: "Dirección",
+        content: "<div class=\"mb-2 font-weight-black\">2620 Smith Drive</div>Valledupar Cesar - Colombia"
       }, {
-        src: "services/proyectos-de-educacion.jpg",
-        title: "Proyectos De Educación Bilingüe.",
-        description: "Ofrecemos completo e integral acompa\xF1amiento en las diferentes iniciativas\n                    escolares o acad\xE9micas que promuevan el uso del ingl\xE9s como segunda\n                    lengua."
+        icon: "mdi-cellphone",
+        name: "Teléfonos",
+        content: "<div class=\"mb-2 font-weight-black\">+57 310 789 74 85. </div>+1 (321) 383-4531"
       }, {
-        src: "services/formulacion-de-proyectos.jpg",
-        title: "Formulación Proyecto tipo De Bilingüismo DNP a Entidades\n" + "Territoriales",
-        description: "El equipo especializado de la Fundaci\xF3n Intercultural Connections le\n                    asesora en las distintas las fases de formulaci\xF3n, implementaci\xF3n,\n                    monitoreo y evaluaci\xF3n acorde con el plan de Desarrollo de su\n                    municipalidad o Departamental en materia de biling\xFCismo, tomando como\n                    referencia y realizando el an\xE1lisis de las competencias comunicativas en\n                    ingl\xE9s de los ni\xF1os, ni\xF1as, adolescentes y j\xF3venes que asisten a las\n                    Instituciones Educativas sean estas oficiales o privadas del pa\xEDs; Las l\xEDneas\n                    de acci\xF3n propuestas son: - Formaci\xF3n Docente - Inmersiones para\n                    docentes y estudiantes - Evaluaci\xF3n de docentes y estudiantes -\n                    Acompa\xF1amiento a las pr\xE1cticas pedag\xF3gicas de aula - Dotaci\xF3n de\n                    materiales y recursos educativos"
-      }, {
-        src: "services/formacion-en-ingles.jpg",
-        title: "Formación en Ingles",
-        description: "Desarrollar habilidades comunicativas en ingl\xE9s. Fortalecer pr\xE1cticas de\n                    ense\xF1anza del ingl\xE9s. Integrar el ingl\xE9s con otras \xE1reas curriculares. Aplicar\n                    los est\xE1ndares del MEN para el \xE1rea de ingl\xE9s.\n                    Manejar nuevas metodolog\xEDas para la ense\xF1anza del ingl\xE9s."
-      }, {
-        src: "services/preparacion-a-estudiantes.jpg",
-        title: "Preparación a estudiantes para la prueba SABER 11º.",
-        description: "En Intercultural Connections Foundation acompa\xF1amos a Secretar\xEDas de\n                    Educaci\xF3n e Instituciones Educativas en el proceso de preparaci\xF3n de\n                    estudiantes de grado 11\xBA para la presentaci\xF3n de la prueba SABER 11\xBA. El\n                    proceso incluye la construcci\xF3n de un an\xE1lisis de contexto y necesidades\n                    por instituci\xF3n, la aplicaci\xF3n de dos simulacros (de entrada y salida) para\n                    determinar el nivel de los estudiantes en cada una de las \xE1reas evaluadas y\n                    la detecci\xF3n de aspectos que requieren fortalecimiento. Adicionalmente,\n                    brindamos un proceso de formaci\xF3n a estudiantes con una intensidad de 40\n                    horas presenciales y 20 horas de trabajo aut\xF3nomo, complementado con\n                    una estrategia de acompa\xF1amiento virtual."
-      }, {
-        src: "services/english-together.jpg",
-        title: "English Together",
-        description: "Encuentros l\xFAdico/acad\xE9micos entre estudiantes de grados 6 a 9 de\n                    Instituciones Educativas Oficiales y de colegios privados biling\xFCes, para\n                    estimular el aprendizaje y la pr\xE1ctica del ingl\xE9s en ambientes diferentes y\n                    con metodolog\xEDas efectivas.\n                    Cada colegio privado biling\xFCe aporta: profesores y estudiantes biling\xFCes,\n                    instalaciones del colegio, material did\xE1ctico y refrigerios.\n                    La Secretar\xEDa de Educaci\xF3n Municipal financia el transporte de los\n                    estudiantes de las Instituciones Educativas Oficiales."
-      }, {
-        src: "services/connecting-knowledge.jpg",
-        title: "Connecting Knowledge",
-        description: "\n                    Con el prop\xF3sito de conectar el conocimiento, las ideas, las reflexiones, las\n                    lecciones y las perspectivas que se construyen en los procesos de\n                    Ense\xF1anza y Aprendizaje del Ingles como segunda lengua con la\n                    producci\xF3n acad\xE9mica de la regi\xF3n, nace una l\xEDnea de trabajo que se ha\n                    denominado Connecting knowledge, cuyo prop\xF3sito es impulsar la creaci\xF3n\n                    de conocimiento e investigaci\xF3n alrededor del biling\xFCismo en cada regi\xF3n\n                    donde se promovida esta iniciativa, de la mano con la academia y las\n                    instituciones educativas de la regi\xF3n.\n                    Con esta l\xEDnea, se busca generar alianzas y trabajo colaborativo con las\n                    universidades y centros acad\xE9micos interesados, para visibilizar y abordar,\n                    desde la investigaci\xF3n, problem\xE1ticas trabajadas en mesas de trabajo\n                    relacionadas con pol\xEDticas, inversi\xF3n, aprendizaje y ense\xF1anza del ingl\xE9s,\n                    en los que se est\xE1 en capacidad de ofrecer insumos e informaci\xF3n\n                    significativa. La idea es que estas problem\xE1ticas puedan desarrollarse\n                    desde los trabajos de grado de los estudiantes de licenciatura, maestr\xEDas en\n                    lenguas extranjeras y carreras o posgrados afines.\n                    En suma, esta iniciativa pretende articular la producci\xF3n acad\xE9mica de los\n                    estudiantes de las universidades con las reflexiones y propuestas de\n                    intervenci\xF3n construidas desde las mesas de trabajo propuestas para que\n                    haya retroalimentaci\xF3n en doble v\xEDa."
-      }, {
-        src: "services/laboratorios-de-innovacion.jpg",
-        title: "Laboratorios de innovación Bilingüe:",
-        description: "Laboratorios de innovaci\xF3n para la ense\xF1anza del ingl\xE9s para docentes de\n                    ingl\xE9s de colegios oficiales y privados. Estos programas podr\xE1n ser\n                    subvencionados por patrocinadores estatales o privados y ello promover\xE1 la\n                    gratuidad de la participaci\xF3n de docentes que no cuenten con los recursos\n                    necesarios para cubrir los costos de su participaci\xF3n."
-      }, {
-        src: "services/campamentos-de-inmersion.jpg",
-        title: "Campamentos de Inmersión bilingüe",
-        description: "Cuando hablamos de\xA0Campamentos de Inmersi\xF3n Biling\xFCe no s\xF3lo\n                    hablamos de un campamento en ingl\xE9s. En un\xA0Campamento de Inmersi\xF3n\n                    Biling\xFCe (Ingl\xE9s)\xA0el contacto con el idioma es\xA0TOTAL.\n                    En los\xA0Campamentos de Inmersi\xF3n Ling\xFC\xEDstica en Ingl\xE9s\xA0los monitores y\n                    profesores son biling\xFCes y tambi\xE9n nativos.\n                    LA INMERSI\xD3N CULTURAL\xA0es la clave para el \xE9xito de estos\n                    campamentos: los ni\xF1os y j\xF3venes conocen gente joven de otras lugares al\n                    tiempo que aprenden de sus propias vivencias con sus monitores y\n                    profesores. Se encuentran en todo momento en un entorno seguro,\n                    divertido y d\xF3nde el \xFAnico idioma empleado es el ingl\xE9s."
+        icon: "mdi-email",
+        name: "Correos",
+        content: "<div class=\"mb-2 font-weight-black\">contacto@interculturalconnections.org</div>alexandercastrillo@hotmail.com"
       }]
     };
+  },
+  methods: {
+    enviar: function enviar() {
+      var _this = this;
+
+      if (this.message.name.trim() === '' || this.message.content.trim() === '') {
+        this.text = 'Debes completar todos los campos antes de enviar';
+        this.snackbar = true;
+        return;
+      }
+
+      this.dialog = true;
+      var messageNuevo = this.message;
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/message', messageNuevo).then(function (response) {
+        if (response.status == 200) {
+          console.log(response);
+          console.log(response.data);
+          _this.dialog = false;
+          _this.message = {
+            name: '',
+            email: '',
+            subject: '',
+            content: ''
+          };
+          Swal.fire('Buen trabajo', 'Mensaje enviado con éxito!', 'success');
+        } else {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong!',
+            footer: '<a href>Why do I have this issue?</a>'
+          });
+          console.log(response.data);
+          _this.dialog = false;
+        }
+      })["catch"](function (error) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong!',
+          footer: '<a href>Why do I have this issue?</a>'
+        });
+        console.log(error);
+        _this.dialog = false;
+      });
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&":
-/*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true& ***!
-  \**************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ContactUs.vue?vue&type=template&id=55d6b203&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ContactUs.vue?vue&type=template&id=55d6b203&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -190,7 +304,7 @@ var render = function() {
                   _c("h1", { staticClass: "display-2 text-center " }, [
                     _vm._v(
                       "\n                    " +
-                        _vm._s(_vm.$t("header.our-services")) +
+                        _vm._s(_vm.$t("header.contact-us")) +
                         "\n                "
                     )
                   ])
@@ -215,145 +329,308 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("section", { staticClass: "py-5" }, [
-        _c("h2", { staticClass: "title font-weight-bold text-center mb-4" }, [
-          _vm._v(
-            "\n           " +
-              _vm._s(_vm.$t("services.these-are-the-main-services-we-offer")) +
-              "\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "container" },
-          _vm._l(_vm.services, function(item, index) {
-            return _c(
-              "div",
-              { key: item.title },
-              [
-                _c(
-                  "v-row",
-                  { staticClass: "mb-5 align-center" },
-                  [
-                    _c(
-                      "v-col",
-                      {
-                        staticClass: "col-md-4 col-12",
-                        class: index % 2 !== 0 ? "order-md-2" : ""
-                      },
-                      [
-                        _c(
-                          "v-card",
-                          { attrs: { outlined: "" } },
+      _c(
+        "section",
+        { staticClass: "mt-12" },
+        [
+          _c(
+            "v-container",
+            [
+              _c(
+                "v-row",
+                [
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", md: "6" } },
+                    [
+                      _c(
+                        "h3",
+                        {
+                          staticClass:
+                            "text-uppercase primary--text title font-weight-bold mb-1 text-left mb-4"
+                        },
+                        [
+                          _vm._v(
+                            "\n                        MANTENTE EN CONTACTO CON NOSOTROS\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "base-body body-1 grey--text text--darken-1 text-left mb-6 text-justify"
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Si quieres saber mas de lo que hacemos y como podemos\n                        ayudarte, no dudes en escribirnos a nuestros correos\n                        electrónicos o llamar a cualquiera de los números\n                        telefónicos que tenemos disponibles para ti. Para\n                        nosotros es un placer poder servirte.\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _vm._l(_vm.contact, function(item) {
+                        return _c(
+                          "div",
+                          {
+                            key: item.name,
+                            staticClass:
+                              "pt-2 mb-0 d-flex justify-start align-content-start align-start"
+                          },
                           [
-                            _c("v-img", {
-                              staticClass: "grey lighten-2 ",
-                              attrs: {
-                                height: "200",
-                                src: "/storage/" + item.src,
-                                "aspect-ratio": "1"
+                            _c(
+                              "div",
+                              {
+                                staticClass: "base-avatar d-inline-flex mb-3 ",
+                                staticStyle: { "margin-left": "-10px" }
                               },
-                              scopedSlots: _vm._u(
+                              [
+                                _c("v-icon", {
+                                  staticClass: "mt-6",
+                                  attrs: { color: "primary", size: "32" },
+                                  domProps: { textContent: _vm._s(item.icon) }
+                                })
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "ml-3" }, [
+                              _c(
+                                "h3",
+                                {
+                                  staticClass:
+                                    "text-uppercase font-weight-black subtitle-2 mb-1 text-left primary--text"
+                                },
                                 [
-                                  {
-                                    key: "placeholder",
-                                    fn: function() {
-                                      return [
-                                        _c(
-                                          "v-row",
-                                          {
-                                            staticClass: "fill-height ma-0",
-                                            attrs: {
-                                              align: "center",
-                                              justify: "center"
-                                            }
-                                          },
-                                          [
-                                            _c("v-progress-circular", {
-                                              attrs: {
-                                                indeterminate: "",
-                                                color: "grey lighten-5"
-                                              }
-                                            })
-                                          ],
-                                          1
-                                        )
-                                      ]
-                                    },
-                                    proxy: true
-                                  }
-                                ],
-                                null,
-                                true
-                              )
-                            })
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "px-0 col-md-8 col-12" },
-                      [
-                        _c(
-                          "v-card",
-                          { attrs: { flat: "", color: "transparent" } },
-                          [
-                            _c("v-card-title", [
+                                  _vm._v(
+                                    "\n                                " +
+                                      _vm._s(item.name) +
+                                      "\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
                               _c(
                                 "div",
                                 {
                                   staticClass:
-                                    "base-section-heading text-center mt-5"
+                                    "base-body body-1 mx-auto  text--lighten-1 text-left mb-0"
                                 },
                                 [
-                                  _c(
-                                    "h3",
-                                    {
-                                      staticClass:
-                                        "text-h6 font-weight-bold  text-truncate"
-                                    },
-                                    [
-                                      _vm._v(
-                                        "\n                                        " +
-                                          _vm._s(item.title) +
-                                          "\n                                    "
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("v-divider", {
-                                    staticClass: "primary  mr-auto mb-3",
-                                    staticStyle: { "max-width": "28px" }
+                                  _c("div", {
+                                    domProps: {
+                                      innerHTML: _vm._s(item.content)
+                                    }
                                   })
-                                ],
-                                1
+                                ]
                               )
-                            ]),
-                            _vm._v(" "),
-                            _c("v-card-text", {
-                              domProps: { innerHTML: _vm._s(item.description) }
-                            })
-                          ],
-                          1
+                            ])
+                          ]
                         )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          }),
-          0
-        )
-      ])
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "12", md: "6" } },
+                    [
+                      _c(
+                        "h3",
+                        {
+                          staticClass:
+                            "text-uppercase title primary--text  font-weight-bold mb-1 text-left mb-4"
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Envíanos un correo electrónico\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("v-form", [
+                        _c("div", [
+                          _c(
+                            "div",
+                            [
+                              _c("v-text-field", {
+                                attrs: { label: "Nombre", outlined: "" },
+                                model: {
+                                  value: _vm.message.name,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "name", $$v)
+                                  },
+                                  expression: "message.name"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("v-text-field", {
+                                attrs: {
+                                  small: "",
+                                  label: "Correo",
+                                  outlined: "",
+                                  type: "email"
+                                },
+                                model: {
+                                  value: _vm.message.email,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "email", $$v)
+                                  },
+                                  expression: "message.email"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("v-text-field", {
+                                attrs: { outlined: "", label: "Tema" },
+                                model: {
+                                  value: _vm.message.subject,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "subject", $$v)
+                                  },
+                                  expression: "message.subject"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("v-textarea", {
+                                attrs: {
+                                  outlined: "",
+                                  label: "Descripción o Mensaje"
+                                },
+                                model: {
+                                  value: _vm.message.content,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.message, "content", $$v)
+                                  },
+                                  expression: "message.content"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "white--text",
+                                  attrs: {
+                                    disabled: _vm.dialog,
+                                    loading: _vm.dialog,
+                                    color: "primary",
+                                    outlined: "",
+                                    dark: ""
+                                  },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.enviar()
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                    Enviar\n                                "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-dialog",
+            {
+              attrs: { "hide-overlay": "", persistent: "", width: "300" },
+              model: {
+                value: _vm.dialog,
+                callback: function($$v) {
+                  _vm.dialog = $$v
+                },
+                expression: "dialog"
+              }
+            },
+            [
+              _c(
+                "v-card",
+                { attrs: { color: "primary", dark: "" } },
+                [
+                  _c(
+                    "v-card-text",
+                    { staticClass: "pa-4" },
+                    [
+                      _c("p", { staticClass: "mb-2" }, [
+                        _vm._v("Por favor espere")
+                      ]),
+                      _vm._v(" "),
+                      _c("v-progress-linear", {
+                        staticClass: "mb-0",
+                        attrs: { indeterminate: "", color: "white" }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-snackbar",
+            {
+              attrs: { timeout: _vm.timeout, top: "", color: "error" },
+              scopedSlots: _vm._u([
+                {
+                  key: "action",
+                  fn: function(ref) {
+                    var attrs = ref.attrs
+                    return [
+                      _c(
+                        "v-btn",
+                        _vm._b(
+                          {
+                            attrs: { color: "blue", text: "" },
+                            on: {
+                              click: function($event) {
+                                _vm.snackbar = false
+                              }
+                            }
+                          },
+                          "v-btn",
+                          attrs,
+                          false
+                        ),
+                        [
+                          _vm._v(
+                            "\n                    Close\n                "
+                          )
+                        ]
+                      )
+                    ]
+                  }
+                }
+              ]),
+              model: {
+                value: _vm.snackbar,
+                callback: function($$v) {
+                  _vm.snackbar = $$v
+                },
+                expression: "snackbar"
+              }
+            },
+            [_vm._v("\n            " + _vm._s(_vm.text) + "\n\n            ")]
+          )
+        ],
+        1
+      )
     ],
     1
   )
@@ -365,17 +642,17 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/components/OurServices.vue":
-/*!*************************************************!*\
-  !*** ./resources/js/components/OurServices.vue ***!
-  \*************************************************/
+/***/ "./resources/js/components/ContactUs.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/ContactUs.vue ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OurServices.vue?vue&type=template&id=71c11daf&scoped=true& */ "./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&");
-/* harmony import */ var _OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OurServices.vue?vue&type=script&lang=js& */ "./resources/js/components/OurServices.vue?vue&type=script&lang=js&");
+/* harmony import */ var _ContactUs_vue_vue_type_template_id_55d6b203_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContactUs.vue?vue&type=template&id=55d6b203&scoped=true& */ "./resources/js/components/ContactUs.vue?vue&type=template&id=55d6b203&scoped=true&");
+/* harmony import */ var _ContactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ContactUs.vue?vue&type=script&lang=js& */ "./resources/js/components/ContactUs.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -385,50 +662,50 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ContactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ContactUs_vue_vue_type_template_id_55d6b203_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ContactUs_vue_vue_type_template_id_55d6b203_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  "71c11daf",
+  "55d6b203",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/OurServices.vue"
+component.options.__file = "resources/js/components/ContactUs.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/OurServices.vue?vue&type=script&lang=js&":
-/*!**************************************************************************!*\
-  !*** ./resources/js/components/OurServices.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************/
+/***/ "./resources/js/components/ContactUs.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/ContactUs.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./OurServices.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ContactUs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ContactUs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true& ***!
-  \********************************************************************************************/
+/***/ "./resources/js/components/ContactUs.vue?vue&type=template&id=55d6b203&scoped=true&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/ContactUs.vue?vue&type=template&id=55d6b203&scoped=true& ***!
+  \******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./OurServices.vue?vue&type=template&id=71c11daf&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/OurServices.vue?vue&type=template&id=71c11daf&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactUs_vue_vue_type_template_id_55d6b203_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ContactUs.vue?vue&type=template&id=55d6b203&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ContactUs.vue?vue&type=template&id=55d6b203&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactUs_vue_vue_type_template_id_55d6b203_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurServices_vue_vue_type_template_id_71c11daf_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactUs_vue_vue_type_template_id_55d6b203_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
