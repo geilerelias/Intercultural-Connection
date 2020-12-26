@@ -125,6 +125,74 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -229,53 +297,81 @@ var render = function() {
             },
             [
               _c(
-                "v-row",
-                { staticClass: "ma-0 pa-0" },
+                "div",
                 [
                   _c(
-                    "v-col",
+                    "v-card",
                     {
-                      staticClass:
-                        "mx-4 pa-0 d-flex justify-start align-center "
+                      staticClass: "d-flex justify-space-between mb-6",
+                      attrs: { color: "transparent", flat: "", tile: "" }
                     },
                     [
                       _c(
-                        "strong",
-                        { staticClass: "subheading  white--text " },
-                        [
-                          _vm._v(
-                            "\n                        " +
-                              _vm._s(_vm.$t("connect-social-media")) +
-                              "\n                    "
-                          )
-                        ]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("v-spacer"),
-                  _vm._v(" "),
-                  _c(
-                    "v-col",
-                    {
-                      staticClass: "mx-4 pa-0 d-flex justify-end align-center "
-                    },
-                    _vm._l(_vm.icons, function(icon, i) {
-                      return _c(
-                        "v-btn",
+                        "v-card",
                         {
-                          key: i,
-                          staticClass: "mx-4 my-1 white--text ",
-                          attrs: { icon: "" }
+                          staticClass: "pa-2 mx-4 transparent",
+                          attrs: { outlined: "", tile: "" }
                         },
                         [
-                          _c("v-icon", { attrs: { size: "24px" } }, [
-                            _vm._v(_vm._s(icon))
+                          _c("p", [
+                            _c(
+                              "strong",
+                              { staticClass: "subheading  white--text " },
+                              [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(_vm.$t("connect-social-media")) +
+                                    "\n                            "
+                                )
+                              ]
+                            )
                           ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-card",
+                        {
+                          staticClass: "pa-2 mx-4 transparent",
+                          attrs: { outlined: "", tile: "" }
+                        },
+                        [
+                          _c(
+                            "v-layout",
+                            { staticClass: "justify-center wrap" },
+                            _vm._l(_vm.icons, function(icon, i) {
+                              return _c(
+                                "div",
+                                {
+                                  key: i,
+                                  staticClass: "flex xs1 sm2 md1 mx-4 my-1"
+                                },
+                                [
+                                  _c(
+                                    "v-btn",
+                                    {
+                                      staticClass: " white--text ",
+                                      attrs: { icon: "" }
+                                    },
+                                    [
+                                      _c(
+                                        "v-icon",
+                                        { attrs: { size: "24px" } },
+                                        [_vm._v(_vm._s(icon))]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            0
+                          )
                         ],
                         1
                       )
-                    }),
+                    ],
                     1
                   )
                 ],
@@ -290,15 +386,72 @@ var render = function() {
                     "div",
                     { staticClass: "primary darken-2 pa-5 col-md-3 col-12" },
                     [
-                      _c("h3", { staticClass: "headline mb-3 text-center" }, [
-                        _vm._v(
-                          "\n                        " +
-                            _vm._s(
-                              _vm.$t("intercultural-connections-foundation")
-                            ) +
-                            "\n                    "
-                        )
-                      ]),
+                      _vm.$vuetify.breakpoint.mdAndUp
+                        ? _c("v-img", {
+                            staticStyle: {
+                              left: "10px !important",
+                              "padding-left": "0px !important"
+                            },
+                            attrs: {
+                              height: _vm.$vuetify.breakpoint.mdAndUp
+                                ? "25vh"
+                                : _vm.$vuetify.breakpoint.smAndUp
+                                ? "100vh"
+                                : "",
+                              src: __webpack_require__(/*! ../../../images/logo-letras.png */ "./resources/images/logo-letras.png"),
+                              "aspect-ratio": "1",
+                              contain: ""
+                            },
+                            scopedSlots: _vm._u(
+                              [
+                                {
+                                  key: "placeholder",
+                                  fn: function() {
+                                    return [
+                                      _c(
+                                        "v-row",
+                                        {
+                                          staticClass: "fill-height ma-0",
+                                          attrs: {
+                                            align: "center",
+                                            justify: "center"
+                                          }
+                                        },
+                                        [
+                                          _c("v-progress-circular", {
+                                            attrs: {
+                                              color: "grey lighten-5",
+                                              indeterminate: ""
+                                            }
+                                          })
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  },
+                                  proxy: true
+                                }
+                              ],
+                              null,
+                              false,
+                              3131811075
+                            )
+                          })
+                        : _c(
+                            "h3",
+                            { staticClass: "headline mb-3 text-center" },
+                            [
+                              _vm._v(
+                                "\n                        " +
+                                  _vm._s(
+                                    _vm.$t(
+                                      "intercultural-connections-foundation"
+                                    )
+                                  ) +
+                                  "\n                    "
+                              )
+                            ]
+                          ),
                       _vm._v(" "),
                       _c(
                         "div",
@@ -314,7 +467,8 @@ var render = function() {
                           )
                         ]
                       )
-                    ]
+                    ],
+                    1
                   ),
                   _vm._v(" "),
                   _c(
@@ -325,8 +479,11 @@ var render = function() {
                         "v-row",
                         [
                           _c(
-                            "div",
-                            { staticClass: "col-md-4 col-12 white--text" },
+                            "v-col",
+                            {
+                              staticClass:
+                                "col-md-4 col-sm-6 col-12 white--text"
+                            },
                             [
                               _c(
                                 "v-list",
@@ -391,178 +548,310 @@ var render = function() {
                             1
                           ),
                           _vm._v(" "),
-                          _vm.$vuetify.breakpoint.smAndDown
-                            ? _c("v-divider", {
-                                staticClass: "white text--white",
-                                staticStyle: { height: "5px" }
-                              })
-                            : _vm._e(),
-                          _vm._v(" "),
-                          _vm.$vuetify.breakpoint.smAndDown
-                            ? _c("v-divider")
+                          _vm.$vuetify.breakpoint.xsOnly
+                            ? _c(
+                                "v-col",
+                                { staticClass: "col-sm-6 col-12" },
+                                [
+                                  _c("v-divider", {
+                                    staticClass: "white text--white",
+                                    staticStyle: { height: "5px" }
+                                  })
+                                ],
+                                1
+                              )
                             : _vm._e(),
                           _vm._v(" "),
                           _c(
-                            "div",
-                            { staticClass: "col-md-8 col-12 white--text" },
+                            "v-col",
+                            {
+                              staticClass:
+                                "col-md-8 col-sm-6 col-12 white--text"
+                            },
                             [
-                              _c(
-                                "v-list-item-content",
-                                [
-                                  _c("v-list-item-title", [
-                                    _vm._v(
-                                      _vm._s(_vm.$t("services.our-services"))
-                                    )
-                                  ])
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "v-row",
-                                [
-                                  _c(
-                                    "v-col",
-                                    {
-                                      staticClass: "col-md-6 col-12 white--text"
-                                    },
+                              _vm.$vuetify.breakpoint.mdAndUp
+                                ? _c(
+                                    "div",
                                     [
                                       _c(
-                                        "v-list",
-                                        {
-                                          attrs: {
-                                            color: "transparent",
-                                            dense: "",
-                                            rounded: ""
-                                          }
-                                        },
-                                        _vm._l(_vm.services, function(item, i) {
-                                          return i % 2 == 0
-                                            ? _c(
-                                                "v-list-item",
-                                                {
-                                                  key: i,
-                                                  attrs: { color: "primary" },
-                                                  model: {
-                                                    value: _vm.service,
-                                                    callback: function($$v) {
-                                                      _vm.service = $$v
-                                                    },
-                                                    expression: "service"
-                                                  }
-                                                },
-                                                [
-                                                  _c(
-                                                    "v-list-item-avatar",
-                                                    [
-                                                      _c("v-img", {
-                                                        attrs: {
-                                                          src:
-                                                            "/storage/" +
-                                                            item.src
-                                                        }
-                                                      })
-                                                    ],
-                                                    1
-                                                  ),
-                                                  _vm._v(" "),
-                                                  _c(
-                                                    "v-list-item-content",
-                                                    [
-                                                      _c("v-list-item-title", {
-                                                        domProps: {
-                                                          textContent: _vm._s(
-                                                            item.title
-                                                          )
-                                                        }
-                                                      })
-                                                    ],
-                                                    1
-                                                  )
-                                                ],
-                                                1
+                                        "v-list-item-content",
+                                        [
+                                          _c("v-list-item-title", [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.$t("services.our-services")
                                               )
-                                            : _vm._e()
-                                        }),
+                                            )
+                                          ])
+                                        ],
                                         1
-                                      )
-                                    ],
-                                    1
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "v-col",
-                                    {
-                                      staticClass: "col-md-6 col-12 white--text"
-                                    },
-                                    [
+                                      ),
+                                      _vm._v(" "),
                                       _c(
-                                        "v-list",
-                                        {
-                                          attrs: {
-                                            color: "transparent",
-                                            dense: "",
-                                            rounded: ""
-                                          }
-                                        },
-                                        _vm._l(_vm.services, function(item, i) {
-                                          return i % 2 != 0
-                                            ? _c(
-                                                "v-list-item",
+                                        "v-row",
+                                        [
+                                          _c(
+                                            "v-col",
+                                            {
+                                              staticClass:
+                                                "col-md-6 col-12 white--text"
+                                            },
+                                            [
+                                              _c(
+                                                "v-list",
                                                 {
-                                                  key: i,
-                                                  attrs: { color: "primary" },
-                                                  model: {
-                                                    value: _vm.service,
-                                                    callback: function($$v) {
-                                                      _vm.service = $$v
-                                                    },
-                                                    expression: "service"
+                                                  attrs: {
+                                                    color: "transparent",
+                                                    dense: "",
+                                                    rounded: ""
                                                   }
                                                 },
-                                                [
-                                                  _c(
-                                                    "v-list-item-avatar",
-                                                    [
-                                                      _c("v-img", {
-                                                        attrs: {
-                                                          src:
-                                                            "/storage/" +
-                                                            item.src
-                                                        }
-                                                      })
-                                                    ],
-                                                    1
-                                                  ),
-                                                  _vm._v(" "),
-                                                  _c(
-                                                    "v-list-item-content",
-                                                    [
-                                                      _c("v-list-item-title", {
-                                                        domProps: {
-                                                          textContent: _vm._s(
-                                                            item.title
+                                                _vm._l(_vm.services, function(
+                                                  item,
+                                                  i
+                                                ) {
+                                                  return i % 2 == 0
+                                                    ? _c(
+                                                        "v-list-item",
+                                                        {
+                                                          key: i,
+                                                          attrs: {
+                                                            color: "primary",
+                                                            to:
+                                                              "/our-services#" +
+                                                              item.title
+                                                          },
+                                                          model: {
+                                                            value: _vm.service,
+                                                            callback: function(
+                                                              $$v
+                                                            ) {
+                                                              _vm.service = $$v
+                                                            },
+                                                            expression:
+                                                              "service"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "v-list-item-avatar",
+                                                            [
+                                                              _c("v-img", {
+                                                                attrs: {
+                                                                  src:
+                                                                    "/storage/" +
+                                                                    item.src
+                                                                }
+                                                              })
+                                                            ],
+                                                            1
+                                                          ),
+                                                          _vm._v(" "),
+                                                          _c(
+                                                            "v-list-item-content",
+                                                            [
+                                                              _c(
+                                                                "v-list-item-title",
+                                                                {
+                                                                  domProps: {
+                                                                    textContent: _vm._s(
+                                                                      item.title
+                                                                    )
+                                                                  }
+                                                                }
+                                                              )
+                                                            ],
+                                                            1
                                                           )
-                                                        }
-                                                      })
-                                                    ],
-                                                    1
-                                                  )
-                                                ],
+                                                        ],
+                                                        1
+                                                      )
+                                                    : _vm._e()
+                                                }),
                                                 1
                                               )
-                                            : _vm._e()
-                                        }),
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-col",
+                                            {
+                                              staticClass:
+                                                "col-md-6 col-12 white--text"
+                                            },
+                                            [
+                                              _c(
+                                                "v-list",
+                                                {
+                                                  attrs: {
+                                                    color: "transparent",
+                                                    dense: "",
+                                                    rounded: ""
+                                                  }
+                                                },
+                                                _vm._l(_vm.services, function(
+                                                  item,
+                                                  i
+                                                ) {
+                                                  return i % 2 != 0
+                                                    ? _c(
+                                                        "v-list-item",
+                                                        {
+                                                          key: i,
+                                                          attrs: {
+                                                            color: "primary",
+                                                            to:
+                                                              "/our-services#" +
+                                                              item.title
+                                                          },
+                                                          model: {
+                                                            value: _vm.service,
+                                                            callback: function(
+                                                              $$v
+                                                            ) {
+                                                              _vm.service = $$v
+                                                            },
+                                                            expression:
+                                                              "service"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "v-list-item-avatar",
+                                                            [
+                                                              _c("v-img", {
+                                                                attrs: {
+                                                                  src:
+                                                                    "/storage/" +
+                                                                    item.src
+                                                                }
+                                                              })
+                                                            ],
+                                                            1
+                                                          ),
+                                                          _vm._v(" "),
+                                                          _c(
+                                                            "v-list-item-content",
+                                                            [
+                                                              _c(
+                                                                "v-list-item-title",
+                                                                {
+                                                                  domProps: {
+                                                                    textContent: _vm._s(
+                                                                      item.title
+                                                                    )
+                                                                  }
+                                                                }
+                                                              )
+                                                            ],
+                                                            1
+                                                          )
+                                                        ],
+                                                        1
+                                                      )
+                                                    : _vm._e()
+                                                }),
+                                                1
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
                                         1
                                       )
                                     ],
                                     1
                                   )
-                                ],
-                                1
-                              )
-                            ],
-                            1
+                                : _c(
+                                    "div",
+                                    [
+                                      _c(
+                                        "v-list",
+                                        {
+                                          attrs: {
+                                            color: "transparent",
+                                            dense: "",
+                                            rounded: ""
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "v-list-item-content",
+                                            [
+                                              _c("v-list-item-title", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.$t(
+                                                      "services.our-services"
+                                                    )
+                                                  )
+                                                )
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _vm._l(_vm.services, function(
+                                            item,
+                                            i
+                                          ) {
+                                            return _c(
+                                              "v-list-item",
+                                              {
+                                                key: i,
+                                                attrs: {
+                                                  color: "primary",
+                                                  to:
+                                                    "/our-services#" +
+                                                    item.title
+                                                },
+                                                model: {
+                                                  value: _vm.service,
+                                                  callback: function($$v) {
+                                                    _vm.service = $$v
+                                                  },
+                                                  expression: "service"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "v-list-item-avatar",
+                                                  [
+                                                    _c("v-img", {
+                                                      attrs: {
+                                                        src:
+                                                          "/storage/" + item.src
+                                                      }
+                                                    })
+                                                  ],
+                                                  1
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "v-list-item-content",
+                                                  [
+                                                    _c("v-list-item-title", {
+                                                      domProps: {
+                                                        textContent: _vm._s(
+                                                          item.title
+                                                        )
+                                                      }
+                                                    })
+                                                  ],
+                                                  1
+                                                )
+                                              ],
+                                              1
+                                            )
+                                          })
+                                        ],
+                                        2
+                                      )
+                                    ],
+                                    1
+                                  )
+                            ]
                           )
                         ],
                         1
@@ -599,6 +888,17 @@ var staticRenderFns = []
 render._withStripped = true
 
 
+
+/***/ }),
+
+/***/ "./resources/images/logo-letras.png":
+/*!******************************************!*\
+  !*** ./resources/images/logo-letras.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo-letras.png?3820cf0a9c0bc3dbe08a5ddffa1b5677";
 
 /***/ }),
 

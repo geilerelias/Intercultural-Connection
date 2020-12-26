@@ -73,14 +73,16 @@
                 </v-divider>
             </div>
             <v-container>
-                <v-row class="mb-6 d-flex child-flex" no-gutters>
+                <v-row class="mb-6 d-flex child-flex" >
                     <v-col cols="12" sm="8">
-                        <v-subheader class="title">
-                       <span class="title">
-                           COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU COMUNIDAD
-                           EDUCATIVA
-                       </span>
-                        </v-subheader>
+                        <div class="title">
+                            <p class="title">
+                                COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU
+                                COMUNIDAD
+                                EDUCATIVA
+                            </p>
+                        </div>
+
                         <v-subheader>
                             <i class="caption">Valledupar, 25 de febrero de 2019.</i>
                         </v-subheader>

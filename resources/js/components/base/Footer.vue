@@ -2,40 +2,84 @@
     <v-footer dark elevation="24" padless>
         <v-container class="ma-0 pa-0" fluid>
             <v-card class="primary darken-3  white--text" flat tile>
-                <v-row class="ma-0 pa-0">
-                    <v-col class="mx-4 pa-0 d-flex justify-start align-center ">
-                        <strong class="subheading  white--text ">
-                            {{ $t("connect-social-media") }}
-                        </strong>
-                    </v-col>
-                    <v-spacer></v-spacer>
-                    <v-col class="mx-4 pa-0 d-flex justify-end align-center ">
-                        <v-btn
-                            v-for="(icon, i) in icons"
-                            :key="i"
-                            class="mx-4 my-1 white--text "
-                            icon
+
+                <div>
+                    <v-card
+                        class="d-flex justify-space-between mb-6"
+                        color="transparent"
+                        flat
+                        tile
+                    >
+                        <v-card
+                            class="pa-2 mx-4 transparent"
+                            outlined
+                            tile
                         >
-                            <v-icon size="24px">{{ icon }}</v-icon>
-                        </v-btn>
-                    </v-col>
-                </v-row>
+                            <p>
+                                <strong class="subheading  white--text ">
+                                    {{ $t("connect-social-media") }}
+                                </strong>
+                            </p>
+                        </v-card>
+                        <v-card
+                            class="pa-2 mx-4 transparent"
+                            outlined
+                            tile
+                        >
+                            <v-layout class="justify-center wrap">
+                                <div v-for="(icon, i) in icons" :key="i"
+                                     class="flex xs1 sm2 md1 mx-4 my-1">
+                                    <v-btn
+                                        class=" white--text "
+                                        icon
+                                    >
+                                        <v-icon size="24px">{{ icon }}</v-icon>
+                                    </v-btn>
+                                </div>
+                            </v-layout>
+                        </v-card>
+                    </v-card>
+                </div>
+
                 <v-row class="ma-0">
                     <div class="primary darken-2 pa-5 col-md-3 col-12">
-                        <h3 class="headline mb-3 text-center">
+
+
+                        <v-img v-if="$vuetify.breakpoint.mdAndUp"
+                               :height="$vuetify.breakpoint.mdAndUp?'25vh': $vuetify.breakpoint.smAndUp?'100vh':''"
+                               :src="require('../../../images/logo-letras.png')"
+                               aspect-ratio="1"
+                               contain
+                               style="left: 10px !important; ; padding-left: 0px !important;"
+                        >
+                            <template v-slot:placeholder>
+                                <v-row
+                                    align="center"
+                                    class="fill-height ma-0"
+                                    justify="center"
+                                >
+                                    <v-progress-circular
+                                        color="grey lighten-5"
+                                        indeterminate
+                                    ></v-progress-circular>
+                                </v-row>
+                            </template>
+                        </v-img>
+                        <h3 v-else class="headline mb-3 text-center">
                             {{ $t("intercultural-connections-foundation") }}
                         </h3>
-
                         <div
                             class=" text-center d-flex justify-center align-center"
                         >
                             {{ $t("slogan-foundation") }}
                         </div>
+
+
                     </div>
                     <div class="primary darken-1 pa-5 col-md-9 col-12 ">
                         <v-row>
-                            <div
-                                class="col-md-4 col-12 white--text"
+                            <v-col
+                                class="col-md-4 col-sm-6 col-12 white--text"
                             >
                                 <v-list color="transparent" dense rounded>
                                     <v-list-item-content>
@@ -55,53 +99,77 @@
                                         </v-list-item-content>
                                     </v-list-item>
                                 </v-list>
-                            </div>
+                            </v-col>
+                            <v-col v-if="$vuetify.breakpoint.xsOnly" class="col-sm-6 col-12">
+                                <v-divider class="white text--white"
+                                           style="height: 5px"></v-divider>
+                            </v-col>
 
-                            <v-divider v-if="$vuetify.breakpoint.smAndDown" class="white text--white"
-                                       style="height: 5px"></v-divider>
-                            <v-divider v-if="$vuetify.breakpoint.smAndDown"></v-divider>
-
-                            <div
-                                class="col-md-8 col-12 white--text"
+                            <v-col
+                                class="col-md-8 col-sm-6 col-12 white--text"
                             >
-                                <v-list-item-content>
-                                    <v-list-item-title>{{ $t("services.our-services") }}</v-list-item-title>
-                                </v-list-item-content>
-                                <v-row>
-                                    <v-col class="col-md-6 col-12 white--text" >
-                                        <v-list color="transparent" dense rounded>
-                                            <v-list-item v-for="(item, i) in services" v-if="i%2==0"
-                                                         :key="i"
-                                                         v-model="service"
-                                                         color="primary"
-                                            >
-                                                <v-list-item-avatar>
-                                                    <v-img :src="`/storage/${item.src}`"></v-img>
-                                                </v-list-item-avatar>
-                                                <v-list-item-content>
-                                                    <v-list-item-title v-text="item.title"></v-list-item-title>
-                                                </v-list-item-content>
-                                            </v-list-item>
-                                        </v-list>
-                                    </v-col>
-                                    <v-col class="col-md-6 col-12 white--text">
-                                        <v-list color="transparent" dense rounded>
-                                            <v-list-item v-for="(item, i) in services" v-if="i%2!=0"
-                                                         :key="i"
-                                                         v-model="service"
-                                                         color="primary"
-                                            >
-                                                <v-list-item-avatar>
-                                                    <v-img :src="`/storage/${item.src}`"></v-img>
-                                                </v-list-item-avatar>
-                                                <v-list-item-content>
-                                                    <v-list-item-title v-text="item.title"></v-list-item-title>
-                                                </v-list-item-content>
-                                            </v-list-item>
-                                        </v-list>
-                                    </v-col>
-                                </v-row>
-                            </div>
+                                <div v-if="$vuetify.breakpoint.mdAndUp">
+                                    <v-list-item-content>
+                                        <v-list-item-title>{{ $t("services.our-services") }}</v-list-item-title>
+                                    </v-list-item-content>
+                                    <v-row>
+                                        <v-col class="col-md-6 col-12 white--text">
+                                            <v-list color="transparent" dense rounded>
+                                                <v-list-item v-for="(item, i) in services" v-if="i%2==0"
+                                                             :key="i"
+                                                             v-model="service"
+                                                             color="primary"
+                                                             :to="`/our-services#${item.title}`"
+                                                >
+                                                    <v-list-item-avatar>
+                                                        <v-img :src="`/storage/${item.src}`"></v-img>
+                                                    </v-list-item-avatar>
+                                                    <v-list-item-content>
+                                                        <v-list-item-title v-text="item.title"></v-list-item-title>
+                                                    </v-list-item-content>
+                                                </v-list-item>
+                                            </v-list>
+                                        </v-col>
+                                        <v-col class="col-md-6 col-12 white--text">
+                                            <v-list color="transparent" dense rounded>
+                                                <v-list-item v-for="(item, i) in services" v-if="i%2!=0"
+                                                             :key="i"
+                                                             v-model="service"
+                                                             color="primary"
+                                                             :to="`/our-services#${item.title}`"
+                                                >
+                                                    <v-list-item-avatar>
+                                                        <v-img :src="`/storage/${item.src}`"></v-img>
+                                                    </v-list-item-avatar>
+                                                    <v-list-item-content>
+                                                        <v-list-item-title v-text="item.title"></v-list-item-title>
+                                                    </v-list-item-content>
+                                                </v-list-item>
+                                            </v-list>
+                                        </v-col>
+                                    </v-row>
+                                </div>
+                                <div v-else>
+                                    <v-list color="transparent" dense rounded>
+                                        <v-list-item-content>
+                                            <v-list-item-title>{{ $t("services.our-services") }}</v-list-item-title>
+                                        </v-list-item-content>
+                                        <v-list-item v-for="(item, i) in services"
+                                                     :key="i"
+                                                     v-model="service"
+                                                     color="primary"
+                                                     :to="`/our-services#${item.title}`"
+                                        >
+                                            <v-list-item-avatar>
+                                                <v-img :src="`/storage/${item.src}`"></v-img>
+                                            </v-list-item-avatar>
+                                            <v-list-item-content>
+                                                <v-list-item-title v-text="item.title"></v-list-item-title>
+                                            </v-list-item-content>
+                                        </v-list-item>
+                                    </v-list>
+                                </div>
+                            </v-col>
                         </v-row>
                     </div>
                     <v-col class="text-center pa-3">

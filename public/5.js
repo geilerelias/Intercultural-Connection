@@ -403,6 +403,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -812,19 +814,16 @@ var render = function() {
             [
               _c(
                 "v-row",
-                {
-                  staticClass: "mb-6 d-flex child-flex",
-                  attrs: { "no-gutters": "" }
-                },
+                { staticClass: "mb-6 d-flex child-flex" },
                 [
                   _c(
                     "v-col",
                     { attrs: { cols: "12", sm: "8" } },
                     [
-                      _c("v-subheader", { staticClass: "title" }, [
-                        _c("span", { staticClass: "title" }, [
+                      _c("div", { staticClass: "title" }, [
+                        _c("p", { staticClass: "title" }, [
                           _vm._v(
-                            "\n                       COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU COMUNIDAD\n                       EDUCATIVA\n                   "
+                            "\n                            COMFACESAR FIRMÓ CONVENIO INTERNACIONAL PARA FORTALECER EL BILINGUISMO ENTRE SU\n                            COMUNIDAD\n                            EDUCATIVA\n                        "
                           )
                         ])
                       ]),
