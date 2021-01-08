@@ -2,66 +2,6 @@
     <v-app>
         <section>
             <v-sheet>
-                <v-img
-                    :src="require('../../images/fotos/DSC_0192.jpg')"
-                    alt="principal"
-                    gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
-                    height="50vh"
-                >
-                    <v-container class="fill-height white--text " fluid>
-
-                        <v-img v-if="$vuetify.breakpoint.mdAndUp"
-                               :height="$vuetify.breakpoint.mdAndUp?'45vh': $vuetify.breakpoint.smAndUp?'100vh':''"
-                               :src="require('../../images/logo-transparente.png')"
-                               aspect-ratio="1"
-                               contain
-                               style="left: 10px !important; ; padding-left: 0px !important;"
-                        ></v-img>
-
-
-                        <v-card
-                            :class="$vuetify.breakpoint.smAndDown?'':'mr-12'"
-                            class="d-flex align-end  "
-                            color="transparent"
-                            flat
-                            style="height: 50vh;"
-                            tile
-                        >
-                            <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-2'" class="white--text text-left ">
-                                <v-col class="d-flex justify-end align-end mb-4" cols="12">
-                                    <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'"
-                                        class="font-weight-bold"
-                                        style="font-weight: bold; font-stretch:ultra-condensed !important;">
-                                        {{ $t("intercultural-connections-foundation") }}
-                                    </h1>
-                                </v-col>
-                            </v-row>
-                        </v-card>
-                    </v-container>
-                </v-img>
-            </v-sheet>
-            <v-sheet color="primary darken-3" dark style="border-radius: 0px;">
-                <v-container class="container--fluid py-0">
-                    <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-12'" class="align-center justify-center ">
-                        <v-col class="grow">
-                            <h2 class=" font-weight-light float-right">
-                                <div :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'"
-                                     class="font-weight-light "
-                                     style="font-stretch: ultra-condensed">
-                                    {{ $t("home.building-bridges-so-no-one-is-left-behind") }}
-                                </div>
-                            </h2>
-                        </v-col>
-
-                    </v-row>
-                </v-container>
-
-            </v-sheet>
-            <br/>
-        </section>
-
-        <section>
-            <v-sheet>
                 <v-img :src="require('../../images/fotos/DSC_0192.jpg')"
                        gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
                        height="65vh">
