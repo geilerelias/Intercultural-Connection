@@ -11,6 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="modificacion del Home.vue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/DSC_0192.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/DSC_0192.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/fotos/DSC_0192.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0192.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +229,7 @@
       <workItem from="1608403937506" duration="704000" />
       <workItem from="1608421126776" duration="5400000" />
       <workItem from="1608943402926" duration="12995000" />
-      <workItem from="1610141968640" duration="3094000" />
+      <workItem from="1610141968640" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -367,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610145048861</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modificacion del Home.vue">
+      <created>1610145139506</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610145139506</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">

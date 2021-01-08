@@ -5,6 +5,7 @@
                 <v-img :src="require('../../images/fotos/DSC_0192.jpg')"
                        gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
                        height="65vh">
+
                     <div class="container-fluid fill-height">
                         <v-responsive class="d-flex align-end justify-space-between fill-height"
                                       style="height: 100%; width: 99%;">
