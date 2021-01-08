@@ -113,13 +113,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     "header-component": function headerComponent() {
-      return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ./base/Header.vue */ "./resources/js/components/base/Header.vue"));
+      return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./base/Header.vue */ "./resources/js/components/base/Header.vue"));
     },
     "drawer-component": function drawerComponent() {
       return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./base/Drawer.vue */ "./resources/js/components/base/Drawer.vue"));
     },
     "footer-component": function footerComponent() {
-      return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./base/Footer.vue */ "./resources/js/components/base/Footer.vue"));
+      return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ./base/Footer.vue */ "./resources/js/components/base/Footer.vue"));
     },
     language: function language() {
       return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./base/language.vue */ "./resources/js/components/base/language.vue"));

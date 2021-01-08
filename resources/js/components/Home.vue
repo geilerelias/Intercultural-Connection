@@ -1,65 +1,112 @@
 <template>
     <v-app>
-        <v-sheet>
-            <v-img
-                :src="require('../../images/fotos/DSC_0192.jpg')"
-                alt="principal"
-                gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
-                height="50vh"
-            >
+        <section>
+            <v-sheet>
+                <v-img
+                    :src="require('../../images/fotos/DSC_0192.jpg')"
+                    alt="principal"
+                    gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
+                    height="50vh"
+                >
+                    <v-container class="fill-height white--text " fluid>
 
-                <v-container class="fill-height white--text " fluid>
-
-                    <v-img v-if="$vuetify.breakpoint.mdAndUp"
-                           :height="$vuetify.breakpoint.mdAndUp?'45vh': $vuetify.breakpoint.smAndUp?'100vh':''"
-                           :src="require('../../images/logo-transparente.png')"
-                           aspect-ratio="1"
-                           contain
-                           style="left: 10px !important; ; padding-left: 0px !important;"
-                    ></v-img>
+                        <v-img v-if="$vuetify.breakpoint.mdAndUp"
+                               :height="$vuetify.breakpoint.mdAndUp?'45vh': $vuetify.breakpoint.smAndUp?'100vh':''"
+                               :src="require('../../images/logo-transparente.png')"
+                               aspect-ratio="1"
+                               contain
+                               style="left: 10px !important; ; padding-left: 0px !important;"
+                        ></v-img>
 
 
-                    <v-card
-                        :class="$vuetify.breakpoint.smAndDown?'':'mr-12'"
-                        class="d-flex align-end  "
-                        color="transparent"
-                        flat
-                        style="height: 50vh;"
-                        tile
-                    >
-                        <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-2'" class="white--text text-left ">
-                            <v-col class="d-flex justify-end align-end mb-4" cols="12">
-                                <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'"
-                                    class="font-weight-bold"
-                                    style="font-weight: bold; font-stretch:ultra-condensed !important;">
-                                    {{ $t("intercultural-connections-foundation") }}
-                                </h1>
-                            </v-col>
-                        </v-row>
-                    </v-card>
+                        <v-card
+                            :class="$vuetify.breakpoint.smAndDown?'':'mr-12'"
+                            class="d-flex align-end  "
+                            color="transparent"
+                            flat
+                            style="height: 50vh;"
+                            tile
+                        >
+                            <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-2'" class="white--text text-left ">
+                                <v-col class="d-flex justify-end align-end mb-4" cols="12">
+                                    <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'"
+                                        class="font-weight-bold"
+                                        style="font-weight: bold; font-stretch:ultra-condensed !important;">
+                                        {{ $t("intercultural-connections-foundation") }}
+                                    </h1>
+                                </v-col>
+                            </v-row>
+                        </v-card>
+                    </v-container>
+                </v-img>
+            </v-sheet>
+            <v-sheet color="primary darken-3" dark style="border-radius: 0px;">
+                <v-container class="container--fluid py-0">
+                    <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-12'" class="align-center justify-center ">
+                        <v-col class="grow">
+                            <h2 class=" font-weight-light float-right">
+                                <div :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'"
+                                     class="font-weight-light "
+                                     style="font-stretch: ultra-condensed">
+                                    {{ $t("home.building-bridges-so-no-one-is-left-behind") }}
+                                </div>
+                            </h2>
+                        </v-col>
+
+                    </v-row>
                 </v-container>
-            </v-img>
-        </v-sheet>
 
+            </v-sheet>
+            <br/>
+        </section>
 
-        <v-sheet color="primary darken-3" dark style="border-radius: 0px;">
-            <v-container class="container--fluid py-0">
-                <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-12'" class="align-center justify-center ">
-                    <v-col class="grow">
-                        <h2 class=" font-weight-light float-right">
-                            <div :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'mr-2 title'"
-                                 class="font-weight-light "
-                                 style="font-stretch: ultra-condensed">
-                                {{ $t("home.building-bridges-so-no-one-is-left-behind") }}
-                            </div>
-                        </h2>
-                    </v-col>
+        <section>
+            <v-sheet>
+                <v-img :src="require('../../images/fotos/DSC_0192.jpg')"
+                       gradient="to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)"
+                       height="65vh">
+                    <div class="container-fluid fill-height">
+                        <v-responsive class="d-flex align-end justify-space-between fill-height"
+                                      style="height: 100%; width: 99%;">
+                            <v-row class="align-end" style="height: 100%; width: 99%;">
+                                <v-col v-if="$vuetify.breakpoint.mdAndUp"
+                                       class="col-md-4 col-12 ">
+                                    <v-img contain src="../../images/logo-transparente.png"
+                                           style="min-height: 365px; max-width: 650px;">
+                                    </v-img>
+                                </v-col>
+                                <v-col class="col-md-8 col-12 d-flex justify-end align-end ">
+                                    <h1 :class=" $vuetify.breakpoint.smAndDown?'display-1 text-center':'display-3 text-right'"
+                                        class="font-weight-bold white--text text-left "
+                                        style="font-weight: bold; font-stretch:ultra-condensed !important;">
+                                        {{ $t("intercultural-connections-foundation") }}
+                                    </h1>
+                                </v-col>
+                            </v-row>
+                        </v-responsive>
+                    </div>
+                </v-img>
+            </v-sheet>
+            <v-sheet color="primary darken-3" dark style="border-radius: 0px;">
+                <v-container class="container--fluid py-0">
+                    <v-row :class="$vuetify.breakpoint.smAndDown?'':'mr-8'" class="align-center justify-center ">
+                        <v-col class="grow">
+                            <h2 class="font-weight-light float-right">
+                                <div :class="$vuetify.breakpoint.smAndDown?'text-sm-body-2':'title '"
+                                     class="font-weight-light"
+                                     style="font-stretch: ultra-condensed">
+                                    {{ $t("home.building-bridges-so-no-one-is-left-behind") }}
+                                </div>
+                            </h2>
+                        </v-col>
 
-                </v-row>
-            </v-container>
+                    </v-row>
+                </v-container>
 
-        </v-sheet>
-        <br/>
+            </v-sheet>
+            <br/>
+        </section>
+
 
         <section id="notices">
             <div class="text-center py-9 grey lighten-4 mb-4">
@@ -73,7 +120,7 @@
                 </v-divider>
             </div>
             <v-container>
-                <v-row class="mb-6 d-flex child-flex" >
+                <v-row class="mb-6 d-flex child-flex">
                     <v-col cols="12" sm="8">
                         <div class="title">
                             <p class="title">

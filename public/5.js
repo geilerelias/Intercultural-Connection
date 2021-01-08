@@ -405,6 +405,53 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -601,94 +648,106 @@ var render = function() {
     "v-app",
     [
       _c(
-        "v-sheet",
+        "section",
         [
           _c(
-            "v-img",
-            {
-              attrs: {
-                src: __webpack_require__(/*! ../../images/fotos/DSC_0192.jpg */ "./resources/images/fotos/DSC_0192.jpg"),
-                alt: "principal",
-                gradient:
-                  "to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)",
-                height: "50vh"
-              }
-            },
+            "v-sheet",
             [
               _c(
-                "v-container",
+                "v-img",
                 {
-                  staticClass: "fill-height white--text ",
-                  attrs: { fluid: "" }
+                  attrs: {
+                    src: __webpack_require__(/*! ../../images/fotos/DSC_0192.jpg */ "./resources/images/fotos/DSC_0192.jpg"),
+                    alt: "principal",
+                    gradient:
+                      "to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)",
+                    height: "50vh"
+                  }
                 },
                 [
-                  _vm.$vuetify.breakpoint.mdAndUp
-                    ? _c("v-img", {
-                        staticStyle: {
-                          left: "10px !important",
-                          "padding-left": "0px !important"
-                        },
-                        attrs: {
-                          height: _vm.$vuetify.breakpoint.mdAndUp
-                            ? "45vh"
-                            : _vm.$vuetify.breakpoint.smAndUp
-                            ? "100vh"
-                            : "",
-                          src: __webpack_require__(/*! ../../images/logo-transparente.png */ "./resources/images/logo-transparente.png"),
-                          "aspect-ratio": "1",
-                          contain: ""
-                        }
-                      })
-                    : _vm._e(),
-                  _vm._v(" "),
                   _c(
-                    "v-card",
+                    "v-container",
                     {
-                      staticClass: "d-flex align-end  ",
-                      class: _vm.$vuetify.breakpoint.smAndDown ? "" : "mr-12",
-                      staticStyle: { height: "50vh" },
-                      attrs: { color: "transparent", flat: "", tile: "" }
+                      staticClass: "fill-height white--text ",
+                      attrs: { fluid: "" }
                     },
                     [
+                      _vm.$vuetify.breakpoint.mdAndUp
+                        ? _c("v-img", {
+                            staticStyle: {
+                              left: "10px !important",
+                              "padding-left": "0px !important"
+                            },
+                            attrs: {
+                              height: _vm.$vuetify.breakpoint.mdAndUp
+                                ? "45vh"
+                                : _vm.$vuetify.breakpoint.smAndUp
+                                ? "100vh"
+                                : "",
+                              src: __webpack_require__(/*! ../../images/logo-transparente.png */ "./resources/images/logo-transparente.png"),
+                              "aspect-ratio": "1",
+                              contain: ""
+                            }
+                          })
+                        : _vm._e(),
+                      _vm._v(" "),
                       _c(
-                        "v-row",
+                        "v-card",
                         {
-                          staticClass: "white--text text-left ",
-                          class: _vm.$vuetify.breakpoint.smAndDown ? "" : "mr-2"
+                          staticClass: "d-flex align-end  ",
+                          class: _vm.$vuetify.breakpoint.smAndDown
+                            ? ""
+                            : "mr-12",
+                          staticStyle: { height: "50vh" },
+                          attrs: { color: "transparent", flat: "", tile: "" }
                         },
                         [
                           _c(
-                            "v-col",
+                            "v-row",
                             {
-                              staticClass: "d-flex justify-end align-end mb-4",
-                              attrs: { cols: "12" }
+                              staticClass: "white--text text-left ",
+                              class: _vm.$vuetify.breakpoint.smAndDown
+                                ? ""
+                                : "mr-2"
                             },
                             [
                               _c(
-                                "h1",
+                                "v-col",
                                 {
-                                  staticClass: "font-weight-bold",
-                                  class: _vm.$vuetify.breakpoint.smAndDown
-                                    ? "display-1 text-center"
-                                    : "display-3 text-right",
-                                  staticStyle: {
-                                    "font-weight": "bold",
-                                    "font-stretch": "ultra-condensed !important"
-                                  }
+                                  staticClass:
+                                    "d-flex justify-end align-end mb-4",
+                                  attrs: { cols: "12" }
                                 },
                                 [
-                                  _vm._v(
-                                    "\n                                " +
-                                      _vm._s(
-                                        _vm.$t(
-                                          "intercultural-connections-foundation"
-                                        )
-                                      ) +
-                                      "\n                            "
+                                  _c(
+                                    "h1",
+                                    {
+                                      staticClass: "font-weight-bold",
+                                      class: _vm.$vuetify.breakpoint.smAndDown
+                                        ? "display-1 text-center"
+                                        : "display-3 text-right",
+                                      staticStyle: {
+                                        "font-weight": "bold",
+                                        "font-stretch":
+                                          "ultra-condensed !important"
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                                    " +
+                                          _vm._s(
+                                            _vm.$t(
+                                              "intercultural-connections-foundation"
+                                            )
+                                          ) +
+                                          "\n                                "
+                                      )
+                                    ]
                                   )
                                 ]
                               )
-                            ]
+                            ],
+                            1
                           )
                         ],
                         1
@@ -701,69 +760,242 @@ var render = function() {
               )
             ],
             1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-sheet",
-        {
-          staticStyle: { "border-radius": "0px" },
-          attrs: { color: "primary darken-3", dark: "" }
-        },
-        [
+          ),
+          _vm._v(" "),
           _c(
-            "v-container",
-            { staticClass: "container--fluid py-0" },
+            "v-sheet",
+            {
+              staticStyle: { "border-radius": "0px" },
+              attrs: { color: "primary darken-3", dark: "" }
+            },
             [
               _c(
-                "v-row",
-                {
-                  staticClass: "align-center justify-center ",
-                  class: _vm.$vuetify.breakpoint.smAndDown ? "" : "mr-12"
-                },
+                "v-container",
+                { staticClass: "container--fluid py-0" },
                 [
-                  _c("v-col", { staticClass: "grow" }, [
-                    _c(
-                      "h2",
-                      { staticClass: " font-weight-light float-right" },
-                      [
+                  _c(
+                    "v-row",
+                    {
+                      staticClass: "align-center justify-center ",
+                      class: _vm.$vuetify.breakpoint.smAndDown ? "" : "mr-12"
+                    },
+                    [
+                      _c("v-col", { staticClass: "grow" }, [
                         _c(
-                          "div",
-                          {
-                            staticClass: "font-weight-light ",
-                            class: _vm.$vuetify.breakpoint.smAndDown
-                              ? "text-sm-body-2"
-                              : "mr-2 title",
-                            staticStyle: { "font-stretch": "ultra-condensed" }
-                          },
+                          "h2",
+                          { staticClass: " font-weight-light float-right" },
                           [
-                            _vm._v(
-                              "\n                            " +
-                                _vm._s(
-                                  _vm.$t(
-                                    "home.building-bridges-so-no-one-is-left-behind"
-                                  )
-                                ) +
-                                "\n                        "
+                            _c(
+                              "div",
+                              {
+                                staticClass: "font-weight-light ",
+                                class: _vm.$vuetify.breakpoint.smAndDown
+                                  ? "text-sm-body-2"
+                                  : "mr-2 title",
+                                staticStyle: {
+                                  "font-stretch": "ultra-condensed"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(
+                                      _vm.$t(
+                                        "home.building-bridges-so-no-one-is-left-behind"
+                                      )
+                                    ) +
+                                    "\n                            "
+                                )
+                              ]
                             )
                           ]
                         )
-                      ]
-                    )
-                  ])
+                      ])
+                    ],
+                    1
+                  )
                 ],
                 1
               )
             ],
             1
-          )
+          ),
+          _vm._v(" "),
+          _c("br")
         ],
         1
       ),
       _vm._v(" "),
-      _c("br"),
+      _c(
+        "section",
+        [
+          _c(
+            "v-sheet",
+            [
+              _c(
+                "v-img",
+                {
+                  attrs: {
+                    src: __webpack_require__(/*! ../../images/fotos/DSC_0192.jpg */ "./resources/images/fotos/DSC_0192.jpg"),
+                    gradient:
+                      "to top right, rgb(100 115 201 / 0.2), rgb(25 32 72 / 0.3)",
+                    height: "65vh"
+                  }
+                },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "container-fluid fill-height" },
+                    [
+                      _c(
+                        "v-responsive",
+                        {
+                          staticClass:
+                            "d-flex align-end justify-space-between fill-height",
+                          staticStyle: { height: "100%", width: "99%" }
+                        },
+                        [
+                          _c(
+                            "v-row",
+                            {
+                              staticClass: "align-end",
+                              staticStyle: { height: "100%", width: "99%" }
+                            },
+                            [
+                              _vm.$vuetify.breakpoint.mdAndUp
+                                ? _c(
+                                    "v-col",
+                                    { staticClass: "col-md-4 col-12 " },
+                                    [
+                                      _c("v-img", {
+                                        staticStyle: {
+                                          "min-height": "365px",
+                                          "max-width": "650px"
+                                        },
+                                        attrs: {
+                                          contain: "",
+                                          src:
+                                            "../../images/logo-transparente.png"
+                                        }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _c(
+                                "v-col",
+                                {
+                                  staticClass:
+                                    "col-md-8 col-12 d-flex justify-end align-end "
+                                },
+                                [
+                                  _c(
+                                    "h1",
+                                    {
+                                      staticClass:
+                                        "font-weight-bold white--text text-left ",
+                                      class: _vm.$vuetify.breakpoint.smAndDown
+                                        ? "display-1 text-center"
+                                        : "display-3 text-right",
+                                      staticStyle: {
+                                        "font-weight": "bold",
+                                        "font-stretch":
+                                          "ultra-condensed !important"
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                                    " +
+                                          _vm._s(
+                                            _vm.$t(
+                                              "intercultural-connections-foundation"
+                                            )
+                                          ) +
+                                          "\n                                "
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-sheet",
+            {
+              staticStyle: { "border-radius": "0px" },
+              attrs: { color: "primary darken-3", dark: "" }
+            },
+            [
+              _c(
+                "v-container",
+                { staticClass: "container--fluid py-0" },
+                [
+                  _c(
+                    "v-row",
+                    {
+                      staticClass: "align-center justify-center ",
+                      class: _vm.$vuetify.breakpoint.smAndDown ? "" : "mr-8"
+                    },
+                    [
+                      _c("v-col", { staticClass: "grow" }, [
+                        _c(
+                          "h2",
+                          { staticClass: "font-weight-light float-right" },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass: "font-weight-light",
+                                class: _vm.$vuetify.breakpoint.smAndDown
+                                  ? "text-sm-body-2"
+                                  : "title ",
+                                staticStyle: {
+                                  "font-stretch": "ultra-condensed"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(
+                                      _vm.$t(
+                                        "home.building-bridges-so-no-one-is-left-behind"
+                                      )
+                                    ) +
+                                    "\n                            "
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("br")
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
         "section",
