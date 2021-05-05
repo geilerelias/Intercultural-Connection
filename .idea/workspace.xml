@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="modificacion del Home.vue">
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="bajamos la resolucion de la imagen de fondo">
+      <change afterPath="$PROJECT_DIR$/public/images/COMFACESAR-INTERCULTURAL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/COMFACESAR-INTERCULTURAL.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/DSC_0192.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/DSC_0192.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/fotos/DSC_0192.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/fotos/DSC_0192.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/16.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Projects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Projects.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cafeproducciones" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -166,6 +166,8 @@
       <recent name="D:\xampp\htdocs\Fundacion Intercultural Connection\Intercultural-Connection-master\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\apps\Intercultural-Connection\resources\images" />
+      <recent name="D:\xampp\htdocs\apps\Intercultural-Connection\resources" />
       <recent name="D:\xampp\htdocs\Fundacion Intercultural Connection\Intercultural-Connection-master\storage\app" />
       <recent name="D:\xampp\htdocs\Fundacion Intercultural Connection\Intercultural-Connection-master\resources\js\components\examples" />
     </key>
@@ -229,7 +231,12 @@
       <workItem from="1608403937506" duration="704000" />
       <workItem from="1608421126776" duration="5400000" />
       <workItem from="1608943402926" duration="12995000" />
-      <workItem from="1610141968640" duration="3572000" />
+      <workItem from="1610141968640" duration="3810000" />
+      <workItem from="1610664773283" duration="639000" />
+      <workItem from="1610673498886" duration="1325000" />
+      <workItem from="1610759776913" duration="673000" />
+      <workItem from="1620128775930" duration="836000" />
+      <workItem from="1620213888998" duration="5741000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -378,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610145139506</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bajamos la resolucion de la imagen de fondo">
+      <created>1610145660605</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610145660605</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -424,7 +438,8 @@
     <MESSAGE value="meta description" />
     <MESSAGE value="modificacion del Footer.vue" />
     <MESSAGE value="modificacion del Home.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion del Home.vue" />
+    <MESSAGE value="bajamos la resolucion de la imagen de fondo" />
+    <option name="LAST_COMMIT_MESSAGE" value="bajamos la resolucion de la imagen de fondo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
