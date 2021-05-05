@@ -27,13 +27,15 @@
                             tile
                         >
                             <v-layout class="justify-center wrap">
-                                <div v-for="(icon, i) in icons" :key="i"
+                                <div v-for="(item, i) in icons" :key="i"
                                      class="flex xs1 sm2 md1 mx-4 my-1">
                                     <v-btn
                                         class=" white--text "
                                         icon
+                                        :href="item.url"
+                                        target="_blank"
                                     >
-                                        <v-icon size="24px">{{ icon }}</v-icon>
+                                        <v-icon size="24px">{{ item.icon }}</v-icon>
                                     </v-btn>
                                 </div>
                             </v-layout>
@@ -187,11 +189,11 @@ export default {
     data() {
         return {
             icons: [
-                "mdi-facebook",
-                "mdi-twitter",
-                "mdi-google-plus",
-                "mdi-linkedin",
-                "mdi-instagram"
+                {icon: "mdi-facebook", url: ''},
+                {icon: "mdi-twitter", url: 'https://twitter.com/FundacinInterc1'},
+                {icon: "mdi-whatsapp", url: 'https://api.whatsapp.com/send?phone=573107897485'},
+                {icon: "mdi-linkedin", url: ''},
+                {icon: "mdi-instagram", url: 'https://www.instagram.com/connectionsinterculturalf/'}
             ],
             links: [
                 {to: "/", title: "home", icon: 'mdi-home'},

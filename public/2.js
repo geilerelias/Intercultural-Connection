@@ -193,10 +193,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      icons: ["mdi-facebook", "mdi-twitter", "mdi-google-plus", "mdi-linkedin", "mdi-instagram"],
+      icons: [{
+        icon: "mdi-facebook",
+        url: ''
+      }, {
+        icon: "mdi-twitter",
+        url: 'https://twitter.com/FundacinInterc1'
+      }, {
+        icon: "mdi-whatsapp",
+        url: 'https://api.whatsapp.com/send?phone=573107897485'
+      }, {
+        icon: "mdi-linkedin",
+        url: ''
+      }, {
+        icon: "mdi-instagram",
+        url: 'https://www.instagram.com/connectionsinterculturalf/'
+      }],
       links: [{
         to: "/",
         title: "home",
@@ -339,7 +356,7 @@ var render = function() {
                           _c(
                             "v-layout",
                             { staticClass: "justify-center wrap" },
-                            _vm._l(_vm.icons, function(icon, i) {
+                            _vm._l(_vm.icons, function(item, i) {
                               return _c(
                                 "div",
                                 {
@@ -351,13 +368,17 @@ var render = function() {
                                     "v-btn",
                                     {
                                       staticClass: " white--text ",
-                                      attrs: { icon: "" }
+                                      attrs: {
+                                        icon: "",
+                                        href: item.url,
+                                        target: "_blank"
+                                      }
                                     },
                                     [
                                       _c(
                                         "v-icon",
                                         { attrs: { size: "24px" } },
-                                        [_vm._v(_vm._s(icon))]
+                                        [_vm._v(_vm._s(item.icon))]
                                       )
                                     ],
                                     1
