@@ -471,7 +471,7 @@ export default {
             {
                 img:
                     "images/team/Alexander Castillo.jpg",
-                name: "Alexander Castillo",
+                name: "Alexander Castrillo",
                 email: "alexandercastrillo@hotmail.com",
                 occupation: "Director",
                 description: `<p>

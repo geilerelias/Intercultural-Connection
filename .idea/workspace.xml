@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="agregando proyecto a la pagina pojects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Footer.vue" afterDir="false" />
+    <list default="true" id="a05a348d-9259-4d73-9cf5-f7c9a45c022d" name="Default Changelist" comment="Agregando redes sociales">
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +232,7 @@
       <workItem from="1610673498886" duration="1325000" />
       <workItem from="1610759776913" duration="673000" />
       <workItem from="1620128775930" duration="836000" />
-      <workItem from="1620213888998" duration="7494000" />
+      <workItem from="1620213888998" duration="7876000" />
     </task>
     <task id="LOCAL-00001" summary="maquetación de la pagina princcipal">
       <created>1591055449311</created>
@@ -397,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620223449587</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Agregando redes sociales">
+      <created>1620224930492</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1620224930492</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -445,7 +450,8 @@
     <MESSAGE value="modificacion del Home.vue" />
     <MESSAGE value="bajamos la resolucion de la imagen de fondo" />
     <MESSAGE value="agregando proyecto a la pagina pojects" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando proyecto a la pagina pojects" />
+    <MESSAGE value="Agregando redes sociales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando redes sociales" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
